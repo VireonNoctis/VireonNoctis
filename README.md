@@ -43,16 +43,16 @@ Repository names, descriptions, detected languages, and update dates below refre
 <!-- AUTO-REPOSITORIES:START -->
 | Repository | Description | GitHub-detected languages | Updated |
 | --- | --- | --- | --- |
-| [SwarmForge](https://github.com/VireonNoctis/SwarmForge) | Turn Claude, ChatGPT, and other AI assistants into a unified AI development swarm. | Python | 2026-10-30 |
-| [SkillTether](https://github.com/VireonNoctis/SkillTether) | Translate the words. Preserve the intent. | Python, HTML | 2026-10-30 |
+| [Moonbyte](https://github.com/VireonNoctis/Moonbyte) | Moonbyte is a pixel-art gaming bot that transforms Discord into a multiplayer arcade, featuring classic… | Rust, CSS, TypeScript, Python | 2026-11-01 |
+| [Driftglass](https://github.com/VireonNoctis/Driftglass) | Every update leaves a trace. Find it. | Python, JavaScript, Rust, Svelte, CSS, TypeScript, HTML | 2026-10-31 |
+| [SwarmForge](https://github.com/VireonNoctis/SwarmForge) | Turn Claude, ChatGPT, and other AI assistants into a unified AI development swarm. | Python | 2026-10-31 |
+| [SkillTether](https://github.com/VireonNoctis/SkillTether) | Translate the words. Preserve the intent. | Python, HTML | 2026-10-31 |
+| [PrivaCage](https://github.com/VireonNoctis/PrivaCage) | Know what every app is doing to your device. Right now. In real time. | Kotlin, Rust, Go, TypeScript, Svelte, CSS, HTML | 2026-10-31 |
 | [Universe-Explorer](https://github.com/VireonNoctis/Universe-Explorer) | Astra is a space-themed interactive astronomy explorer. | Ruby, JavaScript, CSS | 2026-10-29 |
-| [PrivaCage](https://github.com/VireonNoctis/PrivaCage) | Know what every app is doing to your device. Right now. In real time. | Kotlin, Rust, Go, TypeScript, Svelte, CSS, HTML | 2026-10-29 |
 | [TreeParity](https://github.com/VireonNoctis/TreeParity) | An open-source conformance-testing laboratory that measures exactly what happens to a directory tree when it… | Not detected | 2026-10-26 |
 | [Envquake](https://github.com/VireonNoctis/Envquake) | A CLI that discovers hidden environmental assumptions in software by rerunning tests under controlled… | Not detected | 2026-10-26 |
 | [FormatFossil](https://github.com/VireonNoctis/FormatFossil) | A file-conversion forensics laboratory that tests what actually survives when files move between formats and… | Not detected | 2026-10-26 |
 | [EchoFossil](https://github.com/VireonNoctis/EchoFossil) | A Forensic tool that maps how AI-generated material propagates through datasets, identifying likely recursive… | Not detected | 2026-10-26 |
-| [Lunar-Css](https://github.com/VireonNoctis/Lunar-Css) | All of my Lunar Marketplace css in one Repo. | CSS | 2026-10-23 |
-| [Wasting-Time-on.](https://github.com/VireonNoctis/Wasting-Time-on.) | Just stuff that i waste time on. | Batchfile, TypeScript, R, Python, HTML | 2026-09-24 |
 <!-- AUTO-REPOSITORIES:END -->
 
 ## Codebase snapshot · automatically refreshed
@@ -60,15 +60,15 @@ Repository names, descriptions, detected languages, and update dates below refre
 Whole-repository metrics describe the tracked contents of public projects—not individual authorship. The detailed JSON snapshot is available in [code-stats.json](code-stats.json).
 
 <!-- AUTO-CODE-STATS:START -->
-**Snapshot: 2026-10-31 UTC** · 14 public repositories (13 owned, 1 contributed).
+**Snapshot: 2026-11-01 UTC** · 16 public repositories (15 owned, 1 contributed).
 
 | Measure | Total |
 | --- | ---: |
-| Tracked text files | 771 |
-| Lines | 213,029 |
-| Non-blank lines | 185,272 |
-| Characters (excluding line breaks) | 9,610,053 |
-| Words | 919,042 |
+| Tracked text files | 951 |
+| Lines | 306,957 |
+| Non-blank lines | 274,941 |
+| Characters (excluding line breaks) | 15,710,937 |
+| Words | 1,744,916 |
 | Stars / forks | 3 / 1 |
 | Repositories with scan failures | 1 |
 
@@ -76,14 +76,14 @@ Whole-repository metrics describe the tracked contents of public projects—not 
 
 | Language / format | Lines | Files |
 | --- | ---: | ---: |
-| Python | 94,325 | 214 |
+| Python | 102,909 | 247 |
+| Markdown | 67,688 | 215 |
+| JSON | 26,713 | 45 |
 | Batch | 20,568 | 4 |
-| Kotlin | 19,772 | 92 |
-| CSS | 16,538 | 40 |
-| Markdown | 14,893 | 145 |
-| TypeScript | 12,015 | 44 |
-| Rust | 9,392 | 35 |
-| R | 5,814 | 1 |
+| Kotlin | 20,213 | 94 |
+| CSS | 17,567 | 43 |
+| Rust | 12,725 | 46 |
+| TypeScript | 12,332 | 53 |
 
 **Lunar X — supplied estimates (not repository-scanned)**
 
