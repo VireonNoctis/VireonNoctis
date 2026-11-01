@@ -1,15 +1,15 @@
 {
   "schemaVersion": 4,
   "owner": "VireonNoctis",
-  "generatedAt": "2026-11-01T09:24:01Z",
-  "scope": "Current default-branch snapshots of eligible public repositories owned by VireonNoctis plus public external repositories explicitly listed as contributor projects or discovered through commits attributed to the GitHub login. Counts cover tracked text-based source, configuration, and documentation; dependency/build/generated directories, lockfiles, binary files, and files over 1 MB are excluded. These repository-wide footprint totals are not line-by-line authorship attribution. Language counts follow tracked file extensions; manually supplied project estimates are kept separate from repository scans.",
+  "generatedAt": "2026-11-01T18:19:26Z",
+  "scope": "Current default-branch snapshots of eligible public repositories owned by VireonNoctis plus public external repositories explicitly listed as contributor projects or discovered through commits attributed to the GitHub login. Counts cover tracked text-based source, configuration, and documentation; dependency/build/generated directories, lockfiles, binary files, and files over 1 MB are excluded. These repository-wide footprint totals are not line-by-line authorship attribution. Language counts follow tracked file extensions; detected frameworks are stored separately; manually supplied project estimates are kept separate from repository scans.",
   "discoveryWarning": null,
   "totals": {
-    "files": 951,
-    "lines": 306957,
-    "nonblankLines": 274941,
-    "characters": 15710937,
-    "words": 1744916,
+    "files": 952,
+    "lines": 308157,
+    "nonblankLines": 275940,
+    "characters": 15750478,
+    "words": 1749299,
     "stars": 3,
     "forks": 1,
     "repositories": 16,
@@ -18,11 +18,11 @@
     "failedRepositories": 1
   },
   "ownedTotals": {
-    "files": 722,
-    "lines": 214056,
-    "nonblankLines": 194540,
-    "characters": 11596113,
-    "words": 1377589,
+    "files": 723,
+    "lines": 215256,
+    "nonblankLines": 195539,
+    "characters": 11635654,
+    "words": 1381972,
     "stars": 1,
     "forks": 0,
     "repositories": 15
@@ -40,27 +40,27 @@
   "languages": [
     {
       "language": "Python",
-      "files": 247,
-      "lines": 102909,
-      "nonblankLines": 88821,
-      "characters": 4394666,
-      "words": 378862
+      "files": 248,
+      "lines": 103107,
+      "nonblankLines": 89005,
+      "characters": 4403346,
+      "words": 379491
     },
     {
       "language": "Markdown",
       "files": 215,
-      "lines": 67688,
-      "nonblankLines": 61702,
-      "characters": 5998336,
-      "words": 881510
+      "lines": 68262,
+      "nonblankLines": 62101,
+      "characters": 6017573,
+      "words": 884360
     },
     {
       "language": "JSON",
       "files": 45,
-      "lines": 26713,
-      "nonblankLines": 26713,
-      "characters": 921420,
-      "words": 89113
+      "lines": 26965,
+      "nonblankLines": 26965,
+      "characters": 927247,
+      "words": 89561
     },
     {
       "language": "Batch",
@@ -89,10 +89,10 @@
     {
       "language": "Rust",
       "files": 46,
-      "lines": 12725,
-      "nonblankLines": 11863,
-      "characters": 565065,
-      "words": 42923
+      "lines": 12881,
+      "nonblankLines": 12008,
+      "characters": 570192,
+      "words": 43316
     },
     {
       "language": "TypeScript",
@@ -137,10 +137,10 @@
     {
       "language": "YAML",
       "files": 43,
-      "lines": 2278,
-      "nonblankLines": 2119,
-      "characters": 73801,
-      "words": 6621
+      "lines": 2298,
+      "nonblankLines": 2138,
+      "characters": 74471,
+      "words": 6684
     },
     {
       "language": "Svelte",
@@ -328,19 +328,23 @@
       "relationship": "owned",
       "role": "Repository owner",
       "contributionNote": "Repository owned by the account.",
+      "frameworks": [
+        "Next.js",
+        "React"
+      ],
       "files": 72,
-      "lines": 75090,
-      "nonblankLines": 73248,
-      "characters": 5297480,
-      "words": 746122,
+      "lines": 75249,
+      "nonblankLines": 73396,
+      "characters": 5303544,
+      "words": 746657,
       "languages": [
         {
           "language": "Markdown",
           "files": 36,
-          "lines": 50584,
-          "nonblankLines": 49010,
-          "characters": 4422164,
-          "words": 659201
+          "lines": 50587,
+          "nonblankLines": 49013,
+          "characters": 4423101,
+          "words": 659343
         },
         {
           "language": "JSON",
@@ -353,10 +357,10 @@
         {
           "language": "Rust",
           "files": 9,
-          "lines": 1974,
-          "nonblankLines": 1815,
-          "characters": 62489,
-          "words": 5561
+          "lines": 2130,
+          "nonblankLines": 1960,
+          "characters": 67616,
+          "words": 5954
         },
         {
           "language": "TypeScript",
@@ -442,6 +446,9 @@
       "relationship": "contributor",
       "role": "Major contributor · co-owner",
       "contributionNote": "Major contributor and co-owner of the project; scan the current multi-guild default branch alongside repositories owned by VireonNoctis.",
+      "frameworks": [
+        "React"
+      ],
       "files": 229,
       "lines": 92901,
       "nonblankLines": 80401,
@@ -612,6 +619,9 @@
       "relationship": "owned",
       "role": "Repository owner",
       "contributionNote": "Repository owned by the account.",
+      "frameworks": [
+        "Svelte"
+      ],
       "files": 251,
       "lines": 50257,
       "nonblankLines": 45422,
@@ -782,6 +792,7 @@
       "relationship": "owned",
       "role": "Repository owner",
       "contributionNote": "Repository owned by the account.",
+      "frameworks": [],
       "files": 32,
       "lines": 35010,
       "nonblankLines": 29002,
@@ -848,6 +859,9 @@
       "relationship": "owned",
       "role": "Repository owner",
       "contributionNote": "Repository owned by the account.",
+      "frameworks": [
+        "Svelte"
+      ],
       "files": 98,
       "lines": 16475,
       "nonblankLines": 14260,
@@ -962,6 +976,7 @@
       "relationship": "owned",
       "role": "Repository owner",
       "contributionNote": "Repository owned by the account.",
+      "frameworks": [],
       "files": 62,
       "lines": 11002,
       "nonblankLines": 9378,
@@ -1036,6 +1051,10 @@
       "relationship": "owned",
       "role": "Repository owner",
       "contributionNote": "Repository owned by the account.",
+      "frameworks": [
+        "Next.js",
+        "React"
+      ],
       "files": 103,
       "lines": 7186,
       "nonblankLines": 6877,
@@ -1116,11 +1135,7 @@
         }
       ],
       "stars": 0,
-      "forks": 0,
-      "frameworks": [
-        "Next.js",
-        "React"
-      ]
+      "forks": 0
     },
     {
       "name": "Universe-Explorer",
@@ -1130,6 +1145,7 @@
       "relationship": "owned",
       "role": "Repository owner",
       "contributionNote": "Repository owned by the account.",
+      "frameworks": [],
       "files": 5,
       "lines": 3712,
       "nonblankLines": 3540,
@@ -1188,6 +1204,7 @@
       "relationship": "owned",
       "role": "Repository owner",
       "contributionNote": "Repository owned by the account.",
+      "frameworks": [],
       "files": 13,
       "lines": 7090,
       "nonblankLines": 5834,
@@ -1230,27 +1247,28 @@
       "relationship": "owned",
       "role": "Repository owner",
       "contributionNote": "Repository owned by the account.",
+      "frameworks": [],
       "files": 40,
-      "lines": 2121,
-      "nonblankLines": 1587,
-      "characters": 97857,
-      "words": 13055,
+      "lines": 2268,
+      "nonblankLines": 1705,
+      "characters": 106139,
+      "words": 14139,
       "languages": [
         {
           "language": "Markdown",
           "files": 23,
-          "lines": 1455,
-          "nonblankLines": 990,
-          "characters": 80909,
-          "words": 11481
+          "lines": 1571,
+          "nonblankLines": 1079,
+          "characters": 88037,
+          "words": 12491
         },
         {
           "language": "Python",
           "files": 2,
-          "lines": 250,
-          "nonblankLines": 212,
-          "characters": 8792,
-          "words": 710
+          "lines": 281,
+          "nonblankLines": 241,
+          "characters": 9946,
+          "words": 784
         },
         {
           "language": "YAML",
@@ -1304,43 +1322,44 @@
       "relationship": "owned",
       "role": "Repository owner",
       "contributionNote": "Repository owned by the account.",
-      "files": 7,
-      "lines": 2232,
-      "nonblankLines": 2139,
-      "characters": 71858,
-      "words": 6534,
+      "frameworks": [],
+      "files": 8,
+      "lines": 3126,
+      "nonblankLines": 2872,
+      "characters": 97053,
+      "words": 9298,
       "languages": [
         {
           "language": "JSON",
           "files": 2,
-          "lines": 1341,
-          "nonblankLines": 1341,
-          "characters": 30736,
-          "words": 2617
+          "lines": 1593,
+          "nonblankLines": 1593,
+          "characters": 36563,
+          "words": 3065
         },
         {
           "language": "Python",
-          "files": 2,
-          "lines": 682,
-          "nonblankLines": 621,
-          "characters": 30524,
-          "words": 2801
+          "files": 3,
+          "lines": 849,
+          "nonblankLines": 776,
+          "characters": 38050,
+          "words": 3356
         },
         {
           "language": "Markdown",
           "files": 1,
-          "lines": 114,
-          "nonblankLines": 90,
-          "characters": 7955,
-          "words": 879
+          "lines": 569,
+          "nonblankLines": 397,
+          "characters": 19127,
+          "words": 2577
         },
         {
           "language": "YAML",
           "files": 2,
-          "lines": 95,
-          "nonblankLines": 87,
-          "characters": 2643,
-          "words": 237
+          "lines": 115,
+          "nonblankLines": 106,
+          "characters": 3313,
+          "words": 300
         }
       ],
       "stars": 0,
@@ -1354,6 +1373,7 @@
       "relationship": "owned",
       "role": "Repository owner",
       "contributionNote": "Repository owned by the account.",
+      "frameworks": [],
       "files": 15,
       "lines": 2044,
       "nonblankLines": 1795,
@@ -1404,6 +1424,7 @@
       "relationship": "owned",
       "role": "Repository owner",
       "contributionNote": "Repository owned by the account.",
+      "frameworks": [],
       "files": 6,
       "lines": 482,
       "nonblankLines": 378,
@@ -1438,6 +1459,7 @@
       "relationship": "owned",
       "role": "Repository owner",
       "contributionNote": "Repository owned by the account.",
+      "frameworks": [],
       "files": 6,
       "lines": 457,
       "nonblankLines": 364,
@@ -1472,6 +1494,7 @@
       "relationship": "owned",
       "role": "Repository owner",
       "contributionNote": "Repository owned by the account.",
+      "frameworks": [],
       "files": 6,
       "lines": 453,
       "nonblankLines": 361,
@@ -1506,6 +1529,7 @@
       "relationship": "owned",
       "role": "Repository owner",
       "contributionNote": "Repository owned by the account.",
+      "frameworks": [],
       "files": 6,
       "lines": 445,
       "nonblankLines": 355,

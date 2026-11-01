@@ -153,7 +153,7 @@ The ten most recently updated described public repositories. Open any row for it
 <details>
 <summary><strong>01 · Moonbyte</strong> <code>UPDATED 2026-11-01</code></summary>
 
-Moonbyte is a pixel-art gaming bot that transforms Discord into a multiplayer arcade, featuring classic…
+Moonbyte is a pixel-art gaming bot that transforms Discord into a multiplayer arcade, featuring classic mini-games, original adventures, RPG experiences, puzzles, and competitive…
 
 **Repository:** [Open on GitHub](https://github.com/VireonNoctis/Moonbyte)
 **Source languages:** Rust, CSS, TypeScript, Python
@@ -161,22 +161,22 @@ Moonbyte is a pixel-art gaming bot that transforms Discord into a multiplayer ar
 </details>
 
 <details>
-<summary><strong>02 · Driftglass</strong> <code>UPDATED 2026-10-31</code></summary>
-
-Every update leaves a trace. Find it.
-
-**Repository:** [Open on GitHub](https://github.com/VireonNoctis/Driftglass)
-**Source languages:** Python, JavaScript, Rust, Svelte, CSS, TypeScript, HTML
-
-</details>
-
-<details>
-<summary><strong>03 · SwarmForge</strong> <code>UPDATED 2026-10-31</code></summary>
+<summary><strong>02 · SwarmForge</strong> <code>UPDATED 2026-11-01</code></summary>
 
 Turn Claude, ChatGPT, and other AI assistants into a unified AI development swarm.
 
 **Repository:** [Open on GitHub](https://github.com/VireonNoctis/SwarmForge)
 **Source languages:** Python
+
+</details>
+
+<details>
+<summary><strong>03 · Driftglass</strong> <code>UPDATED 2026-10-31</code></summary>
+
+Every update leaves a trace. Find it.
+
+**Repository:** [Open on GitHub](https://github.com/VireonNoctis/Driftglass)
+**Source languages:** Python, JavaScript, Rust, Svelte, CSS, TypeScript, HTML
 
 </details>
 
@@ -213,7 +213,7 @@ Astra is a space-themed interactive astronomy explorer.
 <details>
 <summary><strong>07 · TreeParity</strong> <code>UPDATED 2026-10-26</code></summary>
 
-An open-source conformance-testing laboratory that measures exactly what happens to a directory tree when it…
+An open-source conformance-testing laboratory that measures exactly what happens to a directory tree when it is transferred between operating systems, filesystems, archive…
 
 **Repository:** [Open on GitHub](https://github.com/VireonNoctis/TreeParity)
 **Source languages:** Not detected
@@ -223,7 +223,7 @@ An open-source conformance-testing laboratory that measures exactly what happens
 <details>
 <summary><strong>08 · Envquake</strong> <code>UPDATED 2026-10-26</code></summary>
 
-A CLI that discovers hidden environmental assumptions in software by rerunning tests under controlled…
+A CLI that discovers hidden environmental assumptions in software by rerunning tests under controlled variations of the system environment, identifying the exact conditions that…
 
 **Repository:** [Open on GitHub](https://github.com/VireonNoctis/Envquake)
 **Source languages:** Not detected
@@ -233,7 +233,7 @@ A CLI that discovers hidden environmental assumptions in software by rerunning t
 <details>
 <summary><strong>09 · FormatFossil</strong> <code>UPDATED 2026-10-26</code></summary>
 
-A file-conversion forensics laboratory that tests what actually survives when files move between formats and…
+A file-conversion forensics laboratory that tests what actually survives when files move between formats and software versions.
 
 **Repository:** [Open on GitHub](https://github.com/VireonNoctis/FormatFossil)
 **Source languages:** Not detected
@@ -243,7 +243,7 @@ A file-conversion forensics laboratory that tests what actually survives when fi
 <details>
 <summary><strong>10 · EchoFossil</strong> <code>UPDATED 2026-10-26</code></summary>
 
-A Forensic tool that maps how AI-generated material propagates through datasets, identifying likely recursive…
+A Forensic tool that maps how AI-generated material propagates through datasets, identifying likely recursive synthetic-data contamination, near-duplicate clusters, and uncertain…
 
 **Repository:** [Open on GitHub](https://github.com/VireonNoctis/EchoFossil)
 **Source languages:** Not detected
@@ -260,7 +260,7 @@ Whole-repository totals cover tracked source, configuration, and documentation a
 
 | Repositories | Tracked files | Lines | Characters | Words | Stars / forks |
 | ---: | ---: | ---: | ---: | ---: | ---: |
-| 16 | 951 | 306,957 | 15,710,937 | 1,744,916 | 3 / 1 |
+| 16 | 952 | 308,157 | 15,750,478 | 1,749,299 | 3 / 1 |
 
 <details>
 <summary><strong>Repository footprint</strong> · 16 expandable project records</summary>
@@ -269,6 +269,7 @@ Whole-repository totals cover tracked source, configuration, and documentation a
 
 [Open repository](https://github.com/Kyerstorm/Lemegeton) · Contributor project
 **Contribution:** Major contributor · co-owner
+**Detected frameworks:** React
 
 | Source language / format | Lines | Files |
 | --- | ---: | ---: |
@@ -310,6 +311,7 @@ Whole-repository totals cover tracked source, configuration, and documentation a
 <details><summary><strong>Driftglass</strong> · 16,475 lines · 98 files</summary>
 
 [Open repository](https://github.com/VireonNoctis/Driftglass) · Owned project
+**Detected frameworks:** Svelte
 
 | Source language / format | Lines | Files |
 | --- | ---: | ---: |
@@ -373,15 +375,16 @@ Whole-repository totals cover tracked source, configuration, and documentation a
 
 </details>
 
-<details><summary><strong>Moonbyte</strong> · 75,090 lines · 72 files</summary>
+<details><summary><strong>Moonbyte</strong> · 75,249 lines · 72 files</summary>
 
 [Open repository](https://github.com/VireonNoctis/Moonbyte) · Owned project
+**Detected frameworks:** Next.js · React
 
 | Source language / format | Lines | Files |
 | --- | ---: | ---: |
-| Markdown | 50,584 | 36 |
+| Markdown | 50,587 | 36 |
 | JSON | 21,324 | 6 |
-| Rust | 1,974 | 9 |
+| Rust | 2,130 | 9 |
 | TypeScript | 322 | 5 |
 | YAML | 241 | 8 |
 | Python | 207 | 1 |
@@ -397,6 +400,7 @@ Whole-repository totals cover tracked source, configuration, and documentation a
 <details><summary><strong>PrivaCage</strong> · 50,257 lines · 251 files</summary>
 
 [Open repository](https://github.com/VireonNoctis/PrivaCage) · Owned project
+**Detected frameworks:** Svelte
 
 | Source language / format | Lines | Files |
 | --- | ---: | ---: |
@@ -438,14 +442,14 @@ Whole-repository totals cover tracked source, configuration, and documentation a
 
 </details>
 
-<details><summary><strong>SwarmForge</strong> · 2,121 lines · 40 files</summary>
+<details><summary><strong>SwarmForge</strong> · 2,268 lines · 40 files</summary>
 
 [Open repository](https://github.com/VireonNoctis/SwarmForge) · Owned project
 
 | Source language / format | Lines | Files |
 | --- | ---: | ---: |
-| Markdown | 1,455 | 23 |
-| Python | 250 | 2 |
+| Markdown | 1,571 | 23 |
+| Python | 281 | 2 |
 | YAML | 188 | 8 |
 | Git config | 155 | 2 |
 | JSON | 49 | 3 |
@@ -479,16 +483,16 @@ Whole-repository totals cover tracked source, configuration, and documentation a
 
 </details>
 
-<details><summary><strong>VireonNoctis</strong> · 2,232 lines · 7 files</summary>
+<details><summary><strong>VireonNoctis</strong> · 3,126 lines · 8 files</summary>
 
 [Open repository](https://github.com/VireonNoctis/VireonNoctis) · Owned project
 
 | Source language / format | Lines | Files |
 | --- | ---: | ---: |
-| JSON | 1,341 | 2 |
-| Python | 682 | 2 |
-| Markdown | 114 | 1 |
-| YAML | 95 | 2 |
+| JSON | 1,593 | 2 |
+| Python | 849 | 3 |
+| Markdown | 569 | 1 |
+| YAML | 115 | 2 |
 
 </details>
 
