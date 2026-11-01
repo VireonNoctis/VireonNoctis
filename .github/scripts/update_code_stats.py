@@ -280,6 +280,40 @@ def language_for_path(raw_path: str) -> str:
     return LANGUAGE_BY_EXTENSION.get(path.suffix.lower(), "Other text/config")
 
 
+def detect_frameworks(repo_dir: Path) -> list[str]:
+    """Detect frameworks from committed package manifests, independently of source languages."""
+    package_labels = {
+        "next": "Next.js",
+        "react": "React",
+        "svelte": "Svelte",
+        "vue": "Vue",
+        "@angular/core": "Angular",
+        "astro": "Astro",
+        "three": "Three.js",
+    }
+    detected: set[str] = set()
+    for current, directories, filenames in os.walk(repo_dir):
+        directories[:] = [name for name in directories if name not in EXCLUDED_DIRS]
+        if "package.json" not in filenames:
+            continue
+        manifest_path = Path(current) / "package.json"
+        try:
+            manifest = json.loads(manifest_path.read_text(encoding="utf-8"))
+        except (OSError, json.JSONDecodeError, UnicodeDecodeError):
+            continue
+        if not isinstance(manifest, dict):
+            continue
+        dependencies: dict[str, object] = {}
+        for section in ("dependencies", "devDependencies", "optionalDependencies", "peerDependencies"):
+            values = manifest.get(section, {})
+            if isinstance(values, dict):
+                dependencies.update(values)
+        for package_name, label in package_labels.items():
+            if package_name in dependencies:
+                detected.add(label)
+    return sorted(detected)
+
+
 def count_worktree(repo_dir: Path) -> dict:
     result = subprocess.run(
         ["git", "-C", str(repo_dir), "ls-files", "-z"],
@@ -351,6 +385,7 @@ def scan_repository(repo: dict, root: Path) -> tuple[dict | None, str | None]:
             "relationship": repo.get("_stats_relationship", "owned"),
             "role": repo.get("_contribution_role", "Repository owner" if repo.get("_stats_relationship", "owned") == "owned" else "Contributor"),
             "contributionNote": repo.get("_contribution_note", ""),
+            "frameworks": detect_frameworks(destination),
             **counts,
             "stars": int(repo.get("stargazers_count") or 0),
             "forks": int(repo.get("forks_count") or 0),
@@ -398,11 +433,19 @@ def load_manual_project_estimates() -> list[dict]:
                 continue
             if line_count < 0:
                 continue
-            areas.append({
+            normalized_area = {
                 "name": str(area.get("name", "Unnamed area")),
                 "stack": str(area.get("stack", "Unspecified")),
                 "lines": line_count,
-            })
+            }
+            try:
+                chars_per_line = int(area.get("estimatedCharactersPerLine"))
+            except (TypeError, ValueError):
+                chars_per_line = -1
+            if chars_per_line >= 0:
+                normalized_area["estimatedCharactersPerLine"] = chars_per_line
+                normalized_area["characters"] = line_count * chars_per_line
+            areas.append(normalized_area)
         if areas:
             valid.append({
                 "id": str(estimate.get("id", "manual-estimate")),
@@ -423,81 +466,102 @@ def markdown_cell(value: object) -> str:
 
 
 def build_readme_block(stats: dict) -> str:
-    """Render a compact footprint summary while keeping detailed data in code-stats.json."""
+    """Render compact totals with expandable per-project detail and separate estimates."""
     totals = stats["totals"]
     generated_date = (stats.get("generatedAt") or "")[:10] or "date unavailable"
+    repositories = sorted(
+        stats.get("repositories", []),
+        key=lambda item: (item.get("relationship") != "contributor", item.get("name", "").lower()),
+    )
     rows = [
         f"**Snapshot: {generated_date} UTC** · {number(totals['repositories'])} public repositories "
         f"({number(totals['ownedRepositories'])} owned, {number(totals['contributorRepositories'])} contributed).",
         "",
-        "| Measure | Total |",
-        "| --- | ---: |",
-        f"| Tracked text files | {number(totals['files'])} |",
-        f"| Lines | {number(totals['lines'])} |",
-        f"| Non-blank lines | {number(totals['nonblankLines'])} |",
-        f"| Characters (excluding line breaks) | {number(totals['characters'])} |",
-        f"| Words | {number(totals['words'])} |",
-        f"| Stars / forks | {number(totals['stars'])} / {number(totals['forks'])} |",
-        f"| Repositories with scan failures | {number(totals['failedRepositories'])} |",
+        "| Repositories | Tracked files | Lines | Characters | Words | Stars / forks |",
+        "| ---: | ---: | ---: | ---: | ---: | ---: |",
+        "| " + " | ".join(number(totals[key]) for key in (
+            "repositories", "files", "lines", "characters", "words"
+        )) + " | " + number(totals["stars"]) + " / " + number(totals["forks"]) + " |",
+        "",
+        "<details>",
+        f"<summary><strong>Repository footprint</strong> · {number(len(repositories))} expandable project records</summary>",
+        "",
     ]
 
-    languages = sorted(stats.get("languages", []), key=lambda item: item.get("lines", 0), reverse=True)[:8]
-    if languages:
+    for project in repositories:
+        name = markdown_cell(project.get("name", "Repository"))
+        url = str(project.get("url", ""))
+        relation = "Contributor project" if project.get("relationship") == "contributor" else "Owned project"
+        role = markdown_cell(project.get("role", ""))
+        rows.extend([
+            f"<details><summary><strong>{name}</strong> · {number(project.get('lines', 0))} lines · "
+            f"{number(project.get('files', 0))} files</summary>",
+            "",
+        ])
+        rows.append(f"[Open repository]({url}) · {relation}" if url else relation)
+        if role and project.get("relationship") == "contributor":
+            rows.append(f"**Contribution:** {role}")
+        frameworks = project.get("frameworks", [])
+        if frameworks:
+            rows.append("**Detected frameworks:** " + " · ".join(markdown_cell(item) for item in frameworks))
+        languages = sorted(project.get("languages", []), key=lambda item: item.get("lines", 0), reverse=True)
+        if languages:
+            rows.extend(["", "| Source language / format | Lines | Files |", "| --- | ---: | ---: |"])
+            for language in languages:
+                rows.append(
+                    "| " + markdown_cell(language.get("language", "Other")) + " | "
+                    + number(int(language.get("lines", 0))) + " | "
+                    + number(int(language.get("files", 0))) + " |"
+                )
+        rows.extend(["", "</details>", ""])
+    rows.extend(["</details>", ""])
+
+    for estimate in stats.get("manualProjectEstimates", []):
+        areas = estimate.get("areas", [])
+        total_lines = sum(int(area.get("lines", 0)) for area in areas)
+        known_character_areas = [
+            area for area in areas
+            if isinstance(area.get("characters"), int) and area["characters"] >= 0
+        ]
+        known_characters = sum(int(area["characters"]) for area in known_character_areas)
+        rows.extend([
+            "<details>",
+            f"<summary><strong>{markdown_cell(estimate.get('name', 'Project estimates'))}</strong> · "
+            f"{number(total_lines)} supplied lines</summary>",
+            "",
+            "| Area | Stack / framework | Lines | Estimated characters |",
+            "| --- | --- | ---: | ---: |",
+        ])
+        for area in areas:
+            characters = area.get("characters")
+            character_text = "≈ " + number(int(characters)) if isinstance(characters, int) else "—"
+            rows.append(
+                "| " + markdown_cell(area.get("name", "Area")) + " | "
+                + markdown_cell(area.get("stack", "Unspecified")) + " | "
+                + number(int(area.get("lines", 0))) + " | " + character_text + " |"
+            )
         rows.extend([
             "",
-            "**Largest language and format groups**",
+            f"**Character estimate subtotal:** ≈ {number(known_characters)} across "
+            f"{len(known_character_areas)} areas with supplied character-per-line assumptions.",
             "",
-            "| Language / format | Lines | Files |",
-            "| --- | ---: | ---: |",
+            "_Other areas remain line-count-only until a character estimate is supplied. These are estimates, not scanned counts._",
+            "",
+            "</details>",
+            "",
         ])
-        for language in languages:
-            rows.append(
-                "| " + markdown_cell(language["language"]) + " | " + number(language["lines"])
-                + " | " + number(language["files"]) + " |"
-            )
-
-    estimates = stats.get("manualProjectEstimates", [])
-    for estimate in estimates:
-        rows.extend([
-            "",
-            "**" + markdown_cell(estimate["name"]) + " — supplied estimates (not repository-scanned)**",
-            "",
-            "| Area | Stack | Lines |",
-            "| --- | --- | ---: |",
-        ])
-        for area in estimate.get("areas", []):
-            rows.append(
-                "| " + markdown_cell(area["name"]) + " | " + markdown_cell(area["stack"])
-                + " | " + number(area["lines"]) + " |"
-            )
-        reported_total = sum(int(area["lines"]) for area in estimate.get("areas", []))
-        rows.append("| **Reported total** | | **" + number(reported_total) + "** |")
-
-    contributed = sorted(
-        (item for item in stats.get("repositories", []) if item.get("relationship") == "contributor"),
-        key=lambda item: item.get("characters", 0),
-        reverse=True,
-    )
-    if contributed:
-        rows.extend(["", "**Collaborative project footprint**", ""])
-        for project in contributed:
-            name = markdown_cell(project.get("name", "Repository"))
-            url = project.get("url", "")
-            role = markdown_cell(project.get("role") or "Contributor")
-            rows.append(
-                f"- [{name}]({url}) — {role}; {number(project['files'])} files, "
-                f"{number(project['lines'])} lines, {number(project['characters'])} characters "
-                "(whole-project counts, not personal line attribution)."
-            )
 
     rows.extend([
-        "",
-        "_Source: [full machine-readable snapshot](code-stats.json). Counts cover tracked source, configuration, and documentation; build/dependency output, lockfiles, binaries, and files over 1 MB are excluded. Lunar X figures are supplied estimates because no public scannable repository is available._",
+        "_Source: [machine-readable snapshot](code-stats.json). Repository totals cover tracked source, configuration, and documentation. "
+        "Build/dependency output, lockfiles, binaries, generated directories, and files over 1 MB are excluded. "
+        "Framework detection is reported separately from source-language classification: .ts and .tsx remain TypeScript files; "
+        "Next.js is shown as a detected framework._",
     ])
+    if stats.get("scanErrors"):
+        rows.append(f"_Scan note: {number(stats['scanErrors'])} repository scan(s) could not be completed in this snapshot._")
     if stats.get("discoveryWarning"):
         rows.append(f"_Contributor discovery note: {markdown_cell(stats['discoveryWarning'])}_")
     return "\n".join(rows)
-
 
 def main() -> None:
     if not TOKEN:
@@ -540,7 +604,7 @@ def main() -> None:
         return result
 
     stats = {
-        "schemaVersion": 3,
+        "schemaVersion": 4,
         "owner": OWNER,
         "generatedAt": dt.datetime.now(dt.timezone.utc).isoformat(timespec="seconds").replace("+00:00", "Z"),
         "scope": (
@@ -549,7 +613,7 @@ def main() -> None:
             "GitHub login. Counts cover tracked text-based source, configuration, and documentation; dependency/build/"
             "generated directories, lockfiles, binary files, and files over 1 MB are excluded. These repository-wide "
             "footprint totals are not line-by-line authorship attribution. Language counts follow tracked file "
-            "extensions; manually supplied project estimates are kept separate from repository scans."
+            "extensions; detected frameworks are stored separately; manually supplied project estimates are kept separate from repository scans."
         ),
         "discoveryWarning": discovery_warning,
         "totals": totals,

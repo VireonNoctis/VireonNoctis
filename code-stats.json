@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 3,
+  "schemaVersion": 4,
   "owner": "VireonNoctis",
   "generatedAt": "2026-11-01T09:24:01Z",
   "scope": "Current default-branch snapshots of eligible public repositories owned by VireonNoctis plus public external repositories explicitly listed as contributor projects or discovered through commits attributed to the GitHub login. Counts cover tracked text-based source, configuration, and documentation; dependency/build/generated directories, lockfiles, binary files, and files over 1 MB are excluded. These repository-wide footprint totals are not line-by-line authorship attribution. Language counts follow tracked file extensions; manually supplied project estimates are kept separate from repository scans.",
@@ -276,27 +276,35 @@
       "id": "lunar-x",
       "name": "Lunar X",
       "url": "https://lunarx.to/",
-      "classification": "User-provided line-count estimate for a project without a public scannable repository. Counts are displayed separately and are not mixed into automated GitHub repository totals.",
+      "classification": "User-supplied line totals with explicit stack-specific character estimates where a rate was provided; values are estimates, not repository scans.",
       "areas": [
         {
           "name": "Backend",
           "stack": "Rust",
-          "lines": 265856
+          "lines": 265856,
+          "estimatedCharactersPerLine": 60,
+          "characters": 15951360
         },
         {
           "name": "Frontend",
           "stack": "Next.js",
-          "lines": 309274
+          "lines": 309274,
+          "estimatedCharactersPerLine": 90,
+          "characters": 27834660
         },
         {
           "name": "Gacha games",
           "stack": "React",
-          "lines": 40751
+          "lines": 40751,
+          "estimatedCharactersPerLine": 90,
+          "characters": 3667590
         },
         {
           "name": "Scraping & other tools",
           "stack": "Python",
-          "lines": 20865
+          "lines": 20865,
+          "estimatedCharactersPerLine": 48,
+          "characters": 1001520
         },
         {
           "name": "Web graphics",
@@ -1108,7 +1116,11 @@
         }
       ],
       "stars": 0,
-      "forks": 0
+      "forks": 0,
+      "frameworks": [
+        "Next.js",
+        "React"
+      ]
     },
     {
       "name": "Universe-Explorer",
