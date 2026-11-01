@@ -4,6 +4,9 @@ on:
   schedule:
     - cron: "23 2 * * *"
   workflow_dispatch:
+  pull_request:
+    branches:
+      - main
   push:
     branches:
       - main
@@ -11,6 +14,7 @@ on:
       - README.md
       - .github/scripts/update_repositories.py
       - .github/scripts/update_code_stats.py
+      - .github/scripts/test_profile_readme.py
       - .github/code_stats_repositories.json
       - .github/workflows/repositories.yml
 
@@ -22,7 +26,23 @@ concurrency:
   cancel-in-progress: true
 
 jobs:
+  validate:
+    if: github.event_name == 'pull_request'
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Compile automation scripts
+        run: python -m py_compile .github/scripts/update_repositories.py .github/scripts/update_code_stats.py
+      - name: Run profile README regression tests
+        run: python -m unittest discover -s .github/scripts -p 'test_*.py' -v
+
   refresh:
+    if: github.event_name != 'pull_request'
     runs-on: ubuntu-latest
     timeout-minutes: 20
     steps:

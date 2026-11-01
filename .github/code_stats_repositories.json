@@ -11,7 +11,7 @@
       "id": "lunar-x",
       "name": "Lunar X",
       "url": "https://lunarx.to/",
-      "classification": "Lunar X project size estimate with stack-specific character rates.",
+      "classification": "User-supplied line totals with explicit stack-specific character estimates where a rate was provided; values are estimates, not repository scans.",
       "areas": [
         {
           "name": "Backend",
@@ -36,6 +36,16 @@
           "stack": "Python",
           "lines": 20865,
           "estimatedCharactersPerLine": 48
+        },
+        {
+          "name": "Web graphics",
+          "stack": "WebGL",
+          "lines": 20657
+        },
+        {
+          "name": "3D rendering",
+          "stack": "Three.js",
+          "lines": 18685
         }
       ]
     }
