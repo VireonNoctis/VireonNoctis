@@ -256,11 +256,11 @@ A Forensic tool that maps how AI-generated material propagates through datasets,
 Whole-repository totals cover tracked source, configuration, and documentation across owned and contributed public repositories. They describe project size, not personal line-by-line authorship.
 
 <!-- AUTO-CODE-STATS:START -->
-**Snapshot: 2026-11-01 UTC** · 16 public repositories (15 owned, 1 contributed).
+**Snapshot: 2026-11-02 UTC** · 16 public repositories (15 owned, 1 contributed).
 
 | Repositories | Tracked files | Lines | Characters | Words | Stars / forks |
 | ---: | ---: | ---: | ---: | ---: | ---: |
-| 16 | 952 | 308,157 | 15,750,478 | 1,749,299 | 3 / 1 |
+| 16 | 952 | 308,405 | 15,762,093 | 1,750,310 | 3 / 1 |
 
 <details>
 <summary><strong>Repository footprint</strong> · 16 expandable project records</summary>
@@ -483,28 +483,28 @@ Whole-repository totals cover tracked source, configuration, and documentation a
 
 </details>
 
-<details><summary><strong>VireonNoctis</strong> · 3,126 lines · 8 files</summary>
+<details><summary><strong>VireonNoctis</strong> · 3,154 lines · 8 files</summary>
 
 [Open repository](https://github.com/VireonNoctis/VireonNoctis) · Owned project
 
 | Source language / format | Lines | Files |
 | --- | ---: | ---: |
-| JSON | 1,593 | 2 |
+| JSON | 1,617 | 2 |
 | Python | 849 | 3 |
-| Markdown | 569 | 1 |
+| Markdown | 573 | 1 |
 | YAML | 115 | 2 |
 
 </details>
 
-<details><summary><strong>VireonNoctis.github.io</strong> · 7,186 lines · 103 files</summary>
+<details><summary><strong>VireonNoctis.github.io</strong> · 7,406 lines · 103 files</summary>
 
 [Open repository](https://github.com/VireonNoctis/VireonNoctis.github.io) · Owned project
 **Detected frameworks:** Next.js · React
 
 | Source language / format | Lines | Files |
 | --- | ---: | ---: |
-| CSS | 4,467 | 15 |
-| TypeScript | 1,685 | 8 |
+| CSS | 4,634 | 15 |
+| TypeScript | 1,738 | 8 |
 | Rust | 344 | 11 |
 | Markdown | 210 | 3 |
 | Plain text | 167 | 2 |
