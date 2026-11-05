@@ -1,15 +1,15 @@
 {
   "schemaVersion": 4,
   "owner": "VireonNoctis",
-  "generatedAt": "2026-11-04T09:29:11Z",
+  "generatedAt": "2026-11-05T09:38:50Z",
   "scope": "Current default-branch snapshots of eligible public repositories owned by VireonNoctis plus public external repositories explicitly listed as contributor projects or discovered through commits attributed to the GitHub login. Counts cover tracked text-based source, configuration, and documentation; dependency/build/generated directories, lockfiles, binary files, and files over 1 MB are excluded. These repository-wide footprint totals are not line-by-line authorship attribution. Language counts follow tracked file extensions; detected frameworks are stored separately; manually supplied project estimates are kept separate from repository scans.",
   "discoveryWarning": null,
   "totals": {
     "files": 961,
-    "lines": 310798,
-    "nonblankLines": 278239,
-    "characters": 15877720,
-    "words": 1760367,
+    "lines": 311032,
+    "nonblankLines": 278435,
+    "characters": 15889998,
+    "words": 1761643,
     "stars": 3,
     "forks": 1,
     "repositories": 16,
@@ -19,20 +19,20 @@
   },
   "ownedTotals": {
     "files": 725,
-    "lines": 216521,
-    "nonblankLines": 196663,
-    "characters": 11700955,
-    "words": 1387939,
+    "lines": 216664,
+    "nonblankLines": 196787,
+    "characters": 11709442,
+    "words": 1388899,
     "stars": 1,
     "forks": 0,
     "repositories": 15
   },
   "contributedTotals": {
     "files": 236,
-    "lines": 94277,
-    "nonblankLines": 81576,
-    "characters": 4176765,
-    "words": 372428,
+    "lines": 94368,
+    "nonblankLines": 81648,
+    "characters": 4180556,
+    "words": 372744,
     "stars": 2,
     "forks": 1,
     "repositories": 1
@@ -41,25 +41,25 @@
     {
       "language": "Python",
       "files": 254,
-      "lines": 104697,
-      "nonblankLines": 90395,
-      "characters": 4466442,
-      "words": 383891
+      "lines": 104883,
+      "nonblankLines": 90554,
+      "characters": 4473768,
+      "words": 384503
     },
     {
       "language": "Markdown",
       "files": 218,
-      "lines": 68457,
-      "nonblankLines": 62218,
-      "characters": 6045358,
-      "words": 888255
+      "lines": 68505,
+      "nonblankLines": 62255,
+      "characters": 6050308,
+      "words": 888919
     },
     {
       "language": "JSON",
       "files": 45,
       "lines": 26989,
       "nonblankLines": 26989,
-      "characters": 927748,
+      "characters": 927750,
       "words": 89605
     },
     {
@@ -450,18 +450,18 @@
         "React"
       ],
       "files": 236,
-      "lines": 94277,
-      "nonblankLines": 81576,
-      "characters": 4176765,
-      "words": 372428,
+      "lines": 94368,
+      "nonblankLines": 81648,
+      "characters": 4180556,
+      "words": 372744,
       "languages": [
         {
           "language": "Python",
           "files": 176,
-          "lines": 85150,
-          "nonblankLines": 73662,
-          "characters": 3681634,
-          "words": 317471
+          "lines": 85241,
+          "nonblankLines": 73734,
+          "characters": 3685425,
+          "words": 317787
         },
         {
           "language": "Markdown",
@@ -863,18 +863,18 @@
         "Svelte"
       ],
       "files": 99,
-      "lines": 16921,
-      "nonblankLines": 14640,
-      "characters": 718018,
-      "words": 70847,
+      "lines": 16979,
+      "nonblankLines": 14693,
+      "characters": 720211,
+      "words": 71052,
       "languages": [
         {
           "language": "Python",
           "files": 31,
-          "lines": 7550,
-          "nonblankLines": 6407,
-          "characters": 293000,
-          "words": 23377
+          "lines": 7608,
+          "nonblankLines": 6460,
+          "characters": 295193,
+          "words": 23582
         },
         {
           "language": "JavaScript",
@@ -1249,26 +1249,26 @@
       "contributionNote": "Repository owned by the account.",
       "frameworks": [],
       "files": 40,
-      "lines": 2420,
-      "nonblankLines": 1825,
-      "characters": 122756,
-      "words": 16193,
+      "lines": 2505,
+      "nonblankLines": 1896,
+      "characters": 129048,
+      "words": 16948,
       "languages": [
         {
           "language": "Markdown",
           "files": 23,
-          "lines": 1650,
-          "nonblankLines": 1133,
-          "characters": 101729,
-          "words": 14379
+          "lines": 1698,
+          "nonblankLines": 1170,
+          "characters": 106679,
+          "words": 15043
         },
         {
           "language": "Python",
           "files": 2,
-          "lines": 354,
-          "nonblankLines": 307,
-          "characters": 12871,
-          "words": 950
+          "lines": 391,
+          "nonblankLines": 341,
+          "characters": 14213,
+          "words": 1041
         },
         {
           "language": "YAML",
@@ -1326,7 +1326,7 @@
       "files": 8,
       "lines": 3154,
       "nonblankLines": 2900,
-      "characters": 97988,
+      "characters": 97990,
       "words": 9389,
       "languages": [
         {
@@ -1334,7 +1334,7 @@
           "files": 2,
           "lines": 1617,
           "nonblankLines": 1617,
-          "characters": 37064,
+          "characters": 37066,
           "words": 3109
         },
         {

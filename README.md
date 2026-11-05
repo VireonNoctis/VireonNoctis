@@ -151,7 +151,17 @@ The ten most recently updated described public repositories. Open any row for it
 
 <!-- AUTO-REPOSITORIES:START -->
 <details>
-<summary><strong>01 · Driftglass</strong> <code>UPDATED 2026-11-03</code></summary>
+<summary><strong>01 · SwarmForge</strong> <code>UPDATED 2026-11-04</code></summary>
+
+Turn Claude, ChatGPT, and other AI assistants into a unified AI development swarm.
+
+**Repository:** [Open on GitHub](https://github.com/VireonNoctis/SwarmForge)
+**Source languages:** Python
+
+</details>
+
+<details>
+<summary><strong>02 · Driftglass</strong> <code>UPDATED 2026-11-04</code></summary>
 
 Every update leaves a trace. Find it.
 
@@ -161,22 +171,12 @@ Every update leaves a trace. Find it.
 </details>
 
 <details>
-<summary><strong>02 · Moonbyte</strong> <code>UPDATED 2026-11-03</code></summary>
+<summary><strong>03 · Moonbyte</strong> <code>UPDATED 2026-11-03</code></summary>
 
 Moonbyte is a pixel-art gaming bot that transforms Discord into a multiplayer arcade, featuring classic mini-games, original adventures, RPG experiences, puzzles, and competitive…
 
 **Repository:** [Open on GitHub](https://github.com/VireonNoctis/Moonbyte)
 **Source languages:** Rust, CSS, TypeScript, Python
-
-</details>
-
-<details>
-<summary><strong>03 · SwarmForge</strong> <code>UPDATED 2026-11-03</code></summary>
-
-Turn Claude, ChatGPT, and other AI assistants into a unified AI development swarm.
-
-**Repository:** [Open on GitHub](https://github.com/VireonNoctis/SwarmForge)
-**Source languages:** Python
 
 </details>
 
@@ -256,16 +256,16 @@ A Forensic tool that maps how AI-generated material propagates through datasets,
 Whole-repository totals cover tracked source, configuration, and documentation across owned and contributed public repositories. They describe project size, not personal line-by-line authorship.
 
 <!-- AUTO-CODE-STATS:START -->
-**Snapshot: 2026-11-04 UTC** · 16 public repositories (15 owned, 1 contributed).
+**Snapshot: 2026-11-05 UTC** · 16 public repositories (15 owned, 1 contributed).
 
 | Repositories | Tracked files | Lines | Characters | Words | Stars / forks |
 | ---: | ---: | ---: | ---: | ---: | ---: |
-| 16 | 961 | 310,798 | 15,877,720 | 1,760,367 | 3 / 1 |
+| 16 | 961 | 311,032 | 15,889,998 | 1,761,643 | 3 / 1 |
 
 <details>
 <summary><strong>Repository footprint</strong> · 16 expandable project records</summary>
 
-<details><summary><strong>Lemegeton</strong> · 94,277 lines · 236 files</summary>
+<details><summary><strong>Lemegeton</strong> · 94,368 lines · 236 files</summary>
 
 [Open repository](https://github.com/Kyerstorm/Lemegeton) · Contributor project
 **Contribution:** Major contributor · co-owner
@@ -273,7 +273,7 @@ Whole-repository totals cover tracked source, configuration, and documentation a
 
 | Source language / format | Lines | Files |
 | --- | ---: | ---: |
-| Python | 85,150 | 176 |
+| Python | 85,241 | 176 |
 | Markdown | 3,520 | 16 |
 | JavaScript | 1,180 | 1 |
 | Rust | 939 | 5 |
@@ -308,14 +308,14 @@ Whole-repository totals cover tracked source, configuration, and documentation a
 
 </details>
 
-<details><summary><strong>Driftglass</strong> · 16,921 lines · 99 files</summary>
+<details><summary><strong>Driftglass</strong> · 16,979 lines · 99 files</summary>
 
 [Open repository](https://github.com/VireonNoctis/Driftglass) · Owned project
 **Detected frameworks:** Svelte
 
 | Source language / format | Lines | Files |
 | --- | ---: | ---: |
-| Python | 7,550 | 31 |
+| Python | 7,608 | 31 |
 | JavaScript | 2,220 | 13 |
 | Markdown | 1,906 | 31 |
 | Rust | 1,563 | 2 |
@@ -442,14 +442,14 @@ Whole-repository totals cover tracked source, configuration, and documentation a
 
 </details>
 
-<details><summary><strong>SwarmForge</strong> · 2,420 lines · 40 files</summary>
+<details><summary><strong>SwarmForge</strong> · 2,505 lines · 40 files</summary>
 
 [Open repository](https://github.com/VireonNoctis/SwarmForge) · Owned project
 
 | Source language / format | Lines | Files |
 | --- | ---: | ---: |
-| Markdown | 1,650 | 23 |
-| Python | 354 | 2 |
+| Markdown | 1,698 | 23 |
+| Python | 391 | 2 |
 | YAML | 188 | 8 |
 | Git config | 155 | 2 |
 | JSON | 49 | 3 |
