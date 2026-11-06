@@ -151,7 +151,27 @@ The ten most recently updated described public repositories. Open any row for it
 
 <!-- AUTO-REPOSITORIES:START -->
 <details>
-<summary><strong>01 · SwarmForge</strong> <code>UPDATED 2026-11-04</code></summary>
+<summary><strong>01 · Driftglass</strong> <code>UPDATED 2026-11-05</code></summary>
+
+Every update leaves a trace. Find it.
+
+**Repository:** [Open on GitHub](https://github.com/VireonNoctis/Driftglass)
+**Source languages:** Python, C++, JavaScript, Rust, Svelte, CSS, Swift, TypeScript, CMake, HTML
+
+</details>
+
+<details>
+<summary><strong>02 · vvd-reimagined</strong> <code>UPDATED 2026-11-05</code></summary>
+
+A ground-up reconstruction of vvd.world — a comprehensive worldbuilding, novel-writing, collaborative storytelling and publishing platform. Rebuilding its creative ecosystem,…
+
+**Repository:** [Open on GitHub](https://github.com/VireonNoctis/vvd-reimagined)
+**Source languages:** Python
+
+</details>
+
+<details>
+<summary><strong>03 · SwarmForge</strong> <code>UPDATED 2026-11-05</code></summary>
 
 Turn Claude, ChatGPT, and other AI assistants into a unified AI development swarm.
 
@@ -161,17 +181,7 @@ Turn Claude, ChatGPT, and other AI assistants into a unified AI development swar
 </details>
 
 <details>
-<summary><strong>02 · Driftglass</strong> <code>UPDATED 2026-11-04</code></summary>
-
-Every update leaves a trace. Find it.
-
-**Repository:** [Open on GitHub](https://github.com/VireonNoctis/Driftglass)
-**Source languages:** Python, JavaScript, Rust, Svelte, CSS, TypeScript, HTML
-
-</details>
-
-<details>
-<summary><strong>03 · Moonbyte</strong> <code>UPDATED 2026-11-03</code></summary>
+<summary><strong>04 · Moonbyte</strong> <code>UPDATED 2026-11-03</code></summary>
 
 Moonbyte is a pixel-art gaming bot that transforms Discord into a multiplayer arcade, featuring classic mini-games, original adventures, RPG experiences, puzzles, and competitive…
 
@@ -181,7 +191,7 @@ Moonbyte is a pixel-art gaming bot that transforms Discord into a multiplayer ar
 </details>
 
 <details>
-<summary><strong>04 · PrivaCage</strong> <code>UPDATED 2026-11-02</code></summary>
+<summary><strong>05 · PrivaCage</strong> <code>UPDATED 2026-11-02</code></summary>
 
 Know what every app is doing to your device. Right now. In real time.
 
@@ -191,7 +201,7 @@ Know what every app is doing to your device. Right now. In real time.
 </details>
 
 <details>
-<summary><strong>05 · SkillTether</strong> <code>UPDATED 2026-10-31</code></summary>
+<summary><strong>06 · SkillTether</strong> <code>UPDATED 2026-10-31</code></summary>
 
 Translate the words. Preserve the intent.
 
@@ -201,7 +211,7 @@ Translate the words. Preserve the intent.
 </details>
 
 <details>
-<summary><strong>06 · Universe-Explorer</strong> <code>UPDATED 2026-10-29</code></summary>
+<summary><strong>07 · Universe-Explorer</strong> <code>UPDATED 2026-10-29</code></summary>
 
 Astra is a space-themed interactive astronomy explorer.
 
@@ -211,7 +221,7 @@ Astra is a space-themed interactive astronomy explorer.
 </details>
 
 <details>
-<summary><strong>07 · TreeParity</strong> <code>UPDATED 2026-10-26</code></summary>
+<summary><strong>08 · TreeParity</strong> <code>UPDATED 2026-10-26</code></summary>
 
 An open-source conformance-testing laboratory that measures exactly what happens to a directory tree when it is transferred between operating systems, filesystems, archive…
 
@@ -221,7 +231,7 @@ An open-source conformance-testing laboratory that measures exactly what happens
 </details>
 
 <details>
-<summary><strong>08 · Envquake</strong> <code>UPDATED 2026-10-26</code></summary>
+<summary><strong>09 · Envquake</strong> <code>UPDATED 2026-10-26</code></summary>
 
 A CLI that discovers hidden environmental assumptions in software by rerunning tests under controlled variations of the system environment, identifying the exact conditions that…
 
@@ -231,21 +241,11 @@ A CLI that discovers hidden environmental assumptions in software by rerunning t
 </details>
 
 <details>
-<summary><strong>09 · FormatFossil</strong> <code>UPDATED 2026-10-26</code></summary>
+<summary><strong>10 · FormatFossil</strong> <code>UPDATED 2026-10-26</code></summary>
 
 A file-conversion forensics laboratory that tests what actually survives when files move between formats and software versions.
 
 **Repository:** [Open on GitHub](https://github.com/VireonNoctis/FormatFossil)
-**Source languages:** Not detected
-
-</details>
-
-<details>
-<summary><strong>10 · EchoFossil</strong> <code>UPDATED 2026-10-26</code></summary>
-
-A Forensic tool that maps how AI-generated material propagates through datasets, identifying likely recursive synthetic-data contamination, near-duplicate clusters, and uncertain…
-
-**Repository:** [Open on GitHub](https://github.com/VireonNoctis/EchoFossil)
 **Source languages:** Not detected
 
 </details>
@@ -256,16 +256,16 @@ A Forensic tool that maps how AI-generated material propagates through datasets,
 Whole-repository totals cover tracked source, configuration, and documentation across owned and contributed public repositories. They describe project size, not personal line-by-line authorship.
 
 <!-- AUTO-CODE-STATS:START -->
-**Snapshot: 2026-11-05 UTC** · 16 public repositories (15 owned, 1 contributed).
+**Snapshot: 2026-11-06 UTC** · 18 public repositories (16 owned, 2 contributed).
 
 | Repositories | Tracked files | Lines | Characters | Words | Stars / forks |
 | ---: | ---: | ---: | ---: | ---: | ---: |
-| 16 | 961 | 311,032 | 15,889,998 | 1,761,643 | 3 / 1 |
+| 18 | 2,564 | 611,554 | 27,274,544 | 2,935,075 | 3 / 2 |
 
 <details>
-<summary><strong>Repository footprint</strong> · 16 expandable project records</summary>
+<summary><strong>Repository footprint</strong> · 18 expandable project records</summary>
 
-<details><summary><strong>Lemegeton</strong> · 94,368 lines · 236 files</summary>
+<details><summary><strong>Lemegeton</strong> · 101,214 lines · 265 files</summary>
 
 [Open repository](https://github.com/Kyerstorm/Lemegeton) · Contributor project
 **Contribution:** Major contributor · co-owner
@@ -273,18 +273,18 @@ Whole-repository totals cover tracked source, configuration, and documentation a
 
 | Source language / format | Lines | Files |
 | --- | ---: | ---: |
-| Python | 85,241 | 176 |
-| Markdown | 3,520 | 16 |
+| Python | 83,434 | 172 |
+| TypeScript | 7,675 | 33 |
+| Markdown | 5,243 | 17 |
 | JavaScript | 1,180 | 1 |
-| Rust | 939 | 5 |
-| TypeScript | 900 | 4 |
+| Rust | 977 | 5 |
 | Batch | 716 | 2 |
 | CSS | 564 | 2 |
-| YAML | 306 | 4 |
+| YAML | 365 | 5 |
 | HTML | 247 | 1 |
-| Environment config | 235 | 1 |
-| JSON | 139 | 7 |
-| Git config | 90 | 2 |
+| Environment config | 243 | 1 |
+| JSON | 185 | 9 |
+| Git config | 94 | 2 |
 | Config | 86 | 3 |
 | Plain text | 56 | 4 |
 | Dockerfile | 52 | 1 |
@@ -292,6 +292,40 @@ Whole-repository totals cover tracked source, configuration, and documentation a
 | Shell | 33 | 1 |
 | Docker config | 20 | 1 |
 | SVG | 5 | 2 |
+
+</details>
+
+<details><summary><strong>loop-app</strong> · 285,266 lines · 1,513 files</summary>
+
+[Open repository](https://github.com/JammyVibez/loop-app) · Contributor project
+**Contribution:** Contributor
+**Detected frameworks:** Next.js · React
+
+| Source language / format | Lines | Files |
+| --- | ---: | ---: |
+| TypeScript | 226,728 | 1,131 |
+| SQL | 22,864 | 182 |
+| JavaScript | 10,849 | 70 |
+| Rust | 9,053 | 19 |
+| Markdown | 8,886 | 36 |
+| CSS | 3,757 | 8 |
+| JSON | 753 | 9 |
+| Plain text | 665 | 8 |
+| XML | 334 | 12 |
+| Terraform (HCL) | 332 | 4 |
+| Shell | 220 | 4 |
+| YAML | 189 | 3 |
+| Git config | 142 | 4 |
+| Gradle | 139 | 6 |
+| Batch | 94 | 1 |
+| Environment config | 78 | 2 |
+| SVG | 49 | 4 |
+| Java | 49 | 3 |
+| TOML | 30 | 2 |
+| Properties | 29 | 2 |
+| Dockerfile | 20 | 1 |
+| Docker config | 5 | 1 |
+| NPM config | 1 | 1 |
 
 </details>
 
@@ -308,22 +342,24 @@ Whole-repository totals cover tracked source, configuration, and documentation a
 
 </details>
 
-<details><summary><strong>Driftglass</strong> · 16,979 lines · 99 files</summary>
+<details><summary><strong>Driftglass</strong> · 22,037 lines · 116 files</summary>
 
 [Open repository](https://github.com/VireonNoctis/Driftglass) · Owned project
 **Detected frameworks:** Svelte
 
 | Source language / format | Lines | Files |
 | --- | ---: | ---: |
-| Python | 7,608 | 31 |
+| Python | 7,777 | 31 |
+| C++ | 4,074 | 10 |
 | JavaScript | 2,220 | 13 |
-| Markdown | 1,906 | 31 |
-| Rust | 1,563 | 2 |
+| Markdown | 1,915 | 31 |
+| Rust | 1,623 | 2 |
 | JSON | 1,495 | 9 |
-| Plain text | 661 | 1 |
+| Plain text | 700 | 2 |
+| CSS | 691 | 1 |
 | Svelte | 595 | 1 |
-| CSS | 506 | 1 |
-| YAML | 199 | 2 |
+| Swift | 425 | 5 |
+| YAML | 296 | 3 |
 | TypeScript | 165 | 4 |
 | TOML | 47 | 3 |
 | HTML | 14 | 1 |
@@ -442,14 +478,14 @@ Whole-repository totals cover tracked source, configuration, and documentation a
 
 </details>
 
-<details><summary><strong>SwarmForge</strong> · 2,505 lines · 40 files</summary>
+<details><summary><strong>SwarmForge</strong> · 2,641 lines · 40 files</summary>
 
 [Open repository](https://github.com/VireonNoctis/SwarmForge) · Owned project
 
 | Source language / format | Lines | Files |
 | --- | ---: | ---: |
-| Markdown | 1,698 | 23 |
-| Python | 391 | 2 |
+| Markdown | 1,792 | 23 |
+| Python | 433 | 2 |
 | YAML | 188 | 8 |
 | Git config | 155 | 2 |
 | JSON | 49 | 3 |
@@ -512,6 +548,22 @@ Whole-repository totals cover tracked source, configuration, and documentation a
 | YAML | 115 | 2 |
 | JSON | 54 | 3 |
 | TOML | 15 | 1 |
+
+</details>
+
+<details><summary><strong>vvd-reimagined</strong> · 3,216 lines · 44 files</summary>
+
+[Open repository](https://github.com/VireonNoctis/vvd-reimagined) · Owned project
+
+| Source language / format | Lines | Files |
+| --- | ---: | ---: |
+| Markdown | 2,585 | 29 |
+| YAML | 207 | 7 |
+| Python | 167 | 1 |
+| Git config | 158 | 2 |
+| JSON | 60 | 3 |
+| EditorConfig | 21 | 1 |
+| Environment config | 18 | 1 |
 
 </details>
 
