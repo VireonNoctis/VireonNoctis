@@ -151,37 +151,27 @@ The ten most recently updated described public repositories. Open any row for it
 
 <!-- AUTO-REPOSITORIES:START -->
 <details>
-<summary><strong>01 · SwarmForge</strong> <code>UPDATED 2026-11-06</code></summary>
-
-Turn Claude, ChatGPT, and other AI assistants into a unified AI development swarm.
-
-**Repository:** [Open on GitHub](https://github.com/VireonNoctis/SwarmForge)
-**Source languages:** Python
-
-</details>
-
-<details>
-<summary><strong>02 · Driftglass</strong> <code>UPDATED 2026-11-05</code></summary>
+<summary><strong>01 · Driftglass</strong> <code>UPDATED 2026-11-07</code></summary>
 
 Every update leaves a trace. Find it.
 
 **Repository:** [Open on GitHub](https://github.com/VireonNoctis/Driftglass)
-**Source languages:** Python, C++, JavaScript, Rust, Svelte, CSS, Swift, TypeScript, CMake, HTML
+**Source languages:** C++, JavaScript, Rust, Svelte, CSS, Swift, CMake, TypeScript, Shell, HTML
 
 </details>
 
 <details>
-<summary><strong>03 · vvd-reimagined</strong> <code>UPDATED 2026-11-05</code></summary>
+<summary><strong>02 · PrivaCage</strong> <code>UPDATED 2026-11-07</code></summary>
 
-A ground-up reconstruction of vvd.world — a comprehensive worldbuilding, novel-writing, collaborative storytelling and publishing platform. Rebuilding its creative ecosystem,…
+Know what every app is doing to your device. Right now. In real time.
 
-**Repository:** [Open on GitHub](https://github.com/VireonNoctis/vvd-reimagined)
-**Source languages:** Python
+**Repository:** [Open on GitHub](https://github.com/VireonNoctis/PrivaCage)
+**Source languages:** Kotlin, Rust, Go, TypeScript, CSS, Svelte, HTML
 
 </details>
 
 <details>
-<summary><strong>04 · Moonbyte</strong> <code>UPDATED 2026-11-03</code></summary>
+<summary><strong>03 · Moonbyte</strong> <code>UPDATED 2026-11-07</code></summary>
 
 Moonbyte is a pixel-art gaming bot that transforms Discord into a multiplayer arcade, featuring classic mini-games, original adventures, RPG experiences, puzzles, and competitive…
 
@@ -191,12 +181,22 @@ Moonbyte is a pixel-art gaming bot that transforms Discord into a multiplayer ar
 </details>
 
 <details>
-<summary><strong>05 · PrivaCage</strong> <code>UPDATED 2026-11-02</code></summary>
+<summary><strong>04 · SwarmForge</strong> <code>UPDATED 2026-11-07</code></summary>
 
-Know what every app is doing to your device. Right now. In real time.
+Turn Claude, ChatGPT, and other AI assistants into a unified AI development swarm.
 
-**Repository:** [Open on GitHub](https://github.com/VireonNoctis/PrivaCage)
-**Source languages:** Kotlin, Rust, Go, TypeScript, Svelte, CSS, HTML
+**Repository:** [Open on GitHub](https://github.com/VireonNoctis/SwarmForge)
+**Source languages:** Python
+
+</details>
+
+<details>
+<summary><strong>05 · vvd-reimagined</strong> <code>UPDATED 2026-11-05</code></summary>
+
+A ground-up reconstruction of vvd.world — a comprehensive worldbuilding, novel-writing, collaborative storytelling and publishing platform. Rebuilding its creative ecosystem,…
+
+**Repository:** [Open on GitHub](https://github.com/VireonNoctis/vvd-reimagined)
+**Source languages:** Python
 
 </details>
 
@@ -256,11 +256,11 @@ A file-conversion forensics laboratory that tests what actually survives when fi
 Whole-repository totals cover tracked source, configuration, and documentation across owned and contributed public repositories. They describe project size, not personal line-by-line authorship.
 
 <!-- AUTO-CODE-STATS:START -->
-**Snapshot: 2026-11-07 UTC** · 19 public repositories (17 owned, 2 contributed).
+**Snapshot: 2026-11-08 UTC** · 19 public repositories (17 owned, 2 contributed).
 
 | Repositories | Tracked files | Lines | Characters | Words | Stars / forks |
 | ---: | ---: | ---: | ---: | ---: | ---: |
-| 19 | 2,599 | 624,305 | 27,987,067 | 3,040,841 | 3 / 2 |
+| 19 | 2,609 | 624,589 | 28,030,085 | 3,049,869 | 2 / 2 |
 
 <details>
 <summary><strong>Repository footprint</strong> · 19 expandable project records</summary>
@@ -295,7 +295,7 @@ Whole-repository totals cover tracked source, configuration, and documentation a
 
 </details>
 
-<details><summary><strong>loop-app</strong> · 287,310 lines · 1,523 files</summary>
+<details><summary><strong>loop-app</strong> · 287,368 lines · 1,523 files</summary>
 
 [Open repository](https://github.com/JammyVibez/loop-app) · Contributor project
 **Contribution:** Contributor
@@ -303,7 +303,7 @@ Whole-repository totals cover tracked source, configuration, and documentation a
 
 | Source language / format | Lines | Files |
 | --- | ---: | ---: |
-| TypeScript | 228,420 | 1,137 |
+| TypeScript | 228,478 | 1,137 |
 | SQL | 23,108 | 185 |
 | JavaScript | 10,876 | 71 |
 | Rust | 9,053 | 19 |
@@ -342,27 +342,27 @@ Whole-repository totals cover tracked source, configuration, and documentation a
 
 </details>
 
-<details><summary><strong>Driftglass</strong> · 22,037 lines · 116 files</summary>
+<details><summary><strong>Driftglass</strong> · 14,842 lines · 88 files</summary>
 
 [Open repository](https://github.com/VireonNoctis/Driftglass) · Owned project
 **Detected frameworks:** Svelte
 
 | Source language / format | Lines | Files |
 | --- | ---: | ---: |
-| Python | 7,777 | 31 |
-| C++ | 4,074 | 10 |
+| C++ | 4,674 | 12 |
 | JavaScript | 2,220 | 13 |
-| Markdown | 1,915 | 31 |
+| Markdown | 1,854 | 31 |
 | Rust | 1,623 | 2 |
 | JSON | 1,495 | 9 |
-| Plain text | 700 | 2 |
+| Plain text | 745 | 2 |
 | CSS | 691 | 1 |
 | Svelte | 595 | 1 |
 | Swift | 425 | 5 |
-| YAML | 296 | 3 |
+| YAML | 170 | 3 |
 | TypeScript | 165 | 4 |
-| TOML | 47 | 3 |
+| Shell | 157 | 2 |
 | HTML | 14 | 1 |
+| TOML | 14 | 2 |
 
 </details>
 
@@ -411,7 +411,7 @@ Whole-repository totals cover tracked source, configuration, and documentation a
 
 </details>
 
-<details><summary><strong>Moonbyte</strong> · 75,440 lines · 73 files</summary>
+<details><summary><strong>Moonbyte</strong> · 75,520 lines · 73 files</summary>
 
 [Open repository](https://github.com/VireonNoctis/Moonbyte) · Owned project
 **Detected frameworks:** Next.js · React
@@ -420,7 +420,7 @@ Whole-repository totals cover tracked source, configuration, and documentation a
 | --- | ---: | ---: |
 | Markdown | 50,588 | 36 |
 | JSON | 21,324 | 6 |
-| Rust | 2,246 | 9 |
+| Rust | 2,326 | 9 |
 | TypeScript | 322 | 5 |
 | Python | 278 | 2 |
 | YAML | 244 | 8 |
@@ -433,26 +433,26 @@ Whole-repository totals cover tracked source, configuration, and documentation a
 
 </details>
 
-<details><summary><strong>PrivaCage</strong> · 50,445 lines · 251 files</summary>
+<details><summary><strong>PrivaCage</strong> · 57,124 lines · 281 files</summary>
 
 [Open repository](https://github.com/VireonNoctis/PrivaCage) · Owned project
 **Detected frameworks:** Svelte
 
 | Source language / format | Lines | Files |
 | --- | ---: | ---: |
-| Kotlin | 20,400 | 94 |
-| Rust | 8,140 | 19 |
-| Markdown | 6,081 | 64 |
-| Go | 5,066 | 14 |
-| CSS | 3,218 | 1 |
-| TypeScript | 2,379 | 9 |
+| Kotlin | 25,431 | 110 |
+| Rust | 8,394 | 19 |
+| Markdown | 6,725 | 71 |
+| Go | 5,107 | 14 |
+| CSS | 3,572 | 1 |
+| TypeScript | 2,435 | 12 |
 | JSON | 1,945 | 11 |
-| Svelte | 1,116 | 3 |
-| YAML | 927 | 13 |
+| Svelte | 1,193 | 4 |
+| YAML | 973 | 13 |
 | Python | 721 | 2 |
-| Shell | 160 | 2 |
+| Shell | 315 | 4 |
 | TOML | 157 | 9 |
-| XML | 66 | 2 |
+| XML | 87 | 3 |
 | Plain text | 21 | 1 |
 | Git config | 19 | 2 |
 | HTML | 18 | 1 |
@@ -478,14 +478,14 @@ Whole-repository totals cover tracked source, configuration, and documentation a
 
 </details>
 
-<details><summary><strong>SwarmForge</strong> · 2,788 lines · 40 files</summary>
+<details><summary><strong>SwarmForge</strong> · 2,914 lines · 40 files</summary>
 
 [Open repository](https://github.com/VireonNoctis/SwarmForge) · Owned project
 
 | Source language / format | Lines | Files |
 | --- | ---: | ---: |
-| Markdown | 1,882 | 23 |
-| Python | 490 | 2 |
+| Markdown | 1,949 | 23 |
+| Python | 549 | 2 |
 | YAML | 188 | 8 |
 | Git config | 155 | 2 |
 | JSON | 49 | 3 |
@@ -519,35 +519,39 @@ Whole-repository totals cover tracked source, configuration, and documentation a
 
 </details>
 
-<details><summary><strong>VireonNoctis</strong> · 3,551 lines · 8 files</summary>
+<details><summary><strong>VireonNoctis</strong> · 3,642 lines · 8 files</summary>
 
 [Open repository](https://github.com/VireonNoctis/VireonNoctis) · Owned project
 
 | Source language / format | Lines | Files |
 | --- | ---: | ---: |
-| JSON | 1,962 | 2 |
+| JSON | 2,037 | 2 |
 | Python | 849 | 3 |
-| Markdown | 625 | 1 |
+| Markdown | 641 | 1 |
 | YAML | 115 | 2 |
 
 </details>
 
-<details><summary><strong>VireonNoctis.github.io</strong> · 4,850 lines · 95 files</summary>
+<details><summary><strong>VireonNoctis.github.io</strong> · 5,295 lines · 103 files</summary>
 
 [Open repository](https://github.com/VireonNoctis/VireonNoctis.github.io) · Owned project
-**Detected frameworks:** Next.js · React
+**Detected frameworks:** Vue
 
 | Source language / format | Lines | Files |
 | --- | ---: | ---: |
-| CSS | 2,593 | 7 |
-| TypeScript | 1,217 | 8 |
+| CSS | 2,870 | 8 |
+| Vue | 938 | 4 |
+| TypeScript | 400 | 6 |
 | Rust | 344 | 11 |
-| Markdown | 216 | 3 |
-| Plain text | 167 | 2 |
+| Markdown | 192 | 3 |
+| Plain text | 171 | 3 |
 | SVG | 129 | 58 |
-| YAML | 115 | 2 |
-| JSON | 54 | 3 |
+| YAML | 128 | 2 |
+| JSON | 52 | 3 |
+| HTML | 42 | 2 |
 | TOML | 15 | 1 |
+| XML | 9 | 1 |
+| Git config | 5 | 1 |
 
 </details>
 
