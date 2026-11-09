@@ -631,7 +631,9 @@ _Scan note: 1 repository scan(s) could not be completed in this snapshot._
     <img width="49%" src="https://streak-stats.demolab.com/?user=VireonNoctis&theme=dark&hide_border=true&background=050914&ring=7BCBFA&fire=7BCBFA&currStreakLabel=9AD9FF&sideLabels=BBDDF8&dates=71839A" alt="GitHub contribution streak"/>
   </a>
   <br/>
-  <img width="94%" src="https://raw.githubusercontent.com/VireonNoctis/README.md/output/github-contribution-grid-snake-dark.svg" alt="GitHub contribution activity"/>
+  <a href="https://github.com/yalongwastaken/git-koi">
+    <img width="256" src="koi/koi.gif" alt="Git Koi — a swimming koi drawn from VireonNoctis's GitHub activity"/>
+  </a>
 </div>
 
 <div align="center">
