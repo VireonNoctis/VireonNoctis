@@ -151,22 +151,22 @@ The ten most recently updated described public repositories. Open any row for it
 
 <!-- AUTO-REPOSITORIES:START -->
 <details>
-<summary><strong>01 · Driftglass</strong> <code>UPDATED 2026-11-08</code></summary>
-
-Every update leaves a trace. Find it.
-
-**Repository:** [Open on GitHub](https://github.com/VireonNoctis/Driftglass)
-**Source languages:** C++, JavaScript, Rust, Svelte, CSS, CMake, Swift, TypeScript, Shell, HTML
-
-</details>
-
-<details>
-<summary><strong>02 · SwarmForge</strong> <code>UPDATED 2026-11-08</code></summary>
+<summary><strong>01 · SwarmForge</strong> <code>UPDATED 2026-11-09</code></summary>
 
 Turn Claude, ChatGPT, and other AI assistants into a unified AI development swarm.
 
 **Repository:** [Open on GitHub](https://github.com/VireonNoctis/SwarmForge)
 **Source languages:** Python
+
+</details>
+
+<details>
+<summary><strong>02 · Driftglass</strong> <code>UPDATED 2026-11-08</code></summary>
+
+Every update leaves a trace. Find it.
+
+**Repository:** [Open on GitHub](https://github.com/VireonNoctis/Driftglass)
+**Source languages:** C++, JavaScript, Rust, Svelte, CSS, CMake, Swift, TypeScript, Shell, HTML
 
 </details>
 
@@ -256,16 +256,16 @@ A file-conversion forensics laboratory that tests what actually survives when fi
 Whole-repository totals cover tracked source, configuration, and documentation across owned and contributed public repositories. They describe project size, not personal line-by-line authorship.
 
 <!-- AUTO-CODE-STATS:START -->
-**Snapshot: 2026-11-09 UTC** · 19 public repositories (17 owned, 2 contributed).
+**Snapshot: 2026-11-10 UTC** · 19 public repositories (17 owned, 2 contributed).
 
 | Repositories | Tracked files | Lines | Characters | Words | Stars / forks |
 | ---: | ---: | ---: | ---: | ---: | ---: |
-| 19 | 2,662 | 636,840 | 28,356,220 | 3,089,429 | 2 / 2 |
+| 19 | 2,710 | 650,818 | 28,867,883 | 3,142,726 | 2 / 2 |
 
 <details>
 <summary><strong>Repository footprint</strong> · 19 expandable project records</summary>
 
-<details><summary><strong>Lemegeton</strong> · 89,923 lines · 214 files</summary>
+<details><summary><strong>Lemegeton</strong> · 89,922 lines · 214 files</summary>
 
 [Open repository](https://github.com/Kyerstorm/Lemegeton) · Contributor project
 **Contribution:** Major contributor · co-owner
@@ -273,7 +273,7 @@ Whole-repository totals cover tracked source, configuration, and documentation a
 | Source language / format | Lines | Files |
 | --- | ---: | ---: |
 | Python | 82,858 | 167 |
-| Markdown | 5,238 | 17 |
+| Markdown | 5,237 | 17 |
 | Batch | 716 | 2 |
 | YAML | 365 | 5 |
 | Environment config | 244 | 1 |
@@ -289,7 +289,7 @@ Whole-repository totals cover tracked source, configuration, and documentation a
 
 </details>
 
-<details><summary><strong>loop-app</strong> · 308,456 lines · 1,621 files</summary>
+<details><summary><strong>loop-app</strong> · 321,181 lines · 1,664 files</summary>
 
 [Open repository](https://github.com/JammyVibez/loop-app) · Contributor project
 **Contribution:** Contributor
@@ -297,23 +297,24 @@ Whole-repository totals cover tracked source, configuration, and documentation a
 
 | Source language / format | Lines | Files |
 | --- | ---: | ---: |
-| TypeScript | 241,163 | 1,192 |
-| SQL | 23,439 | 188 |
-| JavaScript | 13,154 | 90 |
-| Markdown | 9,245 | 38 |
+| TypeScript | 252,997 | 1,229 |
+| SQL | 23,738 | 190 |
+| JavaScript | 13,331 | 91 |
+| Markdown | 9,439 | 39 |
 | Rust | 9,053 | 19 |
-| CSS | 7,191 | 18 |
+| CSS | 7,223 | 18 |
 | HTML | 1,352 | 1 |
 | JSON | 754 | 9 |
 | SVG | 730 | 12 |
 | Plain text | 665 | 8 |
 | XML | 334 | 12 |
 | Terraform (HCL) | 332 | 4 |
-| YAML | 237 | 3 |
-| Shell | 220 | 4 |
+| Shell | 317 | 5 |
+| YAML | 241 | 3 |
 | Git config | 142 | 4 |
 | Gradle | 139 | 6 |
 | Batch | 94 | 1 |
+| Config | 88 | 1 |
 | Environment config | 78 | 2 |
 | Java | 49 | 3 |
 | TOML | 30 | 2 |
@@ -473,19 +474,20 @@ Whole-repository totals cover tracked source, configuration, and documentation a
 
 </details>
 
-<details><summary><strong>SwarmForge</strong> · 3,091 lines · 40 files</summary>
+<details><summary><strong>SwarmForge</strong> · 4,327 lines · 45 files</summary>
 
 [Open repository](https://github.com/VireonNoctis/SwarmForge) · Owned project
 
 | Source language / format | Lines | Files |
 | --- | ---: | ---: |
-| Markdown | 2,073 | 23 |
-| Python | 602 | 2 |
-| YAML | 188 | 8 |
+| Markdown | 2,086 | 23 |
+| JSON | 1,182 | 7 |
+| Python | 688 | 2 |
+| YAML | 191 | 8 |
 | Git config | 155 | 2 |
-| JSON | 49 | 3 |
 | EditorConfig | 21 | 1 |
 | Environment config | 3 | 1 |
+| Plain text | 1 | 1 |
 
 </details>
 
@@ -514,20 +516,20 @@ Whole-repository totals cover tracked source, configuration, and documentation a
 
 </details>
 
-<details><summary><strong>VireonNoctis</strong> · 3,685 lines · 8 files</summary>
+<details><summary><strong>VireonNoctis</strong> · 3,648 lines · 8 files</summary>
 
 [Open repository](https://github.com/VireonNoctis/VireonNoctis) · Owned project
 
 | Source language / format | Lines | Files |
 | --- | ---: | ---: |
-| JSON | 2,076 | 2 |
+| JSON | 2,042 | 2 |
 | Python | 849 | 3 |
-| Markdown | 645 | 1 |
+| Markdown | 642 | 1 |
 | YAML | 115 | 2 |
 
 </details>
 
-<details><summary><strong>VireonNoctis.github.io</strong> · 6,335 lines · 106 files</summary>
+<details><summary><strong>VireonNoctis.github.io</strong> · 6,390 lines · 106 files</summary>
 
 [Open repository](https://github.com/VireonNoctis/VireonNoctis.github.io) · Owned project
 **Detected frameworks:** Vue
@@ -535,7 +537,7 @@ Whole-repository totals cover tracked source, configuration, and documentation a
 | Source language / format | Lines | Files |
 | --- | ---: | ---: |
 | CSS | 3,643 | 9 |
-| Vue | 1,103 | 5 |
+| Vue | 1,158 | 5 |
 | TypeScript | 497 | 7 |
 | Rust | 344 | 11 |
 | Markdown | 195 | 3 |
