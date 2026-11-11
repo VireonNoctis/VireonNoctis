@@ -151,7 +151,7 @@ The ten most recently updated described public repositories. Open any row for it
 
 <!-- AUTO-REPOSITORIES:START -->
 <details>
-<summary><strong>01 · SwarmForge</strong> <code>UPDATED 2026-11-09</code></summary>
+<summary><strong>01 · SwarmForge</strong> <code>UPDATED 2026-11-10</code></summary>
 
 Turn Claude, ChatGPT, and other AI assistants into a unified AI development swarm.
 
@@ -256,11 +256,11 @@ A file-conversion forensics laboratory that tests what actually survives when fi
 Whole-repository totals cover tracked source, configuration, and documentation across owned and contributed public repositories. They describe project size, not personal line-by-line authorship.
 
 <!-- AUTO-CODE-STATS:START -->
-**Snapshot: 2026-11-10 UTC** · 19 public repositories (17 owned, 2 contributed).
+**Snapshot: 2026-11-11 UTC** · 19 public repositories (17 owned, 2 contributed).
 
 | Repositories | Tracked files | Lines | Characters | Words | Stars / forks |
 | ---: | ---: | ---: | ---: | ---: | ---: |
-| 19 | 2,710 | 650,818 | 28,867,883 | 3,142,726 | 2 / 2 |
+| 19 | 3,161 | 708,842 | 30,334,527 | 3,279,935 | 2 / 2 |
 
 <details>
 <summary><strong>Repository footprint</strong> · 19 expandable project records</summary>
@@ -289,7 +289,7 @@ Whole-repository totals cover tracked source, configuration, and documentation a
 
 </details>
 
-<details><summary><strong>loop-app</strong> · 321,181 lines · 1,664 files</summary>
+<details><summary><strong>loop-app</strong> · 376,153 lines · 2,111 files</summary>
 
 [Open repository](https://github.com/JammyVibez/loop-app) · Contributor project
 **Contribution:** Contributor
@@ -297,16 +297,16 @@ Whole-repository totals cover tracked source, configuration, and documentation a
 
 | Source language / format | Lines | Files |
 | --- | ---: | ---: |
-| TypeScript | 252,997 | 1,229 |
+| TypeScript | 307,942 | 1,675 |
 | SQL | 23,738 | 190 |
 | JavaScript | 13,331 | 91 |
 | Markdown | 9,439 | 39 |
 | Rust | 9,053 | 19 |
-| CSS | 7,223 | 18 |
+| CSS | 7,213 | 18 |
 | HTML | 1,352 | 1 |
-| JSON | 754 | 9 |
+| JSON | 770 | 9 |
 | SVG | 730 | 12 |
-| Plain text | 665 | 8 |
+| Plain text | 686 | 9 |
 | XML | 334 | 12 |
 | Terraform (HCL) | 332 | 4 |
 | Shell | 317 | 5 |
@@ -338,14 +338,14 @@ Whole-repository totals cover tracked source, configuration, and documentation a
 
 </details>
 
-<details><summary><strong>Driftglass</strong> · 15,248 lines · 88 files</summary>
+<details><summary><strong>Driftglass</strong> · 15,274 lines · 88 files</summary>
 
 [Open repository](https://github.com/VireonNoctis/Driftglass) · Owned project
 **Detected frameworks:** Svelte
 
 | Source language / format | Lines | Files |
 | --- | ---: | ---: |
-| C++ | 5,080 | 12 |
+| C++ | 5,106 | 12 |
 | JavaScript | 2,220 | 13 |
 | Markdown | 1,854 | 31 |
 | Rust | 1,623 | 2 |
@@ -474,15 +474,15 @@ Whole-repository totals cover tracked source, configuration, and documentation a
 
 </details>
 
-<details><summary><strong>SwarmForge</strong> · 4,327 lines · 45 files</summary>
+<details><summary><strong>SwarmForge</strong> · 7,259 lines · 48 files</summary>
 
 [Open repository](https://github.com/VireonNoctis/SwarmForge) · Owned project
 
 | Source language / format | Lines | Files |
 | --- | ---: | ---: |
+| JSON | 3,306 | 8 |
 | Markdown | 2,086 | 23 |
-| JSON | 1,182 | 7 |
-| Python | 688 | 2 |
+| Python | 1,496 | 4 |
 | YAML | 191 | 8 |
 | Git config | 155 | 2 |
 | EditorConfig | 21 | 1 |
@@ -516,32 +516,32 @@ Whole-repository totals cover tracked source, configuration, and documentation a
 
 </details>
 
-<details><summary><strong>VireonNoctis</strong> · 3,648 lines · 8 files</summary>
+<details><summary><strong>VireonNoctis</strong> · 3,666 lines · 8 files</summary>
 
 [Open repository](https://github.com/VireonNoctis/VireonNoctis) · Owned project
 
 | Source language / format | Lines | Files |
 | --- | ---: | ---: |
-| JSON | 2,042 | 2 |
+| JSON | 2,058 | 2 |
 | Python | 849 | 3 |
-| Markdown | 642 | 1 |
+| Markdown | 644 | 1 |
 | YAML | 115 | 2 |
 
 </details>
 
-<details><summary><strong>VireonNoctis.github.io</strong> · 6,390 lines · 106 files</summary>
+<details><summary><strong>VireonNoctis.github.io</strong> · 6,466 lines · 107 files</summary>
 
 [Open repository](https://github.com/VireonNoctis/VireonNoctis.github.io) · Owned project
 **Detected frameworks:** Vue
 
 | Source language / format | Lines | Files |
 | --- | ---: | ---: |
-| CSS | 3,643 | 9 |
-| Vue | 1,158 | 5 |
-| TypeScript | 497 | 7 |
+| CSS | 3,813 | 10 |
+| Vue | 1,152 | 5 |
+| TypeScript | 465 | 7 |
 | Rust | 344 | 11 |
-| Markdown | 195 | 3 |
 | Plain text | 171 | 3 |
+| Markdown | 139 | 3 |
 | SVG | 129 | 58 |
 | YAML | 128 | 2 |
 | JSON | 54 | 3 |
