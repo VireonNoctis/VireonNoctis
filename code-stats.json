@@ -1,38 +1,38 @@
 {
   "schemaVersion": 4,
   "owner": "VireonNoctis",
-  "generatedAt": "2026-11-11T09:36:23Z",
+  "generatedAt": "2026-11-12T09:57:29Z",
   "scope": "Current default-branch snapshots of eligible public repositories owned by VireonNoctis plus public external repositories explicitly listed as contributor projects or discovered through commits attributed to the GitHub login. Counts cover tracked text-based source, configuration, and documentation; dependency/build/generated directories, lockfiles, binary files, and files over 1 MB are excluded. These repository-wide footprint totals are not line-by-line authorship attribution. Language counts follow tracked file extensions; detected frameworks are stored separately; manually supplied project estimates are kept separate from repository scans.",
   "discoveryWarning": null,
   "totals": {
-    "files": 3161,
-    "lines": 708842,
-    "nonblankLines": 640366,
-    "characters": 30334527,
-    "words": 3279935,
+    "files": 3282,
+    "lines": 718139,
+    "nonblankLines": 649224,
+    "characters": 32221862,
+    "words": 3316277,
     "stars": 2,
-    "forks": 2,
+    "forks": 3,
     "repositories": 19,
     "ownedRepositories": 17,
     "contributorRepositories": 2,
     "failedRepositories": 1
   },
   "ownedTotals": {
-    "files": 836,
-    "lines": 242767,
-    "nonblankLines": 221294,
-    "characters": 13082744,
-    "words": 1561849,
+    "files": 925,
+    "lines": 243853,
+    "nonblankLines": 222356,
+    "characters": 13690441,
+    "words": 1569114,
     "stars": 1,
-    "forks": 0,
+    "forks": 1,
     "repositories": 17
   },
   "contributedTotals": {
-    "files": 2325,
-    "lines": 466075,
-    "nonblankLines": 419072,
-    "characters": 17251783,
-    "words": 1718086,
+    "files": 2357,
+    "lines": 474286,
+    "nonblankLines": 426868,
+    "characters": 18531421,
+    "words": 1747163,
     "stars": 1,
     "forks": 2,
     "repositories": 2
@@ -40,35 +40,35 @@
   "languages": [
     {
       "language": "TypeScript",
-      "files": 1747,
-      "lines": 328058,
-      "nonblankLines": 299469,
-      "characters": 11563809,
-      "words": 1179278
+      "files": 1771,
+      "lines": 333518,
+      "nonblankLines": 304522,
+      "characters": 11786190,
+      "words": 1201930
     },
     {
       "language": "Python",
       "files": 217,
-      "lines": 96164,
-      "nonblankLines": 83256,
-      "characters": 4132448,
-      "words": 356001
+      "lines": 96339,
+      "nonblankLines": 83420,
+      "characters": 4142363,
+      "words": 356724
     },
     {
       "language": "Markdown",
       "files": 296,
-      "lines": 83532,
-      "nonblankLines": 73872,
-      "characters": 6784571,
-      "words": 991256
+      "lines": 83574,
+      "nonblankLines": 73909,
+      "characters": 6788866,
+      "words": 991664
     },
     {
       "language": "JSON",
-      "files": 62,
-      "lines": 31514,
-      "nonblankLines": 31514,
-      "characters": 1048638,
-      "words": 97786
+      "files": 69,
+      "lines": 36010,
+      "nonblankLines": 36010,
+      "characters": 2178811,
+      "words": 110009
     },
     {
       "language": "Kotlin",
@@ -80,27 +80,27 @@
     },
     {
       "language": "CSS",
-      "files": 57,
-      "lines": 25350,
-      "nonblankLines": 22461,
-      "characters": 913305,
-      "words": 89040
+      "files": 53,
+      "lines": 24261,
+      "nonblankLines": 21381,
+      "characters": 826805,
+      "words": 84116
     },
     {
       "language": "SQL",
-      "files": 191,
-      "lines": 23758,
-      "nonblankLines": 21161,
-      "characters": 974718,
-      "words": 113759
+      "files": 192,
+      "lines": 23782,
+      "nonblankLines": 21181,
+      "characters": 975579,
+      "words": 113879
     },
     {
       "language": "Rust",
-      "files": 62,
-      "lines": 23161,
-      "nonblankLines": 21509,
-      "characters": 886774,
-      "words": 67829
+      "files": 53,
+      "lines": 23113,
+      "nonblankLines": 21462,
+      "characters": 883853,
+      "words": 67582
     },
     {
       "language": "Batch",
@@ -112,11 +112,11 @@
     },
     {
       "language": "JavaScript",
-      "files": 105,
-      "lines": 16772,
-      "nonblankLines": 15240,
-      "characters": 741187,
-      "words": 89269
+      "files": 109,
+      "lines": 17164,
+      "nonblankLines": 15587,
+      "characters": 753921,
+      "words": 90754
     },
     {
       "language": "R",
@@ -144,27 +144,27 @@
     },
     {
       "language": "Plain text",
-      "files": 27,
-      "lines": 3387,
-      "nonblankLines": 2886,
-      "characters": 183352,
-      "words": 25079
+      "files": 28,
+      "lines": 3391,
+      "nonblankLines": 2889,
+      "characters": 183424,
+      "words": 25085
     },
     {
       "language": "YAML",
       "files": 55,
-      "lines": 2858,
-      "nonblankLines": 2657,
-      "characters": 91633,
-      "words": 8448
+      "lines": 2860,
+      "nonblankLines": 2659,
+      "characters": 92077,
+      "words": 8506
     },
     {
       "language": "HTML",
-      "files": 7,
-      "lines": 1982,
-      "nonblankLines": 1906,
-      "characters": 100902,
-      "words": 6616
+      "files": 9,
+      "lines": 2038,
+      "nonblankLines": 1961,
+      "characters": 635671,
+      "words": 6853
     },
     {
       "language": "Svelte",
@@ -183,20 +183,12 @@
       "words": 11742
     },
     {
-      "language": "Vue",
-      "files": 5,
-      "lines": 1152,
-      "nonblankLines": 1090,
-      "characters": 58159,
-      "words": 5547
-    },
-    {
       "language": "SVG",
-      "files": 71,
-      "lines": 863,
-      "nonblankLines": 828,
-      "characters": 103832,
-      "words": 8249
+      "files": 158,
+      "lines": 1021,
+      "nonblankLines": 986,
+      "characters": 181717,
+      "words": 14243
     },
     {
       "language": "Shell",
@@ -207,20 +199,28 @@
       "words": 3095
     },
     {
+      "language": "Vue",
+      "files": 11,
+      "lines": 758,
+      "nonblankLines": 723,
+      "characters": 40780,
+      "words": 3117
+    },
+    {
       "language": "Git config",
-      "files": 16,
-      "lines": 729,
-      "nonblankLines": 631,
-      "characters": 8500,
-      "words": 1109
+      "files": 17,
+      "lines": 740,
+      "nonblankLines": 640,
+      "characters": 8871,
+      "words": 1143
     },
     {
       "language": "XML",
-      "files": 16,
-      "lines": 431,
-      "nonblankLines": 420,
-      "characters": 17617,
-      "words": 725
+      "files": 17,
+      "lines": 440,
+      "nonblankLines": 429,
+      "characters": 17882,
+      "words": 737
     },
     {
       "language": "Swift",
@@ -249,10 +249,10 @@
     {
       "language": "TOML",
       "files": 20,
-      "lines": 322,
-      "nonblankLines": 287,
-      "characters": 8486,
-      "words": 1255
+      "lines": 321,
+      "nonblankLines": 286,
+      "characters": 8456,
+      "words": 1246
     },
     {
       "language": "Config",
@@ -388,35 +388,35 @@
         "Next.js",
         "React"
       ],
-      "files": 2111,
-      "lines": 376153,
-      "nonblankLines": 341640,
-      "characters": 13277666,
-      "words": 1356797,
+      "files": 2143,
+      "lines": 384364,
+      "nonblankLines": 349436,
+      "characters": 14557304,
+      "words": 1385874,
       "languages": [
         {
           "language": "TypeScript",
-          "files": 1675,
-          "lines": 307942,
-          "nonblankLines": 281092,
-          "characters": 10681303,
-          "words": 1064572
+          "files": 1697,
+          "lines": 312453,
+          "nonblankLines": 285230,
+          "characters": 10853923,
+          "words": 1081921
         },
         {
           "language": "SQL",
-          "files": 190,
-          "lines": 23738,
-          "nonblankLines": 21144,
-          "characters": 973881,
-          "words": 113654
+          "files": 191,
+          "lines": 23762,
+          "nonblankLines": 21164,
+          "characters": 974742,
+          "words": 113774
         },
         {
           "language": "JavaScript",
-          "files": 91,
-          "lines": 13331,
-          "nonblankLines": 12012,
-          "characters": 573251,
-          "words": 72601
+          "files": 94,
+          "lines": 13666,
+          "nonblankLines": 12309,
+          "characters": 583873,
+          "words": 73873
         },
         {
           "language": "Markdown",
@@ -443,20 +443,20 @@
           "words": 21644
         },
         {
+          "language": "JSON",
+          "files": 15,
+          "lines": 4111,
+          "nonblankLines": 4111,
+          "characters": 1113344,
+          "words": 11784
+        },
+        {
           "language": "HTML",
           "files": 1,
           "lines": 1352,
           "nonblankLines": 1297,
           "characters": 70605,
           "words": 3870
-        },
-        {
-          "language": "JSON",
-          "files": 9,
-          "lines": 770,
-          "nonblankLines": 770,
-          "characters": 17809,
-          "words": 1448
         },
         {
           "language": "SVG",
@@ -1088,6 +1088,139 @@
       "forks": 0
     },
     {
+      "name": "VireonNoctis.github.io",
+      "fullName": "VireonNoctis/VireonNoctis.github.io",
+      "url": "https://github.com/VireonNoctis/VireonNoctis.github.io",
+      "branch": "main",
+      "relationship": "owned",
+      "role": "Repository owner",
+      "contributionNote": "Repository owned by the account.",
+      "frameworks": [
+        "Vue"
+      ],
+      "files": 196,
+      "lines": 6177,
+      "nonblankLines": 5899,
+      "characters": 960877,
+      "words": 34487,
+      "languages": [
+        {
+          "language": "CSS",
+          "files": 6,
+          "lines": 2724,
+          "nonblankLines": 2664,
+          "characters": 138776,
+          "words": 9612
+        },
+        {
+          "language": "TypeScript",
+          "files": 9,
+          "lines": 1414,
+          "nonblankLines": 1354,
+          "characters": 67842,
+          "words": 6855
+        },
+        {
+          "language": "Vue",
+          "files": 11,
+          "lines": 758,
+          "nonblankLines": 723,
+          "characters": 40780,
+          "words": 3117
+        },
+        {
+          "language": "Rust",
+          "files": 2,
+          "lines": 296,
+          "nonblankLines": 278,
+          "characters": 11724,
+          "words": 903
+        },
+        {
+          "language": "SVG",
+          "files": 145,
+          "lines": 287,
+          "nonblankLines": 283,
+          "characters": 138609,
+          "words": 10325
+        },
+        {
+          "language": "Plain text",
+          "files": 4,
+          "lines": 175,
+          "nonblankLines": 149,
+          "characters": 9054,
+          "words": 1369
+        },
+        {
+          "language": "YAML",
+          "files": 2,
+          "lines": 130,
+          "nonblankLines": 108,
+          "characters": 3793,
+          "words": 382
+        },
+        {
+          "language": "Markdown",
+          "files": 3,
+          "lines": 127,
+          "nonblankLines": 85,
+          "characters": 7976,
+          "words": 1020
+        },
+        {
+          "language": "HTML",
+          "files": 4,
+          "lines": 98,
+          "nonblankLines": 97,
+          "characters": 537581,
+          "words": 434
+        },
+        {
+          "language": "JSON",
+          "files": 4,
+          "lines": 63,
+          "nonblankLines": 63,
+          "characters": 1258,
+          "words": 126
+        },
+        {
+          "language": "JavaScript",
+          "files": 1,
+          "lines": 57,
+          "nonblankLines": 50,
+          "characters": 2112,
+          "words": 213
+        },
+        {
+          "language": "XML",
+          "files": 2,
+          "lines": 18,
+          "nonblankLines": 18,
+          "characters": 530,
+          "words": 24
+        },
+        {
+          "language": "Git config",
+          "files": 2,
+          "lines": 16,
+          "nonblankLines": 14,
+          "characters": 418,
+          "words": 39
+        },
+        {
+          "language": "TOML",
+          "files": 1,
+          "lines": 14,
+          "nonblankLines": 13,
+          "characters": 424,
+          "words": 68
+        }
+      ],
+      "stars": 0,
+      "forks": 0
+    },
+    {
       "name": "waste-hub",
       "fullName": "VireonNoctis/waste-hub",
       "url": "https://github.com/VireonNoctis/waste-hub",
@@ -1371,131 +1504,6 @@
       "forks": 0
     },
     {
-      "name": "VireonNoctis.github.io",
-      "fullName": "VireonNoctis/VireonNoctis.github.io",
-      "url": "https://github.com/VireonNoctis/VireonNoctis.github.io",
-      "branch": "main",
-      "relationship": "owned",
-      "role": "Repository owner",
-      "contributionNote": "Repository owned by the account.",
-      "frameworks": [
-        "Vue"
-      ],
-      "files": 107,
-      "lines": 6466,
-      "nonblankLines": 6196,
-      "characters": 403051,
-      "words": 30415,
-      "languages": [
-        {
-          "language": "CSS",
-          "files": 10,
-          "lines": 3813,
-          "nonblankLines": 3744,
-          "characters": 225276,
-          "words": 14536
-        },
-        {
-          "language": "Vue",
-          "files": 5,
-          "lines": 1152,
-          "nonblankLines": 1090,
-          "characters": 58159,
-          "words": 5547
-        },
-        {
-          "language": "TypeScript",
-          "files": 7,
-          "lines": 465,
-          "nonblankLines": 439,
-          "characters": 18081,
-          "words": 1552
-        },
-        {
-          "language": "Rust",
-          "files": 11,
-          "lines": 344,
-          "nonblankLines": 325,
-          "characters": 14645,
-          "words": 1150
-        },
-        {
-          "language": "Plain text",
-          "files": 3,
-          "lines": 171,
-          "nonblankLines": 146,
-          "characters": 8982,
-          "words": 1363
-        },
-        {
-          "language": "Markdown",
-          "files": 3,
-          "lines": 139,
-          "nonblankLines": 97,
-          "characters": 9127,
-          "words": 1211
-        },
-        {
-          "language": "SVG",
-          "files": 58,
-          "lines": 129,
-          "nonblankLines": 125,
-          "characters": 60724,
-          "words": 4331
-        },
-        {
-          "language": "YAML",
-          "files": 2,
-          "lines": 128,
-          "nonblankLines": 106,
-          "characters": 3349,
-          "words": 324
-        },
-        {
-          "language": "JSON",
-          "files": 3,
-          "lines": 54,
-          "nonblankLines": 54,
-          "characters": 1130,
-          "words": 110
-        },
-        {
-          "language": "HTML",
-          "files": 2,
-          "lines": 42,
-          "nonblankLines": 42,
-          "characters": 2812,
-          "words": 197
-        },
-        {
-          "language": "TOML",
-          "files": 1,
-          "lines": 15,
-          "nonblankLines": 14,
-          "characters": 454,
-          "words": 77
-        },
-        {
-          "language": "XML",
-          "files": 1,
-          "lines": 9,
-          "nonblankLines": 9,
-          "characters": 265,
-          "words": 12
-        },
-        {
-          "language": "Git config",
-          "files": 1,
-          "lines": 5,
-          "nonblankLines": 5,
-          "characters": 47,
-          "words": 5
-        }
-      ],
-      "stars": 0,
-      "forks": 0
-    },
-    {
       "name": "SwarmForge",
       "fullName": "VireonNoctis/SwarmForge",
       "url": "https://github.com/VireonNoctis/SwarmForge",
@@ -1505,34 +1513,34 @@
       "contributionNote": "Repository owned by the account.",
       "frameworks": [],
       "files": 48,
-      "lines": 7259,
-      "nonblankLines": 6494,
-      "characters": 304919,
-      "words": 30974,
+      "lines": 8634,
+      "nonblankLines": 7853,
+      "characters": 354783,
+      "words": 34167,
       "languages": [
         {
           "language": "JSON",
           "files": 8,
-          "lines": 3306,
-          "nonblankLines": 3306,
-          "characters": 92549,
-          "words": 5877
+          "lines": 4452,
+          "nonblankLines": 4452,
+          "characters": 127055,
+          "words": 7748
         },
         {
           "language": "Markdown",
           "files": 23,
-          "lines": 2086,
-          "nonblankLines": 1495,
-          "characters": 141724,
-          "words": 19485
+          "lines": 2140,
+          "nonblankLines": 1544,
+          "characters": 147167,
+          "words": 20084
         },
         {
           "language": "Python",
           "files": 4,
-          "lines": 1496,
-          "nonblankLines": 1354,
-          "characters": 63638,
-          "words": 4813
+          "lines": 1671,
+          "nonblankLines": 1518,
+          "characters": 73553,
+          "words": 5536
         },
         {
           "language": "YAML",
@@ -1576,7 +1584,7 @@
         }
       ],
       "stars": 0,
-      "forks": 0
+      "forks": 1
     },
     {
       "name": "Universe-Explorer",
@@ -1767,7 +1775,7 @@
       "files": 8,
       "lines": 3666,
       "nonblankLines": 3400,
-      "characters": 109509,
+      "characters": 109516,
       "words": 10623,
       "languages": [
         {
@@ -1775,7 +1783,7 @@
           "files": 2,
           "lines": 2058,
           "nonblankLines": 2058,
-          "characters": 46921,
+          "characters": 46925,
           "words": 3919
         },
         {
@@ -1791,7 +1799,7 @@
           "files": 1,
           "lines": 644,
           "nonblankLines": 460,
-          "characters": 21220,
+          "characters": 21223,
           "words": 3027
         },
         {

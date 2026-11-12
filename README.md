@@ -151,7 +151,7 @@ The ten most recently updated described public repositories. Open any row for it
 
 <!-- AUTO-REPOSITORIES:START -->
 <details>
-<summary><strong>01 · SwarmForge</strong> <code>UPDATED 2026-11-10</code></summary>
+<summary><strong>01 · SwarmForge</strong> <code>UPDATED 2026-11-11</code></summary>
 
 Turn Claude, ChatGPT, and other AI assistants into a unified AI development swarm.
 
@@ -161,7 +161,7 @@ Turn Claude, ChatGPT, and other AI assistants into a unified AI development swar
 </details>
 
 <details>
-<summary><strong>02 · Driftglass</strong> <code>UPDATED 2026-11-08</code></summary>
+<summary><strong>02 · Driftglass</strong> <code>UPDATED 2026-11-11</code></summary>
 
 Every update leaves a trace. Find it.
 
@@ -256,11 +256,11 @@ A file-conversion forensics laboratory that tests what actually survives when fi
 Whole-repository totals cover tracked source, configuration, and documentation across owned and contributed public repositories. They describe project size, not personal line-by-line authorship.
 
 <!-- AUTO-CODE-STATS:START -->
-**Snapshot: 2026-11-11 UTC** · 19 public repositories (17 owned, 2 contributed).
+**Snapshot: 2026-11-12 UTC** · 19 public repositories (17 owned, 2 contributed).
 
 | Repositories | Tracked files | Lines | Characters | Words | Stars / forks |
 | ---: | ---: | ---: | ---: | ---: | ---: |
-| 19 | 3,161 | 708,842 | 30,334,527 | 3,279,935 | 2 / 2 |
+| 19 | 3,282 | 718,139 | 32,221,862 | 3,316,277 | 2 / 3 |
 
 <details>
 <summary><strong>Repository footprint</strong> · 19 expandable project records</summary>
@@ -289,7 +289,7 @@ Whole-repository totals cover tracked source, configuration, and documentation a
 
 </details>
 
-<details><summary><strong>loop-app</strong> · 376,153 lines · 2,111 files</summary>
+<details><summary><strong>loop-app</strong> · 384,364 lines · 2,143 files</summary>
 
 [Open repository](https://github.com/JammyVibez/loop-app) · Contributor project
 **Contribution:** Contributor
@@ -297,14 +297,14 @@ Whole-repository totals cover tracked source, configuration, and documentation a
 
 | Source language / format | Lines | Files |
 | --- | ---: | ---: |
-| TypeScript | 307,942 | 1,675 |
-| SQL | 23,738 | 190 |
-| JavaScript | 13,331 | 91 |
+| TypeScript | 312,453 | 1,697 |
+| SQL | 23,762 | 191 |
+| JavaScript | 13,666 | 94 |
 | Markdown | 9,439 | 39 |
 | Rust | 9,053 | 19 |
 | CSS | 7,213 | 18 |
+| JSON | 4,111 | 15 |
 | HTML | 1,352 | 1 |
-| JSON | 770 | 9 |
 | SVG | 730 | 12 |
 | Plain text | 686 | 9 |
 | XML | 334 | 12 |
@@ -474,15 +474,15 @@ Whole-repository totals cover tracked source, configuration, and documentation a
 
 </details>
 
-<details><summary><strong>SwarmForge</strong> · 7,259 lines · 48 files</summary>
+<details><summary><strong>SwarmForge</strong> · 8,634 lines · 48 files</summary>
 
 [Open repository](https://github.com/VireonNoctis/SwarmForge) · Owned project
 
 | Source language / format | Lines | Files |
 | --- | ---: | ---: |
-| JSON | 3,306 | 8 |
-| Markdown | 2,086 | 23 |
-| Python | 1,496 | 4 |
+| JSON | 4,452 | 8 |
+| Markdown | 2,140 | 23 |
+| Python | 1,671 | 4 |
 | YAML | 191 | 8 |
 | Git config | 155 | 2 |
 | EditorConfig | 21 | 1 |
@@ -529,26 +529,27 @@ Whole-repository totals cover tracked source, configuration, and documentation a
 
 </details>
 
-<details><summary><strong>VireonNoctis.github.io</strong> · 6,466 lines · 107 files</summary>
+<details><summary><strong>VireonNoctis.github.io</strong> · 6,177 lines · 196 files</summary>
 
 [Open repository](https://github.com/VireonNoctis/VireonNoctis.github.io) · Owned project
 **Detected frameworks:** Vue
 
 | Source language / format | Lines | Files |
 | --- | ---: | ---: |
-| CSS | 3,813 | 10 |
-| Vue | 1,152 | 5 |
-| TypeScript | 465 | 7 |
-| Rust | 344 | 11 |
-| Plain text | 171 | 3 |
-| Markdown | 139 | 3 |
-| SVG | 129 | 58 |
-| YAML | 128 | 2 |
-| JSON | 54 | 3 |
-| HTML | 42 | 2 |
-| TOML | 15 | 1 |
-| XML | 9 | 1 |
-| Git config | 5 | 1 |
+| CSS | 2,724 | 6 |
+| TypeScript | 1,414 | 9 |
+| Vue | 758 | 11 |
+| Rust | 296 | 2 |
+| SVG | 287 | 145 |
+| Plain text | 175 | 4 |
+| YAML | 130 | 2 |
+| Markdown | 127 | 3 |
+| HTML | 98 | 4 |
+| JSON | 63 | 4 |
+| JavaScript | 57 | 1 |
+| XML | 18 | 2 |
+| Git config | 16 | 2 |
+| TOML | 14 | 1 |
 
 </details>
 
