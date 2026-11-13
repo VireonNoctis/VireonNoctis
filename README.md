@@ -151,7 +151,17 @@ The ten most recently updated described public repositories. Open any row for it
 
 <!-- AUTO-REPOSITORIES:START -->
 <details>
-<summary><strong>01 · SwarmForge</strong> <code>UPDATED 2026-11-11</code></summary>
+<summary><strong>01 · Moonbyte</strong> <code>UPDATED 2026-11-12</code></summary>
+
+Moonbyte is a pixel-art gaming bot that transforms Discord into a multiplayer arcade, featuring classic mini-games, original adventures, RPG experiences, puzzles, and competitive…
+
+**Repository:** [Open on GitHub](https://github.com/VireonNoctis/Moonbyte)
+**Source languages:** Rust, CSS, TypeScript, Python
+
+</details>
+
+<details>
+<summary><strong>02 · SwarmForge</strong> <code>UPDATED 2026-11-12</code></summary>
 
 Turn Claude, ChatGPT, and other AI assistants into a unified AI development swarm.
 
@@ -161,7 +171,7 @@ Turn Claude, ChatGPT, and other AI assistants into a unified AI development swar
 </details>
 
 <details>
-<summary><strong>02 · Driftglass</strong> <code>UPDATED 2026-11-11</code></summary>
+<summary><strong>03 · Driftglass</strong> <code>UPDATED 2026-11-11</code></summary>
 
 Every update leaves a trace. Find it.
 
@@ -171,22 +181,12 @@ Every update leaves a trace. Find it.
 </details>
 
 <details>
-<summary><strong>03 · PrivaCage</strong> <code>UPDATED 2026-11-08</code></summary>
+<summary><strong>04 · PrivaCage</strong> <code>UPDATED 2026-11-08</code></summary>
 
 Know what every app is doing to your device. Right now. In real time.
 
 **Repository:** [Open on GitHub](https://github.com/VireonNoctis/PrivaCage)
 **Source languages:** Kotlin, Rust, Go, TypeScript, CSS, Svelte, HTML
-
-</details>
-
-<details>
-<summary><strong>04 · Moonbyte</strong> <code>UPDATED 2026-11-07</code></summary>
-
-Moonbyte is a pixel-art gaming bot that transforms Discord into a multiplayer arcade, featuring classic mini-games, original adventures, RPG experiences, puzzles, and competitive…
-
-**Repository:** [Open on GitHub](https://github.com/VireonNoctis/Moonbyte)
-**Source languages:** Rust, CSS, TypeScript, Python
 
 </details>
 
@@ -256,11 +256,11 @@ A file-conversion forensics laboratory that tests what actually survives when fi
 Whole-repository totals cover tracked source, configuration, and documentation across owned and contributed public repositories. They describe project size, not personal line-by-line authorship.
 
 <!-- AUTO-CODE-STATS:START -->
-**Snapshot: 2026-11-12 UTC** · 19 public repositories (17 owned, 2 contributed).
+**Snapshot: 2026-11-13 UTC** · 19 public repositories (17 owned, 2 contributed).
 
 | Repositories | Tracked files | Lines | Characters | Words | Stars / forks |
 | ---: | ---: | ---: | ---: | ---: | ---: |
-| 19 | 3,282 | 718,139 | 32,221,862 | 3,316,277 | 2 / 3 |
+| 19 | 3,289 | 720,054 | 32,303,148 | 3,323,321 | 2 / 3 |
 
 <details>
 <summary><strong>Repository footprint</strong> · 19 expandable project records</summary>
@@ -407,16 +407,16 @@ Whole-repository totals cover tracked source, configuration, and documentation a
 
 </details>
 
-<details><summary><strong>Moonbyte</strong> · 75,520 lines · 73 files</summary>
+<details><summary><strong>Moonbyte</strong> · 75,680 lines · 73 files</summary>
 
 [Open repository](https://github.com/VireonNoctis/Moonbyte) · Owned project
 **Detected frameworks:** Next.js · React
 
 | Source language / format | Lines | Files |
 | --- | ---: | ---: |
-| Markdown | 50,588 | 36 |
+| Markdown | 50,589 | 36 |
 | JSON | 21,324 | 6 |
-| Rust | 2,326 | 9 |
+| Rust | 2,485 | 9 |
 | TypeScript | 322 | 5 |
 | Python | 278 | 2 |
 | YAML | 244 | 8 |
@@ -474,15 +474,15 @@ Whole-repository totals cover tracked source, configuration, and documentation a
 
 </details>
 
-<details><summary><strong>SwarmForge</strong> · 8,634 lines · 48 files</summary>
+<details><summary><strong>SwarmForge</strong> · 9,153 lines · 48 files</summary>
 
 [Open repository](https://github.com/VireonNoctis/SwarmForge) · Owned project
 
 | Source language / format | Lines | Files |
 | --- | ---: | ---: |
-| JSON | 4,452 | 8 |
-| Markdown | 2,140 | 23 |
-| Python | 1,671 | 4 |
+| JSON | 4,915 | 8 |
+| Markdown | 2,154 | 23 |
+| Python | 1,713 | 4 |
 | YAML | 191 | 8 |
 | Git config | 155 | 2 |
 | EditorConfig | 21 | 1 |
@@ -516,15 +516,15 @@ Whole-repository totals cover tracked source, configuration, and documentation a
 
 </details>
 
-<details><summary><strong>VireonNoctis</strong> · 3,666 lines · 8 files</summary>
+<details><summary><strong>VireonNoctis</strong> · 3,675 lines · 8 files</summary>
 
 [Open repository](https://github.com/VireonNoctis/VireonNoctis) · Owned project
 
 | Source language / format | Lines | Files |
 | --- | ---: | ---: |
-| JSON | 2,058 | 2 |
+| JSON | 2,066 | 2 |
 | Python | 849 | 3 |
-| Markdown | 644 | 1 |
+| Markdown | 645 | 1 |
 | YAML | 115 | 2 |
 
 </details>
@@ -569,17 +569,17 @@ Whole-repository totals cover tracked source, configuration, and documentation a
 
 </details>
 
-<details><summary><strong>waste-hub</strong> · 12,759 lines · 33 files</summary>
+<details><summary><strong>waste-hub</strong> · 13,986 lines · 40 files</summary>
 
 [Open repository](https://github.com/VireonNoctis/waste-hub) · Owned project
 
 | Source language / format | Lines | Files |
 | --- | ---: | ---: |
 | TypeScript | 9,848 | 21 |
-| Rust | 1,421 | 2 |
+| Rust | 2,476 | 6 |
 | CSS | 1,225 | 3 |
-| Markdown | 230 | 2 |
-| TOML | 21 | 2 |
+| Markdown | 388 | 3 |
+| TOML | 35 | 4 |
 | Environment config | 13 | 2 |
 | Git config | 1 | 1 |
 
