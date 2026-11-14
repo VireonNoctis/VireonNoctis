@@ -1,15 +1,15 @@
 {
   "schemaVersion": 4,
   "owner": "VireonNoctis",
-  "generatedAt": "2026-11-13T09:44:11Z",
+  "generatedAt": "2026-11-14T09:06:34Z",
   "scope": "Current default-branch snapshots of eligible public repositories owned by VireonNoctis plus public external repositories explicitly listed as contributor projects or discovered through commits attributed to the GitHub login. Counts cover tracked text-based source, configuration, and documentation; dependency/build/generated directories, lockfiles, binary files, and files over 1 MB are excluded. These repository-wide footprint totals are not line-by-line authorship attribution. Language counts follow tracked file extensions; detected frameworks are stored separately; manually supplied project estimates are kept separate from repository scans.",
   "discoveryWarning": null,
   "totals": {
     "files": 3289,
-    "lines": 720054,
-    "nonblankLines": 651011,
-    "characters": 32303148,
-    "words": 3323321,
+    "lines": 720251,
+    "nonblankLines": 651189,
+    "characters": 32311098,
+    "words": 3324098,
     "stars": 2,
     "forks": 3,
     "repositories": 19,
@@ -19,10 +19,10 @@
   },
   "ownedTotals": {
     "files": 932,
-    "lines": 245768,
-    "nonblankLines": 224143,
-    "characters": 13771727,
-    "words": 1576158,
+    "lines": 245965,
+    "nonblankLines": 224321,
+    "characters": 13779677,
+    "words": 1576935,
     "stars": 1,
     "forks": 1,
     "repositories": 17
@@ -49,18 +49,18 @@
     {
       "language": "Python",
       "files": 217,
-      "lines": 96381,
-      "nonblankLines": 83458,
-      "characters": 4144670,
-      "words": 356893
+      "lines": 96396,
+      "nonblankLines": 83471,
+      "characters": 4145294,
+      "words": 356936
     },
     {
       "language": "Markdown",
       "files": 297,
-      "lines": 83748,
-      "nonblankLines": 74041,
-      "characters": 6802191,
-      "words": 993497
+      "lines": 83753,
+      "nonblankLines": 74045,
+      "characters": 6803718,
+      "words": 993726
     },
     {
       "language": "JSON",
@@ -81,10 +81,10 @@
     {
       "language": "Rust",
       "files": 57,
-      "lines": 24327,
-      "nonblankLines": 22595,
-      "characters": 935069,
-      "words": 71792
+      "lines": 24510,
+      "nonblankLines": 22761,
+      "characters": 941096,
+      "words": 72313
     },
     {
       "language": "CSS",
@@ -153,10 +153,10 @@
     {
       "language": "YAML",
       "files": 55,
-      "lines": 2860,
-      "nonblankLines": 2659,
-      "characters": 92077,
-      "words": 8506
+      "lines": 2854,
+      "nonblankLines": 2654,
+      "characters": 91849,
+      "words": 8490
     },
     {
       "language": "HTML",
@@ -611,18 +611,18 @@
         "React"
       ],
       "files": 73,
-      "lines": 75680,
-      "nonblankLines": 73782,
-      "characters": 5318816,
-      "words": 747806,
+      "lines": 75877,
+      "nonblankLines": 73960,
+      "characters": 5326766,
+      "words": 748583,
       "languages": [
         {
           "language": "Markdown",
           "files": 36,
-          "lines": 50589,
-          "nonblankLines": 49015,
-          "characters": 4424442,
-          "words": 659556
+          "lines": 50594,
+          "nonblankLines": 49019,
+          "characters": 4425969,
+          "words": 659785
         },
         {
           "language": "JSON",
@@ -635,10 +635,10 @@
         {
           "language": "Rust",
           "files": 9,
-          "lines": 2485,
-          "nonblankLines": 2284,
-          "characters": 78979,
-          "words": 6724
+          "lines": 2668,
+          "nonblankLines": 2450,
+          "characters": 85006,
+          "words": 7245
         },
         {
           "language": "TypeScript",
@@ -651,18 +651,18 @@
         {
           "language": "Python",
           "files": 2,
-          "lines": 278,
-          "nonblankLines": 233,
-          "characters": 10042,
-          "words": 770
+          "lines": 293,
+          "nonblankLines": 246,
+          "characters": 10666,
+          "words": 813
         },
         {
           "language": "YAML",
           "files": 8,
-          "lines": 244,
-          "nonblankLines": 226,
-          "characters": 6315,
-          "words": 619
+          "lines": 238,
+          "nonblankLines": 221,
+          "characters": 6087,
+          "words": 603
         },
         {
           "language": "CSS",
