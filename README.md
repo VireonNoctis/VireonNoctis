@@ -256,14 +256,39 @@ A file-conversion forensics laboratory that tests what actually survives when fi
 Whole-repository totals cover tracked source, configuration, and documentation across owned and contributed public repositories. They describe project size, not personal line-by-line authorship.
 
 <!-- AUTO-CODE-STATS:START -->
-**Snapshot: 2026-11-14 UTC** · 19 public repositories (17 owned, 2 contributed).
+**Snapshot: 2026-11-15 UTC** · 20 public repositories (17 owned, 3 contributed).
 
 | Repositories | Tracked files | Lines | Characters | Words | Stars / forks |
 | ---: | ---: | ---: | ---: | ---: | ---: |
-| 19 | 3,289 | 720,251 | 32,311,098 | 3,324,098 | 2 / 3 |
+| 20 | 3,744 | 844,962 | 37,456,914 | 3,795,863 | 2 / 4 |
 
 <details>
-<summary><strong>Repository footprint</strong> · 19 expandable project records</summary>
+<summary><strong>Repository footprint</strong> · 20 expandable project records</summary>
+
+<details><summary><strong>GoodSale</strong> · 121,945 lines · 449 files</summary>
+
+[Open repository](https://github.com/JammyVibez/GoodSale) · Contributor project
+**Contribution:** Contributor
+**Detected frameworks:** Next.js · React
+
+| Source language / format | Lines | Files |
+| --- | ---: | ---: |
+| TypeScript | 92,734 | 358 |
+| SQL | 17,239 | 41 |
+| JavaScript | 4,274 | 12 |
+| Rust | 3,769 | 9 |
+| JSON | 1,949 | 12 |
+| CSS | 847 | 1 |
+| Markdown | 705 | 6 |
+| YAML | 188 | 3 |
+| Dockerfile | 67 | 2 |
+| Git config | 58 | 1 |
+| Environment config | 49 | 1 |
+| Plain text | 34 | 1 |
+| TOML | 27 | 1 |
+| SVG | 5 | 1 |
+
+</details>
 
 <details><summary><strong>Lemegeton</strong> · 89,922 lines · 214 files</summary>
 
@@ -289,7 +314,7 @@ Whole-repository totals cover tracked source, configuration, and documentation a
 
 </details>
 
-<details><summary><strong>loop-app</strong> · 384,364 lines · 2,143 files</summary>
+<details><summary><strong>loop-app</strong> · 387,067 lines · 2,149 files</summary>
 
 [Open repository](https://github.com/JammyVibez/loop-app) · Contributor project
 **Contribution:** Contributor
@@ -297,9 +322,9 @@ Whole-repository totals cover tracked source, configuration, and documentation a
 
 | Source language / format | Lines | Files |
 | --- | ---: | ---: |
-| TypeScript | 312,453 | 1,697 |
-| SQL | 23,762 | 191 |
-| JavaScript | 13,666 | 94 |
+| TypeScript | 315,107 | 1,702 |
+| SQL | 23,806 | 192 |
+| JavaScript | 13,669 | 94 |
 | Markdown | 9,439 | 39 |
 | Rust | 9,053 | 19 |
 | CSS | 7,213 | 18 |
@@ -307,7 +332,7 @@ Whole-repository totals cover tracked source, configuration, and documentation a
 | HTML | 1,352 | 1 |
 | SVG | 730 | 12 |
 | Plain text | 686 | 9 |
-| XML | 334 | 12 |
+| XML | 336 | 12 |
 | Terraform (HCL) | 332 | 4 |
 | Shell | 317 | 5 |
 | YAML | 241 | 3 |
@@ -407,7 +432,7 @@ Whole-repository totals cover tracked source, configuration, and documentation a
 
 </details>
 
-<details><summary><strong>Moonbyte</strong> · 75,877 lines · 73 files</summary>
+<details><summary><strong>Moonbyte</strong> · 75,940 lines · 73 files</summary>
 
 [Open repository](https://github.com/VireonNoctis/Moonbyte) · Owned project
 **Detected frameworks:** Next.js · React
@@ -416,7 +441,7 @@ Whole-repository totals cover tracked source, configuration, and documentation a
 | --- | ---: | ---: |
 | Markdown | 50,594 | 36 |
 | JSON | 21,324 | 6 |
-| Rust | 2,668 | 9 |
+| Rust | 2,731 | 9 |
 | TypeScript | 322 | 5 |
 | Python | 293 | 2 |
 | YAML | 238 | 8 |
