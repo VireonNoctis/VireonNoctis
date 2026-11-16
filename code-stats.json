@@ -1,15 +1,15 @@
 {
   "schemaVersion": 4,
   "owner": "VireonNoctis",
-  "generatedAt": "2026-11-15T09:37:38Z",
+  "generatedAt": "2026-11-16T09:55:45Z",
   "scope": "Current default-branch snapshots of eligible public repositories owned by VireonNoctis plus public external repositories explicitly listed as contributor projects or discovered through commits attributed to the GitHub login. Counts cover tracked text-based source, configuration, and documentation; dependency/build/generated directories, lockfiles, binary files, and files over 1 MB are excluded. These repository-wide footprint totals are not line-by-line authorship attribution. Language counts follow tracked file extensions; detected frameworks are stored separately; manually supplied project estimates are kept separate from repository scans.",
   "discoveryWarning": null,
   "totals": {
-    "files": 3744,
-    "lines": 844962,
-    "nonblankLines": 766596,
-    "characters": 37456914,
-    "words": 3795863,
+    "files": 3749,
+    "lines": 846248,
+    "nonblankLines": 767746,
+    "characters": 37509850,
+    "words": 3801478,
     "stars": 2,
     "forks": 4,
     "repositories": 20,
@@ -19,20 +19,20 @@
   },
   "ownedTotals": {
     "files": 932,
-    "lines": 246028,
-    "nonblankLines": 224378,
-    "characters": 13781857,
-    "words": 1577085,
+    "lines": 246283,
+    "nonblankLines": 224620,
+    "characters": 13789372,
+    "words": 1577789,
     "stars": 1,
     "forks": 1,
     "repositories": 17
   },
   "contributedTotals": {
-    "files": 2812,
-    "lines": 598934,
-    "nonblankLines": 542218,
-    "characters": 23675057,
-    "words": 2218778,
+    "files": 2817,
+    "lines": 599965,
+    "nonblankLines": 543126,
+    "characters": 23720478,
+    "words": 2223689,
     "stars": 1,
     "forks": 3,
     "repositories": 3
@@ -40,11 +40,11 @@
   "languages": [
     {
       "language": "TypeScript",
-      "files": 2134,
-      "lines": 428906,
-      "nonblankLines": 393295,
-      "characters": 15823432,
-      "words": 1555890
+      "files": 2136,
+      "lines": 429515,
+      "nonblankLines": 393856,
+      "characters": 15853384,
+      "words": 1558901
     },
     {
       "language": "Python",
@@ -56,35 +56,35 @@
     },
     {
       "language": "Markdown",
-      "files": 303,
-      "lines": 84458,
-      "nonblankLines": 74594,
-      "characters": 6850564,
-      "words": 999981
+      "files": 304,
+      "lines": 84790,
+      "nonblankLines": 74862,
+      "characters": 6863053,
+      "words": 1001612
     },
     {
       "language": "SQL",
-      "files": 234,
-      "lines": 41065,
-      "nonblankLines": 36563,
-      "characters": 1646101,
-      "words": 187547
+      "files": 235,
+      "lines": 41128,
+      "nonblankLines": 36618,
+      "characters": 1648611,
+      "words": 187886
     },
     {
       "language": "JSON",
       "files": 81,
-      "lines": 38430,
-      "nonblankLines": 38430,
-      "characters": 2252706,
-      "words": 117875
+      "lines": 38564,
+      "nonblankLines": 38564,
+      "characters": 2255795,
+      "words": 118122
     },
     {
       "language": "Rust",
       "files": 66,
-      "lines": 28342,
-      "nonblankLines": 26452,
-      "characters": 1060941,
-      "words": 81579
+      "lines": 28436,
+      "nonblankLines": 26538,
+      "characters": 1064026,
+      "words": 81783
     },
     {
       "language": "Kotlin",
@@ -97,10 +97,10 @@
     {
       "language": "CSS",
       "files": 54,
-      "lines": 25108,
-      "nonblankLines": 22159,
-      "characters": 852658,
-      "words": 87253
+      "lines": 25110,
+      "nonblankLines": 22161,
+      "characters": 852934,
+      "words": 87294
     },
     {
       "language": "JavaScript",
@@ -256,11 +256,11 @@
     },
     {
       "language": "Config",
-      "files": 4,
-      "lines": 174,
-      "nonblankLines": 157,
-      "characters": 6477,
-      "words": 616
+      "files": 5,
+      "lines": 226,
+      "nonblankLines": 201,
+      "characters": 8012,
+      "words": 758
     },
     {
       "language": "Dockerfile",
@@ -388,19 +388,19 @@
         "Next.js",
         "React"
       ],
-      "files": 2149,
-      "lines": 387067,
-      "nonblankLines": 351971,
-      "characters": 14660907,
-      "words": 1395821,
+      "files": 2151,
+      "lines": 387624,
+      "nonblankLines": 352448,
+      "characters": 14682449,
+      "words": 1398387,
       "languages": [
         {
           "language": "TypeScript",
           "files": 1702,
-          "lines": 315107,
-          "nonblankLines": 287725,
-          "characters": 10955249,
-          "words": 1091570
+          "lines": 315317,
+          "nonblankLines": 287920,
+          "characters": 10963841,
+          "words": 1092592
         },
         {
           "language": "SQL",
@@ -420,11 +420,11 @@
         },
         {
           "language": "Markdown",
-          "files": 39,
-          "lines": 9439,
-          "nonblankLines": 7612,
-          "characters": 323720,
-          "words": 43620
+          "files": 40,
+          "lines": 9734,
+          "nonblankLines": 7850,
+          "characters": 335135,
+          "words": 45022
         },
         {
           "language": "Rust",
@@ -515,6 +515,14 @@
           "words": 290
         },
         {
+          "language": "Config",
+          "files": 2,
+          "lines": 140,
+          "nonblankLines": 125,
+          "characters": 5170,
+          "words": 544
+        },
+        {
           "language": "Gradle",
           "files": 6,
           "lines": 139,
@@ -529,14 +537,6 @@
           "nonblankLines": 73,
           "characters": 2749,
           "words": 381
-        },
-        {
-          "language": "Config",
-          "files": 1,
-          "lines": 88,
-          "nonblankLines": 81,
-          "characters": 3635,
-          "words": 402
         },
         {
           "language": "Environment config",
@@ -611,18 +611,18 @@
         "React"
       ],
       "files": 73,
-      "lines": 75940,
-      "nonblankLines": 74017,
-      "characters": 5328946,
-      "words": 748733,
+      "lines": 76036,
+      "nonblankLines": 74104,
+      "characters": 5332782,
+      "words": 749053,
       "languages": [
         {
           "language": "Markdown",
           "files": 36,
-          "lines": 50594,
-          "nonblankLines": 49019,
-          "characters": 4426046,
-          "words": 659792
+          "lines": 50596,
+          "nonblankLines": 49020,
+          "characters": 4426797,
+          "words": 659908
         },
         {
           "language": "JSON",
@@ -635,10 +635,10 @@
         {
           "language": "Rust",
           "files": 9,
-          "lines": 2731,
-          "nonblankLines": 2507,
-          "characters": 87109,
-          "words": 7388
+          "lines": 2825,
+          "nonblankLines": 2593,
+          "characters": 90194,
+          "words": 7592
         },
         {
           "language": "TypeScript",
@@ -728,27 +728,27 @@
         "Next.js",
         "React"
       ],
-      "files": 449,
-      "lines": 121945,
-      "nonblankLines": 112815,
-      "characters": 5040033,
-      "words": 461668,
+      "files": 452,
+      "lines": 122419,
+      "nonblankLines": 113246,
+      "characters": 5063912,
+      "words": 464013,
       "languages": [
         {
           "language": "TypeScript",
-          "files": 358,
-          "lines": 92734,
-          "nonblankLines": 86278,
-          "characters": 3935916,
-          "words": 344311
+          "files": 360,
+          "lines": 93133,
+          "nonblankLines": 86644,
+          "characters": 3957276,
+          "words": 346300
         },
         {
           "language": "SQL",
-          "files": 41,
-          "lines": 17239,
-          "nonblankLines": 15347,
-          "characters": 668580,
-          "words": 73399
+          "files": 42,
+          "lines": 17302,
+          "nonblankLines": 15402,
+          "characters": 671090,
+          "words": 73738
         },
         {
           "language": "JavaScript",
@@ -771,24 +771,24 @@
           "files": 12,
           "lines": 1949,
           "nonblankLines": 1949,
-          "characters": 59785,
-          "words": 7084
+          "characters": 59806,
+          "words": 7085
         },
         {
           "language": "CSS",
           "files": 1,
-          "lines": 847,
-          "nonblankLines": 778,
-          "characters": 25853,
-          "words": 3137
+          "lines": 849,
+          "nonblankLines": 780,
+          "characters": 26129,
+          "words": 3178
         },
         {
           "language": "Markdown",
           "files": 6,
-          "lines": 705,
-          "nonblankLines": 549,
-          "characters": 46769,
-          "words": 6248
+          "lines": 715,
+          "nonblankLines": 557,
+          "characters": 46481,
+          "words": 6223
         },
         {
           "language": "YAML",
@@ -1907,18 +1907,18 @@
       "contributionNote": "Repository owned by the account.",
       "frameworks": [],
       "files": 8,
-      "lines": 3675,
-      "nonblankLines": 3409,
-      "characters": 109740,
-      "words": 10644,
+      "lines": 3834,
+      "nonblankLines": 3564,
+      "characters": 113419,
+      "words": 11028,
       "languages": [
         {
           "language": "JSON",
           "files": 2,
-          "lines": 2066,
-          "nonblankLines": 2066,
-          "characters": 47121,
-          "words": 3933
+          "lines": 2200,
+          "nonblankLines": 2200,
+          "characters": 50189,
+          "words": 4179
         },
         {
           "language": "Python",
@@ -1931,10 +1931,10 @@
         {
           "language": "Markdown",
           "files": 1,
-          "lines": 645,
-          "nonblankLines": 461,
-          "characters": 21251,
-          "words": 3034
+          "lines": 670,
+          "nonblankLines": 482,
+          "characters": 21862,
+          "words": 3172
         },
         {
           "language": "YAML",
