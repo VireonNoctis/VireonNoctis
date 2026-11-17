@@ -256,16 +256,16 @@ A file-conversion forensics laboratory that tests what actually survives when fi
 Whole-repository totals cover tracked source, configuration, and documentation across owned and contributed public repositories. They describe project size, not personal line-by-line authorship.
 
 <!-- AUTO-CODE-STATS:START -->
-**Snapshot: 2026-11-16 UTC** · 20 public repositories (17 owned, 3 contributed).
+**Snapshot: 2026-11-17 UTC** · 20 public repositories (17 owned, 3 contributed).
 
 | Repositories | Tracked files | Lines | Characters | Words | Stars / forks |
 | ---: | ---: | ---: | ---: | ---: | ---: |
-| 20 | 3,749 | 846,248 | 37,509,850 | 3,801,478 | 2 / 4 |
+| 20 | 3,753 | 847,594 | 37,567,032 | 3,807,584 | 2 / 4 |
 
 <details>
 <summary><strong>Repository footprint</strong> · 20 expandable project records</summary>
 
-<details><summary><strong>GoodSale</strong> · 122,419 lines · 452 files</summary>
+<details><summary><strong>GoodSale</strong> · 122,435 lines · 452 files</summary>
 
 [Open repository](https://github.com/JammyVibez/GoodSale) · Contributor project
 **Contribution:** Contributor
@@ -273,7 +273,7 @@ Whole-repository totals cover tracked source, configuration, and documentation a
 
 | Source language / format | Lines | Files |
 | --- | ---: | ---: |
-| TypeScript | 93,133 | 360 |
+| TypeScript | 93,149 | 360 |
 | SQL | 17,302 | 42 |
 | JavaScript | 4,274 | 12 |
 | Rust | 3,769 | 9 |
@@ -314,7 +314,7 @@ Whole-repository totals cover tracked source, configuration, and documentation a
 
 </details>
 
-<details><summary><strong>loop-app</strong> · 387,624 lines · 2,151 files</summary>
+<details><summary><strong>loop-app</strong> · 388,935 lines · 2,155 files</summary>
 
 [Open repository](https://github.com/JammyVibez/loop-app) · Contributor project
 **Contribution:** Contributor
@@ -322,9 +322,9 @@ Whole-repository totals cover tracked source, configuration, and documentation a
 
 | Source language / format | Lines | Files |
 | --- | ---: | ---: |
-| TypeScript | 315,317 | 1,702 |
-| SQL | 23,806 | 192 |
-| JavaScript | 13,669 | 94 |
+| TypeScript | 316,536 | 1,704 |
+| SQL | 23,877 | 194 |
+| JavaScript | 13,675 | 94 |
 | Markdown | 9,734 | 40 |
 | Rust | 9,053 | 19 |
 | CSS | 7,213 | 18 |
@@ -336,8 +336,8 @@ Whole-repository totals cover tracked source, configuration, and documentation a
 | Terraform (HCL) | 332 | 4 |
 | Shell | 317 | 5 |
 | YAML | 241 | 3 |
+| Config | 155 | 2 |
 | Git config | 142 | 4 |
-| Config | 140 | 2 |
 | Gradle | 139 | 6 |
 | Batch | 94 | 1 |
 | Environment config | 78 | 2 |
@@ -432,16 +432,16 @@ Whole-repository totals cover tracked source, configuration, and documentation a
 
 </details>
 
-<details><summary><strong>Moonbyte</strong> · 76,036 lines · 73 files</summary>
+<details><summary><strong>Moonbyte</strong> · 76,055 lines · 73 files</summary>
 
 [Open repository](https://github.com/VireonNoctis/Moonbyte) · Owned project
 **Detected frameworks:** Next.js · React
 
 | Source language / format | Lines | Files |
 | --- | ---: | ---: |
-| Markdown | 50,596 | 36 |
+| Markdown | 50,600 | 36 |
 | JSON | 21,324 | 6 |
-| Rust | 2,825 | 9 |
+| Rust | 2,840 | 9 |
 | TypeScript | 322 | 5 |
 | Python | 293 | 2 |
 | YAML | 238 | 8 |
