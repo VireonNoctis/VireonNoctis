@@ -1,15 +1,15 @@
 {
   "schemaVersion": 4,
   "owner": "VireonNoctis",
-  "generatedAt": "2026-11-17T10:51:29Z",
+  "generatedAt": "2026-11-18T10:21:56Z",
   "scope": "Current default-branch snapshots of eligible public repositories owned by VireonNoctis plus public external repositories explicitly listed as contributor projects or discovered through commits attributed to the GitHub login. Counts cover tracked text-based source, configuration, and documentation; dependency/build/generated directories, lockfiles, binary files, and files over 1 MB are excluded. These repository-wide footprint totals are not line-by-line authorship attribution. Language counts follow tracked file extensions; detected frameworks are stored separately; manually supplied project estimates are kept separate from repository scans.",
   "discoveryWarning": null,
   "totals": {
     "files": 3753,
-    "lines": 847594,
-    "nonblankLines": 769011,
-    "characters": 37567032,
-    "words": 3807584,
+    "lines": 847656,
+    "nonblankLines": 769070,
+    "characters": 37570138,
+    "words": 3807939,
     "stars": 2,
     "forks": 4,
     "repositories": 20,
@@ -19,10 +19,10 @@
   },
   "ownedTotals": {
     "files": 932,
-    "lines": 246302,
-    "nonblankLines": 224637,
-    "characters": 13791645,
-    "words": 1578109,
+    "lines": 246364,
+    "nonblankLines": 224696,
+    "characters": 13794751,
+    "words": 1578464,
     "stars": 1,
     "forks": 1,
     "repositories": 17
@@ -57,10 +57,10 @@
     {
       "language": "Markdown",
       "files": 304,
-      "lines": 84794,
-      "nonblankLines": 74865,
-      "characters": 6864330,
-      "words": 1001807
+      "lines": 84795,
+      "nonblankLines": 74866,
+      "characters": 6864527,
+      "words": 1001840
     },
     {
       "language": "SQL",
@@ -81,10 +81,10 @@
     {
       "language": "Rust",
       "files": 66,
-      "lines": 28451,
-      "nonblankLines": 26552,
-      "characters": 1065019,
-      "words": 81908
+      "lines": 28512,
+      "nonblankLines": 26610,
+      "characters": 1067928,
+      "words": 82230
     },
     {
       "language": "Kotlin",
@@ -611,18 +611,18 @@
         "React"
       ],
       "files": 73,
-      "lines": 76055,
-      "nonblankLines": 74121,
-      "characters": 5335051,
-      "words": 749373,
+      "lines": 76117,
+      "nonblankLines": 74180,
+      "characters": 5338157,
+      "words": 749728,
       "languages": [
         {
           "language": "Markdown",
           "files": 36,
-          "lines": 50600,
-          "nonblankLines": 49023,
-          "characters": 4428073,
-          "words": 660103
+          "lines": 50601,
+          "nonblankLines": 49024,
+          "characters": 4428270,
+          "words": 660136
         },
         {
           "language": "JSON",
@@ -635,10 +635,10 @@
         {
           "language": "Rust",
           "files": 9,
-          "lines": 2840,
-          "nonblankLines": 2607,
-          "characters": 91187,
-          "words": 7717
+          "lines": 2901,
+          "nonblankLines": 2665,
+          "characters": 94096,
+          "words": 8039
         },
         {
           "language": "TypeScript",
