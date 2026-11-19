@@ -256,11 +256,11 @@ A file-conversion forensics laboratory that tests what actually survives when fi
 Whole-repository totals cover tracked source, configuration, and documentation across owned and contributed public repositories. They describe project size, not personal line-by-line authorship.
 
 <!-- AUTO-CODE-STATS:START -->
-**Snapshot: 2026-11-18 UTC** · 20 public repositories (17 owned, 3 contributed).
+**Snapshot: 2026-11-19 UTC** · 20 public repositories (17 owned, 3 contributed).
 
 | Repositories | Tracked files | Lines | Characters | Words | Stars / forks |
 | ---: | ---: | ---: | ---: | ---: | ---: |
-| 20 | 3,753 | 847,656 | 37,570,138 | 3,807,939 | 2 / 4 |
+| 20 | 3,753 | 847,959 | 37,582,070 | 3,808,951 | 2 / 4 |
 
 <details>
 <summary><strong>Repository footprint</strong> · 20 expandable project records</summary>
@@ -432,16 +432,16 @@ Whole-repository totals cover tracked source, configuration, and documentation a
 
 </details>
 
-<details><summary><strong>Moonbyte</strong> · 76,117 lines · 73 files</summary>
+<details><summary><strong>Moonbyte</strong> · 76,420 lines · 73 files</summary>
 
 [Open repository](https://github.com/VireonNoctis/Moonbyte) · Owned project
 **Detected frameworks:** Next.js · React
 
 | Source language / format | Lines | Files |
 | --- | ---: | ---: |
-| Markdown | 50,601 | 36 |
+| Markdown | 50,611 | 36 |
 | JSON | 21,324 | 6 |
-| Rust | 2,901 | 9 |
+| Rust | 3,194 | 9 |
 | TypeScript | 322 | 5 |
 | Python | 293 | 2 |
 | YAML | 238 | 8 |
