@@ -156,7 +156,7 @@ The ten most recently updated described public repositories. Open any row for it
 Moonbyte is a pixel-art gaming bot that transforms Discord into a multiplayer arcade, featuring classic mini-games, original adventures, RPG experiences, puzzles, and competitive…
 
 **Repository:** [Open on GitHub](https://github.com/VireonNoctis/Moonbyte)
-**Source languages:** Rust, CSS, TypeScript, Python
+**Source languages:** Rust, CSS, Python, TypeScript
 
 </details>
 
@@ -181,7 +181,18 @@ Every update leaves a trace. Find it.
 </details>
 
 <details>
-<summary><strong>04 · PrivaCage</strong> <code>UPDATED 2026-11-08</code></summary>
+<summary><strong>04 · loop-app</strong> <code>UPDATED 2026-11-10</code></summary>
+
+Social Media Reimagined
+
+**Repository:** [Open on GitHub](https://github.com/VireonNoctis/loop-app)
+**Source languages:** TypeScript, PLpgSQL, JavaScript, Rust, CSS, HCL, Shell, Java, Dockerfile
+**Detected frameworks:** Next.js · React
+
+</details>
+
+<details>
+<summary><strong>05 · PrivaCage</strong> <code>UPDATED 2026-11-08</code></summary>
 
 Know what every app is doing to your device. Right now. In real time.
 
@@ -191,7 +202,7 @@ Know what every app is doing to your device. Right now. In real time.
 </details>
 
 <details>
-<summary><strong>05 · vvd-reimagined</strong> <code>UPDATED 2026-11-05</code></summary>
+<summary><strong>06 · vvd-reimagined</strong> <code>UPDATED 2026-11-05</code></summary>
 
 A ground-up reconstruction of vvd.world — a comprehensive worldbuilding, novel-writing, collaborative storytelling and publishing platform. Rebuilding its creative ecosystem,…
 
@@ -201,7 +212,7 @@ A ground-up reconstruction of vvd.world — a comprehensive worldbuilding, novel
 </details>
 
 <details>
-<summary><strong>06 · SkillTether</strong> <code>UPDATED 2026-10-31</code></summary>
+<summary><strong>07 · SkillTether</strong> <code>UPDATED 2026-10-31</code></summary>
 
 Translate the words. Preserve the intent.
 
@@ -211,7 +222,7 @@ Translate the words. Preserve the intent.
 </details>
 
 <details>
-<summary><strong>07 · Universe-Explorer</strong> <code>UPDATED 2026-10-29</code></summary>
+<summary><strong>08 · Universe-Explorer</strong> <code>UPDATED 2026-10-29</code></summary>
 
 Astra is a space-themed interactive astronomy explorer.
 
@@ -221,7 +232,7 @@ Astra is a space-themed interactive astronomy explorer.
 </details>
 
 <details>
-<summary><strong>08 · TreeParity</strong> <code>UPDATED 2026-10-26</code></summary>
+<summary><strong>09 · TreeParity</strong> <code>UPDATED 2026-10-26</code></summary>
 
 An open-source conformance-testing laboratory that measures exactly what happens to a directory tree when it is transferred between operating systems, filesystems, archive…
 
@@ -231,21 +242,11 @@ An open-source conformance-testing laboratory that measures exactly what happens
 </details>
 
 <details>
-<summary><strong>09 · Envquake</strong> <code>UPDATED 2026-10-26</code></summary>
+<summary><strong>10 · Envquake</strong> <code>UPDATED 2026-10-26</code></summary>
 
 A CLI that discovers hidden environmental assumptions in software by rerunning tests under controlled variations of the system environment, identifying the exact conditions that…
 
 **Repository:** [Open on GitHub](https://github.com/VireonNoctis/Envquake)
-**Source languages:** Not detected
-
-</details>
-
-<details>
-<summary><strong>10 · FormatFossil</strong> <code>UPDATED 2026-10-26</code></summary>
-
-A file-conversion forensics laboratory that tests what actually survives when files move between formats and software versions.
-
-**Repository:** [Open on GitHub](https://github.com/VireonNoctis/FormatFossil)
 **Source languages:** Not detected
 
 </details>
@@ -256,11 +257,11 @@ A file-conversion forensics laboratory that tests what actually survives when fi
 Whole-repository totals cover tracked source, configuration, and documentation across owned and contributed public repositories. They describe project size, not personal line-by-line authorship.
 
 <!-- AUTO-CODE-STATS:START -->
-**Snapshot: 2026-11-19 UTC** · 20 public repositories (17 owned, 3 contributed).
+**Snapshot: 2026-11-20 UTC** · 20 public repositories (18 owned, 2 contributed).
 
 | Repositories | Tracked files | Lines | Characters | Words | Stars / forks |
 | ---: | ---: | ---: | ---: | ---: | ---: |
-| 20 | 3,753 | 847,959 | 37,582,070 | 3,808,951 | 2 / 4 |
+| 20 | 3,561 | 797,515 | 34,632,021 | 3,609,450 | 2 / 3 |
 
 <details>
 <summary><strong>Repository footprint</strong> · 20 expandable project records</summary>
@@ -311,42 +312,6 @@ Whole-repository totals cover tracked source, configuration, and documentation a
 | TOML | 21 | 2 |
 | Docker config | 20 | 1 |
 | SVG | 4 | 1 |
-
-</details>
-
-<details><summary><strong>loop-app</strong> · 388,935 lines · 2,155 files</summary>
-
-[Open repository](https://github.com/JammyVibez/loop-app) · Contributor project
-**Contribution:** Contributor
-**Detected frameworks:** Next.js · React
-
-| Source language / format | Lines | Files |
-| --- | ---: | ---: |
-| TypeScript | 316,536 | 1,704 |
-| SQL | 23,877 | 194 |
-| JavaScript | 13,675 | 94 |
-| Markdown | 9,734 | 40 |
-| Rust | 9,053 | 19 |
-| CSS | 7,213 | 18 |
-| JSON | 4,111 | 15 |
-| HTML | 1,352 | 1 |
-| SVG | 730 | 12 |
-| Plain text | 686 | 9 |
-| XML | 336 | 12 |
-| Terraform (HCL) | 332 | 4 |
-| Shell | 317 | 5 |
-| YAML | 241 | 3 |
-| Config | 155 | 2 |
-| Git config | 142 | 4 |
-| Gradle | 139 | 6 |
-| Batch | 94 | 1 |
-| Environment config | 78 | 2 |
-| Java | 49 | 3 |
-| TOML | 30 | 2 |
-| Properties | 29 | 2 |
-| Dockerfile | 20 | 1 |
-| Docker config | 5 | 1 |
-| NPM config | 1 | 1 |
 
 </details>
 
@@ -420,6 +385,39 @@ Whole-repository totals cover tracked source, configuration, and documentation a
 
 </details>
 
+<details><summary><strong>loop-app</strong> · 338,377 lines · 1,963 files</summary>
+
+[Open repository](https://github.com/VireonNoctis/loop-app) · Owned project
+**Detected frameworks:** Next.js · React
+
+| Source language / format | Lines | Files |
+| --- | ---: | ---: |
+| TypeScript | 279,981 | 1,581 |
+| SQL | 22,730 | 181 |
+| JavaScript | 10,823 | 70 |
+| Rust | 9,053 | 19 |
+| Markdown | 8,886 | 36 |
+| CSS | 3,757 | 8 |
+| JSON | 750 | 9 |
+| Plain text | 686 | 9 |
+| XML | 334 | 12 |
+| Terraform (HCL) | 332 | 4 |
+| Shell | 220 | 4 |
+| YAML | 189 | 3 |
+| Git config | 142 | 4 |
+| Gradle | 139 | 6 |
+| Batch | 94 | 1 |
+| Environment config | 78 | 2 |
+| SVG | 49 | 4 |
+| Java | 49 | 3 |
+| TOML | 30 | 2 |
+| Properties | 29 | 2 |
+| Dockerfile | 20 | 1 |
+| Docker config | 5 | 1 |
+| NPM config | 1 | 1 |
+
+</details>
+
 <details><summary><strong>Lunar-Css</strong> · 7,090 lines · 13 files</summary>
 
 [Open repository](https://github.com/VireonNoctis/Lunar-Css) · Owned project
@@ -432,7 +430,7 @@ Whole-repository totals cover tracked source, configuration, and documentation a
 
 </details>
 
-<details><summary><strong>Moonbyte</strong> · 76,420 lines · 73 files</summary>
+<details><summary><strong>Moonbyte</strong> · 76,534 lines · 73 files</summary>
 
 [Open repository](https://github.com/VireonNoctis/Moonbyte) · Owned project
 **Detected frameworks:** Next.js · React
@@ -442,8 +440,8 @@ Whole-repository totals cover tracked source, configuration, and documentation a
 | Markdown | 50,611 | 36 |
 | JSON | 21,324 | 6 |
 | Rust | 3,194 | 9 |
-| TypeScript | 322 | 5 |
-| Python | 293 | 2 |
+| Python | 394 | 2 |
+| TypeScript | 335 | 5 |
 | YAML | 238 | 8 |
 | CSS | 200 | 1 |
 | Git config | 155 | 2 |
