@@ -257,14 +257,14 @@ A CLI that discovers hidden environmental assumptions in software by rerunning t
 Whole-repository totals cover tracked source, configuration, and documentation across owned and contributed public repositories. They describe project size, not personal line-by-line authorship.
 
 <!-- AUTO-CODE-STATS:START -->
-**Snapshot: 2026-11-20 UTC** · 20 public repositories (18 owned, 2 contributed).
+**Snapshot: 2026-11-21 UTC** · 21 public repositories (19 owned, 2 contributed).
 
 | Repositories | Tracked files | Lines | Characters | Words | Stars / forks |
 | ---: | ---: | ---: | ---: | ---: | ---: |
-| 20 | 3,561 | 797,515 | 34,632,021 | 3,609,450 | 2 / 3 |
+| 21 | 3,616 | 803,841 | 35,137,541 | 3,643,107 | 2 / 3 |
 
 <details>
-<summary><strong>Repository footprint</strong> · 20 expandable project records</summary>
+<summary><strong>Repository footprint</strong> · 21 expandable project records</summary>
 
 <details><summary><strong>GoodSale</strong> · 122,435 lines · 452 files</summary>
 
@@ -291,7 +291,7 @@ Whole-repository totals cover tracked source, configuration, and documentation a
 
 </details>
 
-<details><summary><strong>Lemegeton</strong> · 89,922 lines · 214 files</summary>
+<details><summary><strong>Lemegeton</strong> · 90,225 lines · 214 files</summary>
 
 [Open repository](https://github.com/Kyerstorm/Lemegeton) · Contributor project
 **Contribution:** Major contributor · co-owner
@@ -299,7 +299,7 @@ Whole-repository totals cover tracked source, configuration, and documentation a
 | Source language / format | Lines | Files |
 | --- | ---: | ---: |
 | Python | 82,858 | 167 |
-| Markdown | 5,237 | 17 |
+| Markdown | 5,540 | 17 |
 | Batch | 716 | 2 |
 | YAML | 365 | 5 |
 | Environment config | 244 | 1 |
@@ -430,22 +430,22 @@ Whole-repository totals cover tracked source, configuration, and documentation a
 
 </details>
 
-<details><summary><strong>Moonbyte</strong> · 76,534 lines · 73 files</summary>
+<details><summary><strong>Moonbyte</strong> · 76,914 lines · 73 files</summary>
 
 [Open repository](https://github.com/VireonNoctis/Moonbyte) · Owned project
 **Detected frameworks:** Next.js · React
 
 | Source language / format | Lines | Files |
 | --- | ---: | ---: |
-| Markdown | 50,611 | 36 |
+| Markdown | 50,614 | 36 |
 | JSON | 21,324 | 6 |
-| Rust | 3,194 | 9 |
+| Rust | 3,556 | 9 |
 | Python | 394 | 2 |
-| TypeScript | 335 | 5 |
+| TypeScript | 349 | 5 |
 | YAML | 238 | 8 |
 | CSS | 200 | 1 |
 | Git config | 155 | 2 |
-| TOML | 35 | 1 |
+| TOML | 36 | 1 |
 | EditorConfig | 21 | 1 |
 | SQL | 20 | 1 |
 | Environment config | 7 | 1 |
@@ -539,38 +539,60 @@ Whole-repository totals cover tracked source, configuration, and documentation a
 
 </details>
 
-<details><summary><strong>VireonNoctis</strong> · 3,834 lines · 8 files</summary>
+<details><summary><strong>Vireon-Signature</strong> · 3,286 lines · 47 files</summary>
+
+[Open repository](https://github.com/VireonNoctis/Vireon-Signature) · Owned project
+**Detected frameworks:** React · Three.js
+
+| Source language / format | Lines | Files |
+| --- | ---: | ---: |
+| Markdown | 1,212 | 14 |
+| JavaScript | 813 | 9 |
+| CSS | 599 | 2 |
+| YAML | 269 | 8 |
+| Git config | 155 | 2 |
+| JSON | 87 | 4 |
+| Python | 73 | 1 |
+| HTML | 32 | 2 |
+| EditorConfig | 21 | 1 |
+| SVG | 20 | 2 |
+| Plain text | 3 | 1 |
+| XML | 2 | 1 |
+
+</details>
+
+<details><summary><strong>VireonNoctis</strong> · 3,816 lines · 8 files</summary>
 
 [Open repository](https://github.com/VireonNoctis/VireonNoctis) · Owned project
 
 | Source language / format | Lines | Files |
 | --- | ---: | ---: |
-| JSON | 2,200 | 2 |
+| JSON | 2,184 | 2 |
 | Python | 849 | 3 |
-| Markdown | 670 | 1 |
+| Markdown | 668 | 1 |
 | YAML | 115 | 2 |
 
 </details>
 
-<details><summary><strong>VireonNoctis.github.io</strong> · 6,177 lines · 196 files</summary>
+<details><summary><strong>VireonNoctis.github.io</strong> · 8,552 lines · 204 files</summary>
 
 [Open repository](https://github.com/VireonNoctis/VireonNoctis.github.io) · Owned project
 **Detected frameworks:** Vue
 
 | Source language / format | Lines | Files |
 | --- | ---: | ---: |
-| CSS | 2,724 | 6 |
-| TypeScript | 1,414 | 9 |
-| Vue | 758 | 11 |
+| CSS | 3,702 | 8 |
+| Vue | 1,747 | 14 |
+| TypeScript | 1,638 | 10 |
 | Rust | 296 | 2 |
 | SVG | 287 | 145 |
+| Markdown | 185 | 4 |
 | Plain text | 175 | 4 |
-| YAML | 130 | 2 |
-| Markdown | 127 | 3 |
-| HTML | 98 | 4 |
-| JSON | 63 | 4 |
-| JavaScript | 57 | 1 |
-| XML | 18 | 2 |
+| YAML | 153 | 2 |
+| HTML | 138 | 5 |
+| JavaScript | 107 | 1 |
+| JSON | 64 | 4 |
+| XML | 30 | 2 |
 | Git config | 16 | 2 |
 | TOML | 14 | 1 |
 
