@@ -257,11 +257,11 @@ A CLI that discovers hidden environmental assumptions in software by rerunning t
 Whole-repository totals cover tracked source, configuration, and documentation across owned and contributed public repositories. They describe project size, not personal line-by-line authorship.
 
 <!-- AUTO-CODE-STATS:START -->
-**Snapshot: 2026-11-21 UTC** · 21 public repositories (19 owned, 2 contributed).
+**Snapshot: 2026-11-22 UTC** · 21 public repositories (19 owned, 2 contributed).
 
 | Repositories | Tracked files | Lines | Characters | Words | Stars / forks |
 | ---: | ---: | ---: | ---: | ---: | ---: |
-| 21 | 3,616 | 803,841 | 35,137,541 | 3,643,107 | 2 / 3 |
+| 21 | 3,608 | 801,635 | 34,834,341 | 3,634,070 | 2 / 3 |
 
 <details>
 <summary><strong>Repository footprint</strong> · 21 expandable project records</summary>
@@ -561,38 +561,38 @@ Whole-repository totals cover tracked source, configuration, and documentation a
 
 </details>
 
-<details><summary><strong>VireonNoctis</strong> · 3,816 lines · 8 files</summary>
+<details><summary><strong>VireonNoctis</strong> · 3,956 lines · 8 files</summary>
 
 [Open repository](https://github.com/VireonNoctis/VireonNoctis) · Owned project
 
 | Source language / format | Lines | Files |
 | --- | ---: | ---: |
-| JSON | 2,184 | 2 |
+| JSON | 2,302 | 2 |
 | Python | 849 | 3 |
-| Markdown | 668 | 1 |
+| Markdown | 690 | 1 |
 | YAML | 115 | 2 |
 
 </details>
 
-<details><summary><strong>VireonNoctis.github.io</strong> · 8,552 lines · 204 files</summary>
+<details><summary><strong>VireonNoctis.github.io</strong> · 6,206 lines · 196 files</summary>
 
 [Open repository](https://github.com/VireonNoctis/VireonNoctis.github.io) · Owned project
 **Detected frameworks:** Vue
 
 | Source language / format | Lines | Files |
 | --- | ---: | ---: |
-| CSS | 3,702 | 8 |
-| Vue | 1,747 | 14 |
-| TypeScript | 1,638 | 10 |
+| CSS | 2,724 | 6 |
+| TypeScript | 1,422 | 9 |
+| Vue | 759 | 11 |
 | Rust | 296 | 2 |
 | SVG | 287 | 145 |
-| Markdown | 185 | 4 |
 | Plain text | 175 | 4 |
-| YAML | 153 | 2 |
-| HTML | 138 | 5 |
-| JavaScript | 107 | 1 |
+| YAML | 146 | 2 |
+| Markdown | 126 | 3 |
+| HTML | 98 | 4 |
 | JSON | 64 | 4 |
-| XML | 30 | 2 |
+| JavaScript | 61 | 1 |
+| XML | 18 | 2 |
 | Git config | 16 | 2 |
 | TOML | 14 | 1 |
 
