@@ -257,11 +257,11 @@ A CLI that discovers hidden environmental assumptions in software by rerunning t
 Whole-repository totals cover tracked source, configuration, and documentation across owned and contributed public repositories. They describe project size, not personal line-by-line authorship.
 
 <!-- AUTO-CODE-STATS:START -->
-**Snapshot: 2026-11-22 UTC** · 21 public repositories (19 owned, 2 contributed).
+**Snapshot: 2026-11-23 UTC** · 21 public repositories (19 owned, 2 contributed).
 
 | Repositories | Tracked files | Lines | Characters | Words | Stars / forks |
 | ---: | ---: | ---: | ---: | ---: | ---: |
-| 21 | 3,608 | 801,635 | 34,834,341 | 3,634,070 | 2 / 3 |
+| 21 | 3,608 | 802,194 | 34,859,500 | 3,635,931 | 2 / 3 |
 
 <details>
 <summary><strong>Repository footprint</strong> · 21 expandable project records</summary>
@@ -430,18 +430,18 @@ Whole-repository totals cover tracked source, configuration, and documentation a
 
 </details>
 
-<details><summary><strong>Moonbyte</strong> · 76,914 lines · 73 files</summary>
+<details><summary><strong>Moonbyte</strong> · 77,463 lines · 73 files</summary>
 
 [Open repository](https://github.com/VireonNoctis/Moonbyte) · Owned project
 **Detected frameworks:** Next.js · React
 
 | Source language / format | Lines | Files |
 | --- | ---: | ---: |
-| Markdown | 50,614 | 36 |
+| Markdown | 50,620 | 36 |
 | JSON | 21,324 | 6 |
-| Rust | 3,556 | 9 |
+| Rust | 4,086 | 9 |
 | Python | 394 | 2 |
-| TypeScript | 349 | 5 |
+| TypeScript | 362 | 5 |
 | YAML | 238 | 8 |
 | CSS | 200 | 1 |
 | Git config | 155 | 2 |
@@ -574,7 +574,7 @@ Whole-repository totals cover tracked source, configuration, and documentation a
 
 </details>
 
-<details><summary><strong>VireonNoctis.github.io</strong> · 6,206 lines · 196 files</summary>
+<details><summary><strong>VireonNoctis.github.io</strong> · 6,216 lines · 196 files</summary>
 
 [Open repository](https://github.com/VireonNoctis/VireonNoctis.github.io) · Owned project
 **Detected frameworks:** Vue
@@ -582,7 +582,7 @@ Whole-repository totals cover tracked source, configuration, and documentation a
 | Source language / format | Lines | Files |
 | --- | ---: | ---: |
 | CSS | 2,724 | 6 |
-| TypeScript | 1,422 | 9 |
+| TypeScript | 1,432 | 9 |
 | Vue | 759 | 11 |
 | Rust | 296 | 2 |
 | SVG | 287 | 145 |
