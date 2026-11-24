@@ -240,7 +240,7 @@ Whole-repository totals cover tracked source, configuration, and documentation a
 
 | Repositories | Tracked files | Lines | Characters | Words | Stars / forks |
 | ---: | ---: | ---: | ---: | ---: | ---: |
-| 21 | 3,606 | 802,161 | 34,857,056 | 3,635,650 | 2 / 3 |
+| 21 | 3,606 | 802,050 | 34,853,592 | 3,635,290 | 2 / 3 |
 
 <details>
 <summary><strong>Repository footprint</strong> · 21 expandable project records</summary>
@@ -540,15 +540,15 @@ Whole-repository totals cover tracked source, configuration, and documentation a
 
 </details>
 
-<details><summary><strong>VireonNoctis</strong> · 3,940 lines · 8 files</summary>
+<details><summary><strong>VireonNoctis</strong> · 3,829 lines · 8 files</summary>
 
 [Open repository](https://github.com/VireonNoctis/VireonNoctis) · Owned project
 
 | Source language / format | Lines | Files |
 | --- | ---: | ---: |
-| JSON | 2,302 | 2 |
+| JSON | 2,212 | 2 |
 | Python | 849 | 3 |
-| Markdown | 674 | 1 |
+| Markdown | 653 | 1 |
 | YAML | 115 | 2 |
 
 </details>
@@ -625,8 +625,6 @@ Whole-repository totals cover tracked source, configuration, and documentation a
 </details>
 
 </details>
-
-
 
 _Source: [machine-readable snapshot](code-stats.json). Repository totals cover tracked source, configuration, and documentation. Build/dependency output, lockfiles, binaries, generated directories, and files over 1 MB are excluded. Framework detection is reported separately from source-language classification: .ts and .tsx remain TypeScript files; Next.js is shown as a detected framework._
 _Scan note: 1 repository scan(s) could not be completed in this snapshot._
