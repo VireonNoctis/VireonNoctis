@@ -647,23 +647,7 @@ Whole-repository totals cover tracked source, configuration, and documentation a
 
 </details>
 
-<details>
-<summary><strong>Lunar X</strong> · 676,088 supplied lines</summary>
 
-| Area | Stack / framework | Lines | Estimated characters |
-| --- | --- | ---: | ---: |
-| Backend | Rust | 265,856 | ≈ 15,951,360 |
-| Frontend | Next.js | 309,274 | ≈ 27,834,660 |
-| Gacha games | React | 40,751 | ≈ 3,667,590 |
-| Scraping & other tools | Python | 20,865 | ≈ 1,001,520 |
-| Web graphics | WebGL | 20,657 | — |
-| 3D rendering | Three.js | 18,685 | — |
-
-**Character estimate subtotal:** ≈ 48,455,130 across 4 areas with supplied character-per-line assumptions.
-
-_Other areas remain line-count-only until a character estimate is supplied. These are estimates, not scanned counts._
-
-</details>
 
 _Source: [machine-readable snapshot](code-stats.json). Repository totals cover tracked source, configuration, and documentation. Build/dependency output, lockfiles, binaries, generated directories, and files over 1 MB are excluded. Framework detection is reported separately from source-language classification: .ts and .tsx remain TypeScript files; Next.js is shown as a detected framework._
 _Scan note: 1 repository scan(s) could not be completed in this snapshot._
