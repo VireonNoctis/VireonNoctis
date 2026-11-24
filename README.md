@@ -4,7 +4,6 @@
   <p>
     <a href="https://github.com/VireonNoctis"><img src="https://img.shields.io/badge/GITHUB-VIREONNOCTIS-111827?style=for-the-badge&logo=github&logoColor=EAF6FF" alt="GitHub"/></a>
     <a href="https://vireonnoctis.github.io/"><img src="https://img.shields.io/badge/WEBSITE-EXPLORE-111827?style=for-the-badge&logo=googlechrome&logoColor=9AD9FF" alt="Website"/></a>
-    <a href="https://lunarx.to/Profile/vvvx"><img src="https://img.shields.io/badge/LUNAR_X-PROFILE-111827?style=for-the-badge&logo=moonrepo&logoColor=9AD9FF" alt="Lunar X"/></a>
   </p>
   <p>
     <a href="https://t.me/Imperialism12">Telegram</a> ·
@@ -35,27 +34,7 @@ I build community software, privacy-focused tools, web experiences, and automati
 
 Every project opens into its own details. The repository index below is refreshed automatically.
 
-<details>
-<summary><strong>01 · Lunar X</strong> <code>ANIME · MANGA · NOVELS · COMMUNITY PLATFORM</code></summary>
 
-**[Open Lunar X](https://lunarx.to/)** · [Profile](https://lunarx.to/Profile/vvvx)
-
-A media and community platform spanning anime, manga, novels, discovery, profiles, progression systems, games, and supporting infrastructure.
-
-**Reported project footprint: 676,088 lines.**
-
-| Area | Stack | Lines | Estimated characters |
-| --- | --- | ---: | ---: |
-| Backend | Rust | 265,856 | ≈ 15,951,360 |
-| Frontend | Next.js | 309,274 | ≈ 27,834,660 |
-| Gacha games | React | 40,751 | ≈ 3,667,590 |
-| Scraping & tools | Python | 20,865 | ≈ 1,001,520 |
-| Web graphics | WebGL | 20,657 | — |
-| 3D rendering | Three.js | 18,685 | — |
-| **Total** | | **676,088** | **≈ 48,455,130 known subtotal** |
-
-<sub>Character estimates are shown only for the four areas with supplied characters-per-line assumptions. WebGL and Three.js remain line-count-only rather than receiving invented estimates.</sub>
-</details>
 
 <details>
 <summary><strong>02 · Lemegeton</strong> <code>DISCORD · MEDIA DISCOVERY · MULTI-GUILD</code></summary>
@@ -647,23 +626,7 @@ Whole-repository totals cover tracked source, configuration, and documentation a
 
 </details>
 
-<details>
-<summary><strong>Lunar X</strong> · 676,088 supplied lines</summary>
 
-| Area | Stack / framework | Lines | Estimated characters |
-| --- | --- | ---: | ---: |
-| Backend | Rust | 265,856 | ≈ 15,951,360 |
-| Frontend | Next.js | 309,274 | ≈ 27,834,660 |
-| Gacha games | React | 40,751 | ≈ 3,667,590 |
-| Scraping & other tools | Python | 20,865 | ≈ 1,001,520 |
-| Web graphics | WebGL | 20,657 | — |
-| 3D rendering | Three.js | 18,685 | — |
-
-**Character estimate subtotal:** ≈ 48,455,130 across 4 areas with supplied character-per-line assumptions.
-
-_Other areas remain line-count-only until a character estimate is supplied. These are estimates, not scanned counts._
-
-</details>
 
 _Source: [machine-readable snapshot](code-stats.json). Repository totals cover tracked source, configuration, and documentation. Build/dependency output, lockfiles, binaries, generated directories, and files over 1 MB are excluded. Framework detection is reported separately from source-language classification: .ts and .tsx remain TypeScript files; Next.js is shown as a detected framework._
 _Scan note: 1 repository scan(s) could not be completed in this snapshot._
