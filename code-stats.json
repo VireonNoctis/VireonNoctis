@@ -1,15 +1,15 @@
 {
   "schemaVersion": 4,
   "owner": "VireonNoctis",
-  "generatedAt": "2026-11-24T11:19:21Z",
+  "generatedAt": "2026-11-24T12:39:28Z",
   "scope": "Current default-branch snapshots of eligible public repositories owned by VireonNoctis plus public external repositories explicitly listed as contributor projects or discovered through commits attributed to the GitHub login. Counts cover tracked text-based source, configuration, and documentation; dependency/build/generated directories, lockfiles, binary files, and files over 1 MB are excluded. These repository-wide footprint totals are not line-by-line authorship attribution. Language counts follow tracked file extensions; detected frameworks are stored separately; manually supplied project estimates are kept separate from repository scans.",
   "discoveryWarning": null,
   "totals": {
-    "files": 3606,
-    "lines": 802050,
-    "nonblankLines": 726368,
-    "characters": 34853592,
-    "words": 3635290,
+    "files": 3600,
+    "lines": 801961,
+    "nonblankLines": 726283,
+    "characters": 34846666,
+    "words": 3634713,
     "stars": 2,
     "forks": 3,
     "repositories": 21,
@@ -18,11 +18,11 @@
     "failedRepositories": 1
   },
   "ownedTotals": {
-    "files": 2940,
-    "lines": 589390,
-    "nonblankLines": 535465,
-    "characters": 25787925,
-    "words": 2806082,
+    "files": 2934,
+    "lines": 589301,
+    "nonblankLines": 535380,
+    "characters": 25780999,
+    "words": 2805505,
     "stars": 1,
     "forks": 1,
     "repositories": 19
@@ -41,10 +41,10 @@
     {
       "language": "TypeScript",
       "files": 2015,
-      "lines": 394245,
-      "nonblankLines": 360976,
-      "characters": 14457098,
-      "words": 1417662
+      "lines": 394229,
+      "nonblankLines": 360960,
+      "characters": 14455858,
+      "words": 1417522
     },
     {
       "language": "Python",
@@ -57,10 +57,10 @@
     {
       "language": "Markdown",
       "files": 314,
-      "lines": 85463,
-      "nonblankLines": 75277,
-      "characters": 6929482,
-      "words": 1011518
+      "lines": 85451,
+      "nonblankLines": 75269,
+      "characters": 6929188,
+      "words": 1011466
     },
     {
       "language": "SQL",
@@ -73,10 +73,10 @@
     {
       "language": "JSON",
       "files": 79,
-      "lines": 35303,
-      "nonblankLines": 35303,
-      "characters": 1162132,
-      "words": 107917
+      "lines": 35260,
+      "nonblankLines": 35260,
+      "characters": 1161118,
+      "words": 107834
     },
     {
       "language": "Rust",
@@ -203,7 +203,7 @@
       "files": 10,
       "lines": 718,
       "nonblankLines": 696,
-      "characters": 571302,
+      "characters": 569814,
       "words": 3146
     },
     {
@@ -240,11 +240,11 @@
     },
     {
       "language": "SVG",
-      "files": 151,
-      "lines": 351,
-      "nonblankLines": 347,
-      "characters": 150359,
-      "words": 11205
+      "files": 145,
+      "lines": 333,
+      "nonblankLines": 329,
+      "characters": 147469,
+      "words": 10903
     },
     {
       "language": "Terraform (HCL)",
@@ -1169,11 +1169,11 @@
       "frameworks": [
         "Vue"
       ],
-      "files": 194,
-      "lines": 6194,
-      "nonblankLines": 5912,
-      "characters": 967851,
-      "words": 34706,
+      "files": 188,
+      "lines": 6160,
+      "nonblankLines": 5878,
+      "characters": 962233,
+      "words": 34264,
       "languages": [
         {
           "language": "CSS",
@@ -1186,10 +1186,10 @@
         {
           "language": "TypeScript",
           "files": 9,
-          "lines": 1424,
-          "nonblankLines": 1364,
-          "characters": 70296,
-          "words": 7015
+          "lines": 1408,
+          "nonblankLines": 1348,
+          "characters": 69056,
+          "words": 6875
         },
         {
           "language": "Vue",
@@ -1209,11 +1209,11 @@
         },
         {
           "language": "SVG",
-          "files": 143,
-          "lines": 273,
-          "nonblankLines": 269,
-          "characters": 137807,
-          "words": 10219
+          "files": 137,
+          "lines": 255,
+          "nonblankLines": 251,
+          "characters": 134917,
+          "words": 9917
         },
         {
           "language": "Plain text",
@@ -1244,7 +1244,7 @@
           "files": 4,
           "lines": 98,
           "nonblankLines": 97,
-          "characters": 541293,
+          "characters": 539805,
           "words": 434
         },
         {
@@ -1717,6 +1717,49 @@
       "forks": 0
     },
     {
+      "name": "Lunar-Css",
+      "fullName": "VireonNoctis/Lunar-Css",
+      "url": "https://github.com/VireonNoctis/Lunar-Css",
+      "branch": "main",
+      "relationship": "owned",
+      "role": "Repository owner",
+      "contributionNote": "Repository owned by the account.",
+      "frameworks": [],
+      "files": 13,
+      "lines": 7090,
+      "nonblankLines": 5834,
+      "characters": 212935,
+      "words": 21488,
+      "languages": [
+        {
+          "language": "CSS",
+          "files": 11,
+          "lines": 6887,
+          "nonblankLines": 5663,
+          "characters": 201724,
+          "words": 19896
+        },
+        {
+          "language": "Plain text",
+          "files": 1,
+          "lines": 201,
+          "nonblankLines": 169,
+          "characters": 11156,
+          "words": 1581
+        },
+        {
+          "language": "Markdown",
+          "files": 1,
+          "lines": 2,
+          "nonblankLines": 2,
+          "characters": 55,
+          "words": 11
+        }
+      ],
+      "stars": 0,
+      "forks": 0
+    },
+    {
       "name": "vvd-reimagined",
       "fullName": "VireonNoctis/vvd-reimagined",
       "url": "https://github.com/VireonNoctis/vvd-reimagined",
@@ -1919,18 +1962,18 @@
       "contributionNote": "Repository owned by the account.",
       "frameworks": [],
       "files": 8,
-      "lines": 3829,
-      "nonblankLines": 3562,
-      "characters": 111959,
-      "words": 10831,
+      "lines": 3774,
+      "nonblankLines": 3511,
+      "characters": 110651,
+      "words": 10696,
       "languages": [
         {
           "language": "JSON",
           "files": 2,
-          "lines": 2212,
-          "nonblankLines": 2212,
-          "characters": 50130,
-          "words": 4162
+          "lines": 2169,
+          "nonblankLines": 2169,
+          "characters": 49116,
+          "words": 4079
         },
         {
           "language": "Python",
@@ -1943,10 +1986,10 @@
         {
           "language": "Markdown",
           "files": 1,
-          "lines": 653,
-          "nonblankLines": 468,
-          "characters": 20461,
-          "words": 2992
+          "lines": 641,
+          "nonblankLines": 460,
+          "characters": 20167,
+          "words": 2940
         },
         {
           "language": "YAML",

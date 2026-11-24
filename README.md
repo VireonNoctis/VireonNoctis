@@ -240,7 +240,7 @@ Whole-repository totals cover tracked source, configuration, and documentation a
 
 | Repositories | Tracked files | Lines | Characters | Words | Stars / forks |
 | ---: | ---: | ---: | ---: | ---: | ---: |
-| 21 | 3,606 | 802,050 | 34,853,592 | 3,635,290 | 2 / 3 |
+| 21 | 3,600 | 801,961 | 34,846,666 | 3,634,713 | 2 / 3 |
 
 <details>
 <summary><strong>Repository footprint</strong> · 21 expandable project records</summary>
@@ -397,7 +397,17 @@ Whole-repository totals cover tracked source, configuration, and documentation a
 
 </details>
 
+<details><summary><strong>Lunar-Css</strong> · 7,090 lines · 13 files</summary>
 
+[Open repository](https://github.com/VireonNoctis/Lunar-Css) · Owned project
+
+| Source language / format | Lines | Files |
+| --- | ---: | ---: |
+| CSS | 6,887 | 11 |
+| Plain text | 201 | 1 |
+| Markdown | 2 | 1 |
+
+</details>
 
 <details><summary><strong>Moonbyte</strong> · 77,468 lines · 73 files</summary>
 
@@ -530,20 +540,20 @@ Whole-repository totals cover tracked source, configuration, and documentation a
 
 </details>
 
-<details><summary><strong>VireonNoctis</strong> · 3,829 lines · 8 files</summary>
+<details><summary><strong>VireonNoctis</strong> · 3,774 lines · 8 files</summary>
 
 [Open repository](https://github.com/VireonNoctis/VireonNoctis) · Owned project
 
 | Source language / format | Lines | Files |
 | --- | ---: | ---: |
-| JSON | 2,212 | 2 |
+| JSON | 2,169 | 2 |
 | Python | 849 | 3 |
-| Markdown | 653 | 1 |
+| Markdown | 641 | 1 |
 | YAML | 115 | 2 |
 
 </details>
 
-<details><summary><strong>VireonNoctis.github.io</strong> · 6,194 lines · 194 files</summary>
+<details><summary><strong>VireonNoctis.github.io</strong> · 6,160 lines · 188 files</summary>
 
 [Open repository](https://github.com/VireonNoctis/VireonNoctis.github.io) · Owned project
 **Detected frameworks:** Vue
@@ -551,10 +561,10 @@ Whole-repository totals cover tracked source, configuration, and documentation a
 | Source language / format | Lines | Files |
 | --- | ---: | ---: |
 | CSS | 2,724 | 6 |
-| TypeScript | 1,424 | 9 |
+| TypeScript | 1,408 | 9 |
 | Vue | 759 | 11 |
 | Rust | 296 | 2 |
-| SVG | 273 | 143 |
+| SVG | 255 | 137 |
 | Plain text | 175 | 4 |
 | YAML | 146 | 2 |
 | Markdown | 126 | 3 |
