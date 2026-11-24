@@ -397,17 +397,7 @@ Whole-repository totals cover tracked source, configuration, and documentation a
 
 </details>
 
-<details><summary><strong>Lunar-Css</strong> · 7,090 lines · 13 files</summary>
 
-[Open repository](https://github.com/VireonNoctis/Lunar-Css) · Owned project
-
-| Source language / format | Lines | Files |
-| --- | ---: | ---: |
-| CSS | 6,887 | 11 |
-| Plain text | 201 | 1 |
-| Markdown | 2 | 1 |
-
-</details>
 
 <details><summary><strong>Moonbyte</strong> · 77,468 lines · 73 files</summary>
 
