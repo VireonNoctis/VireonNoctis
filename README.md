@@ -257,11 +257,11 @@ A CLI that discovers hidden environmental assumptions in software by rerunning t
 Whole-repository totals cover tracked source, configuration, and documentation across owned and contributed public repositories. They describe project size, not personal line-by-line authorship.
 
 <!-- AUTO-CODE-STATS:START -->
-**Snapshot: 2026-11-23 UTC** · 21 public repositories (19 owned, 2 contributed).
+**Snapshot: 2026-11-24 UTC** · 21 public repositories (19 owned, 2 contributed).
 
 | Repositories | Tracked files | Lines | Characters | Words | Stars / forks |
 | ---: | ---: | ---: | ---: | ---: | ---: |
-| 21 | 3,608 | 802,194 | 34,859,500 | 3,635,931 | 2 / 3 |
+| 21 | 3,606 | 802,161 | 34,857,056 | 3,635,650 | 2 / 3 |
 
 <details>
 <summary><strong>Repository footprint</strong> · 21 expandable project records</summary>
@@ -430,7 +430,7 @@ Whole-repository totals cover tracked source, configuration, and documentation a
 
 </details>
 
-<details><summary><strong>Moonbyte</strong> · 77,463 lines · 73 files</summary>
+<details><summary><strong>Moonbyte</strong> · 77,468 lines · 73 files</summary>
 
 [Open repository](https://github.com/VireonNoctis/Moonbyte) · Owned project
 **Detected frameworks:** Next.js · React
@@ -439,7 +439,7 @@ Whole-repository totals cover tracked source, configuration, and documentation a
 | --- | ---: | ---: |
 | Markdown | 50,620 | 36 |
 | JSON | 21,324 | 6 |
-| Rust | 4,086 | 9 |
+| Rust | 4,091 | 9 |
 | Python | 394 | 2 |
 | TypeScript | 362 | 5 |
 | YAML | 238 | 8 |
@@ -561,7 +561,7 @@ Whole-repository totals cover tracked source, configuration, and documentation a
 
 </details>
 
-<details><summary><strong>VireonNoctis</strong> · 3,956 lines · 8 files</summary>
+<details><summary><strong>VireonNoctis</strong> · 3,940 lines · 8 files</summary>
 
 [Open repository](https://github.com/VireonNoctis/VireonNoctis) · Owned project
 
@@ -569,12 +569,12 @@ Whole-repository totals cover tracked source, configuration, and documentation a
 | --- | ---: | ---: |
 | JSON | 2,302 | 2 |
 | Python | 849 | 3 |
-| Markdown | 690 | 1 |
+| Markdown | 674 | 1 |
 | YAML | 115 | 2 |
 
 </details>
 
-<details><summary><strong>VireonNoctis.github.io</strong> · 6,216 lines · 196 files</summary>
+<details><summary><strong>VireonNoctis.github.io</strong> · 6,194 lines · 194 files</summary>
 
 [Open repository](https://github.com/VireonNoctis/VireonNoctis.github.io) · Owned project
 **Detected frameworks:** Vue
@@ -582,10 +582,10 @@ Whole-repository totals cover tracked source, configuration, and documentation a
 | Source language / format | Lines | Files |
 | --- | ---: | ---: |
 | CSS | 2,724 | 6 |
-| TypeScript | 1,432 | 9 |
+| TypeScript | 1,424 | 9 |
 | Vue | 759 | 11 |
 | Rust | 296 | 2 |
-| SVG | 287 | 145 |
+| SVG | 273 | 143 |
 | Plain text | 175 | 4 |
 | YAML | 146 | 2 |
 | Markdown | 126 | 3 |
@@ -647,7 +647,23 @@ Whole-repository totals cover tracked source, configuration, and documentation a
 
 </details>
 
+<details>
+<summary><strong>Lunar X</strong> · 676,088 supplied lines</summary>
 
+| Area | Stack / framework | Lines | Estimated characters |
+| --- | --- | ---: | ---: |
+| Backend | Rust | 265,856 | ≈ 15,951,360 |
+| Frontend | Next.js | 309,274 | ≈ 27,834,660 |
+| Gacha games | React | 40,751 | ≈ 3,667,590 |
+| Scraping & other tools | Python | 20,865 | ≈ 1,001,520 |
+| Web graphics | WebGL | 20,657 | — |
+| 3D rendering | Three.js | 18,685 | — |
+
+**Character estimate subtotal:** ≈ 48,455,130 across 4 areas with supplied character-per-line assumptions.
+
+_Other areas remain line-count-only until a character estimate is supplied. These are estimates, not scanned counts._
+
+</details>
 
 _Source: [machine-readable snapshot](code-stats.json). Repository totals cover tracked source, configuration, and documentation. Build/dependency output, lockfiles, binaries, generated directories, and files over 1 MB are excluded. Framework detection is reported separately from source-language classification: .ts and .tsx remain TypeScript files; Next.js is shown as a detected framework._
 _Scan note: 1 repository scan(s) could not be completed in this snapshot._

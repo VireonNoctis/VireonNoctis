@@ -1,15 +1,15 @@
 {
   "schemaVersion": 4,
   "owner": "VireonNoctis",
-  "generatedAt": "2026-11-23T10:55:50Z",
+  "generatedAt": "2026-11-24T10:33:41Z",
   "scope": "Current default-branch snapshots of eligible public repositories owned by VireonNoctis plus public external repositories explicitly listed as contributor projects or discovered through commits attributed to the GitHub login. Counts cover tracked text-based source, configuration, and documentation; dependency/build/generated directories, lockfiles, binary files, and files over 1 MB are excluded. These repository-wide footprint totals are not line-by-line authorship attribution. Language counts follow tracked file extensions; detected frameworks are stored separately; manually supplied project estimates are kept separate from repository scans.",
   "discoveryWarning": null,
   "totals": {
-    "files": 3608,
-    "lines": 802194,
-    "nonblankLines": 726506,
-    "characters": 34859500,
-    "words": 3635931,
+    "files": 3606,
+    "lines": 802161,
+    "nonblankLines": 726475,
+    "characters": 34857056,
+    "words": 3635650,
     "stars": 2,
     "forks": 3,
     "repositories": 21,
@@ -18,11 +18,11 @@
     "failedRepositories": 1
   },
   "ownedTotals": {
-    "files": 2942,
-    "lines": 589534,
-    "nonblankLines": 535603,
-    "characters": 25793833,
-    "words": 2806723,
+    "files": 2940,
+    "lines": 589501,
+    "nonblankLines": 535572,
+    "characters": 25791389,
+    "words": 2806442,
     "stars": 1,
     "forks": 1,
     "repositories": 19
@@ -41,10 +41,10 @@
     {
       "language": "TypeScript",
       "files": 2015,
-      "lines": 394253,
-      "nonblankLines": 360984,
-      "characters": 14457720,
-      "words": 1417736
+      "lines": 394245,
+      "nonblankLines": 360976,
+      "characters": 14457098,
+      "words": 1417662
     },
     {
       "language": "Python",
@@ -57,10 +57,10 @@
     {
       "language": "Markdown",
       "files": 314,
-      "lines": 85500,
-      "nonblankLines": 75307,
-      "characters": 6931317,
-      "words": 1011801
+      "lines": 85484,
+      "nonblankLines": 75294,
+      "characters": 6930650,
+      "words": 1011680
     },
     {
       "language": "SQL",
@@ -75,16 +75,16 @@
       "files": 79,
       "lines": 35393,
       "nonblankLines": 35393,
-      "characters": 1164427,
+      "characters": 1164428,
       "words": 108115
     },
     {
       "language": "Rust",
       "files": 66,
-      "lines": 29697,
-      "nonblankLines": 27684,
-      "characters": 1108505,
-      "words": 85647
+      "lines": 29702,
+      "nonblankLines": 27688,
+      "characters": 1108719,
+      "words": 85667
     },
     {
       "language": "Kotlin",
@@ -203,7 +203,7 @@
       "files": 10,
       "lines": 718,
       "nonblankLines": 696,
-      "characters": 571870,
+      "characters": 571302,
       "words": 3146
     },
     {
@@ -231,20 +231,20 @@
       "words": 1446
     },
     {
-      "language": "SVG",
-      "files": 153,
-      "lines": 365,
-      "nonblankLines": 361,
-      "characters": 151161,
-      "words": 11311
-    },
-    {
       "language": "TOML",
       "files": 23,
       "lines": 363,
       "nonblankLines": 325,
       "characters": 9692,
       "words": 1443
+    },
+    {
+      "language": "SVG",
+      "files": 151,
+      "lines": 351,
+      "nonblankLines": 347,
+      "characters": 150359,
+      "words": 11205
     },
     {
       "language": "Terraform (HCL)",
@@ -595,10 +595,10 @@
         "React"
       ],
       "files": 73,
-      "lines": 77463,
-      "nonblankLines": 75391,
-      "characters": 5386401,
-      "words": 754011,
+      "lines": 77468,
+      "nonblankLines": 75395,
+      "characters": 5386615,
+      "words": 754031,
       "languages": [
         {
           "language": "Markdown",
@@ -619,10 +619,10 @@
         {
           "language": "Rust",
           "files": 9,
-          "lines": 4086,
-          "nonblankLines": 3739,
-          "characters": 134673,
-          "words": 11456
+          "lines": 4091,
+          "nonblankLines": 3743,
+          "characters": 134887,
+          "words": 11476
         },
         {
           "language": "Python",
@@ -1216,11 +1216,11 @@
       "frameworks": [
         "Vue"
       ],
-      "files": 196,
-      "lines": 6216,
-      "nonblankLines": 5934,
-      "characters": 969843,
-      "words": 34886,
+      "files": 194,
+      "lines": 6194,
+      "nonblankLines": 5912,
+      "characters": 967851,
+      "words": 34706,
       "languages": [
         {
           "language": "CSS",
@@ -1233,10 +1233,10 @@
         {
           "language": "TypeScript",
           "files": 9,
-          "lines": 1432,
-          "nonblankLines": 1372,
-          "characters": 70918,
-          "words": 7089
+          "lines": 1424,
+          "nonblankLines": 1364,
+          "characters": 70296,
+          "words": 7015
         },
         {
           "language": "Vue",
@@ -1256,11 +1256,11 @@
         },
         {
           "language": "SVG",
-          "files": 145,
-          "lines": 287,
-          "nonblankLines": 283,
-          "characters": 138609,
-          "words": 10325
+          "files": 143,
+          "lines": 273,
+          "nonblankLines": 269,
+          "characters": 137807,
+          "words": 10219
         },
         {
           "language": "Plain text",
@@ -1291,7 +1291,7 @@
           "files": 4,
           "lines": 98,
           "nonblankLines": 97,
-          "characters": 541861,
+          "characters": 541293,
           "words": 434
         },
         {
@@ -2009,17 +2009,17 @@
       "contributionNote": "Repository owned by the account.",
       "frameworks": [],
       "files": 8,
-      "lines": 3956,
-      "nonblankLines": 3682,
-      "characters": 116089,
-      "words": 11312,
+      "lines": 3940,
+      "nonblankLines": 3669,
+      "characters": 115423,
+      "words": 11191,
       "languages": [
         {
           "language": "JSON",
           "files": 2,
           "lines": 2302,
           "nonblankLines": 2302,
-          "characters": 52425,
+          "characters": 52426,
           "words": 4360
         },
         {
@@ -2033,10 +2033,10 @@
         {
           "language": "Markdown",
           "files": 1,
-          "lines": 690,
-          "nonblankLines": 498,
-          "characters": 22296,
-          "words": 3275
+          "lines": 674,
+          "nonblankLines": 485,
+          "characters": 21629,
+          "words": 3154
         },
         {
           "language": "YAML",
