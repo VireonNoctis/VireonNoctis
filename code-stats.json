@@ -327,54 +327,7 @@
       "words": 1
     }
   ],
-  "manualProjectEstimates": [
-    {
-      "id": "lunar-x",
-      "name": "Lunar X",
-      "url": "https://lunarx.to/",
-      "classification": "User-supplied line totals with explicit stack-specific character estimates where a rate was provided; values are estimates, not repository scans.",
-      "areas": [
-        {
-          "name": "Backend",
-          "stack": "Rust",
-          "lines": 265856,
-          "estimatedCharactersPerLine": 60,
-          "characters": 15951360
-        },
-        {
-          "name": "Frontend",
-          "stack": "Next.js",
-          "lines": 309274,
-          "estimatedCharactersPerLine": 90,
-          "characters": 27834660
-        },
-        {
-          "name": "Gacha games",
-          "stack": "React",
-          "lines": 40751,
-          "estimatedCharactersPerLine": 90,
-          "characters": 3667590
-        },
-        {
-          "name": "Scraping & other tools",
-          "stack": "Python",
-          "lines": 20865,
-          "estimatedCharactersPerLine": 48,
-          "characters": 1001520
-        },
-        {
-          "name": "Web graphics",
-          "stack": "WebGL",
-          "lines": 20657
-        },
-        {
-          "name": "3D rendering",
-          "stack": "Three.js",
-          "lines": 18685
-        }
-      ]
-    }
-  ],
+  "manualProjectEstimates": [],
   "repositories": [
     {
       "name": "loop-app",
