@@ -236,16 +236,16 @@ A CLI that discovers hidden environmental assumptions in software by rerunning t
 Whole-repository totals cover tracked source, configuration, and documentation across owned and contributed public repositories. They describe project size, not personal line-by-line authorship.
 
 <!-- AUTO-CODE-STATS:START -->
-**Snapshot: 2026-11-24 UTC** · 21 public repositories (19 owned, 2 contributed).
+**Snapshot: 2026-11-25 UTC** · 21 public repositories (19 owned, 2 contributed).
 
 | Repositories | Tracked files | Lines | Characters | Words | Stars / forks |
 | ---: | ---: | ---: | ---: | ---: | ---: |
-| 21 | 3,600 | 801,961 | 34,846,666 | 3,634,713 | 2 / 3 |
+| 21 | 3,622 | 805,876 | 35,662,198 | 3,649,284 | 2 / 4 |
 
 <details>
 <summary><strong>Repository footprint</strong> · 21 expandable project records</summary>
 
-<details><summary><strong>GoodSale</strong> · 122,435 lines · 452 files</summary>
+<details><summary><strong>GoodSale</strong> · 124,276 lines · 456 files</summary>
 
 [Open repository](https://github.com/JammyVibez/GoodSale) · Contributor project
 **Contribution:** Contributor
@@ -253,19 +253,19 @@ Whole-repository totals cover tracked source, configuration, and documentation a
 
 | Source language / format | Lines | Files |
 | --- | ---: | ---: |
-| TypeScript | 93,149 | 360 |
+| TypeScript | 93,206 | 361 |
 | SQL | 17,302 | 42 |
+| Rust | 5,464 | 12 |
 | JavaScript | 4,274 | 12 |
-| Rust | 3,769 | 9 |
 | JSON | 1,949 | 12 |
-| CSS | 849 | 1 |
-| Markdown | 715 | 6 |
-| YAML | 188 | 3 |
+| CSS | 919 | 1 |
+| Markdown | 730 | 6 |
+| YAML | 189 | 3 |
 | Dockerfile | 67 | 2 |
 | Git config | 58 | 1 |
 | Environment config | 49 | 1 |
 | Plain text | 34 | 1 |
-| TOML | 27 | 1 |
+| TOML | 30 | 1 |
 | SVG | 5 | 1 |
 
 </details>
@@ -409,16 +409,16 @@ Whole-repository totals cover tracked source, configuration, and documentation a
 
 </details>
 
-<details><summary><strong>Moonbyte</strong> · 77,468 lines · 73 files</summary>
+<details><summary><strong>Moonbyte</strong> · 77,597 lines · 73 files</summary>
 
 [Open repository](https://github.com/VireonNoctis/Moonbyte) · Owned project
 **Detected frameworks:** Next.js · React
 
 | Source language / format | Lines | Files |
 | --- | ---: | ---: |
-| Markdown | 50,620 | 36 |
+| Markdown | 50,622 | 36 |
 | JSON | 21,324 | 6 |
-| Rust | 4,091 | 9 |
+| Rust | 4,218 | 9 |
 | Python | 394 | 2 |
 | TypeScript | 362 | 5 |
 | YAML | 238 | 8 |
@@ -518,58 +518,62 @@ Whole-repository totals cover tracked source, configuration, and documentation a
 
 </details>
 
-<details><summary><strong>Vireon-Signature</strong> · 3,286 lines · 47 files</summary>
+<details><summary><strong>Vireon-Signature</strong> · 5,070 lines · 61 files</summary>
 
 [Open repository](https://github.com/VireonNoctis/Vireon-Signature) · Owned project
 **Detected frameworks:** React · Three.js
 
 | Source language / format | Lines | Files |
 | --- | ---: | ---: |
-| Markdown | 1,212 | 14 |
-| JavaScript | 813 | 9 |
-| CSS | 599 | 2 |
-| YAML | 269 | 8 |
+| JavaScript | 1,730 | 15 |
+| Markdown | 1,208 | 15 |
+| CSS | 579 | 2 |
+| C++ | 520 | 1 |
+| Python | 318 | 2 |
+| YAML | 314 | 9 |
 | Git config | 155 | 2 |
-| JSON | 87 | 4 |
-| Python | 73 | 1 |
-| HTML | 32 | 2 |
+| JSON | 88 | 4 |
+| HTML | 36 | 2 |
+| Plain text | 33 | 2 |
+| Dockerfile | 32 | 1 |
+| SVG | 21 | 2 |
 | EditorConfig | 21 | 1 |
-| SVG | 20 | 2 |
-| Plain text | 3 | 1 |
+| Docker config | 9 | 1 |
+| Environment config | 4 | 1 |
 | XML | 2 | 1 |
 
 </details>
 
-<details><summary><strong>VireonNoctis</strong> · 3,774 lines · 8 files</summary>
+<details><summary><strong>VireonNoctis</strong> · 3,827 lines · 8 files</summary>
 
 [Open repository](https://github.com/VireonNoctis/VireonNoctis) · Owned project
 
 | Source language / format | Lines | Files |
 | --- | ---: | ---: |
-| JSON | 2,169 | 2 |
+| JSON | 2,212 | 2 |
 | Python | 849 | 3 |
-| Markdown | 641 | 1 |
+| Markdown | 651 | 1 |
 | YAML | 115 | 2 |
 
 </details>
 
-<details><summary><strong>VireonNoctis.github.io</strong> · 6,160 lines · 188 files</summary>
+<details><summary><strong>VireonNoctis.github.io</strong> · 6,268 lines · 192 files</summary>
 
 [Open repository](https://github.com/VireonNoctis/VireonNoctis.github.io) · Owned project
 **Detected frameworks:** Vue
 
 | Source language / format | Lines | Files |
 | --- | ---: | ---: |
-| CSS | 2,724 | 6 |
-| TypeScript | 1,408 | 9 |
-| Vue | 759 | 11 |
+| CSS | 2,735 | 7 |
+| TypeScript | 1,409 | 9 |
+| Vue | 812 | 13 |
 | Rust | 296 | 2 |
 | SVG | 255 | 137 |
 | Plain text | 175 | 4 |
 | YAML | 146 | 2 |
+| HTML | 139 | 5 |
 | Markdown | 126 | 3 |
-| HTML | 98 | 4 |
-| JSON | 64 | 4 |
+| JSON | 66 | 4 |
 | JavaScript | 61 | 1 |
 | XML | 18 | 2 |
 | Git config | 16 | 2 |
