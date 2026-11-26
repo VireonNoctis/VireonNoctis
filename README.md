@@ -236,11 +236,11 @@ A CLI that discovers hidden environmental assumptions in software by rerunning t
 Whole-repository totals cover tracked source, configuration, and documentation across owned and contributed public repositories. They describe project size, not personal line-by-line authorship.
 
 <!-- AUTO-CODE-STATS:START -->
-**Snapshot: 2026-11-25 UTC** · 21 public repositories (19 owned, 2 contributed).
+**Snapshot: 2026-11-26 UTC** · 21 public repositories (19 owned, 2 contributed).
 
 | Repositories | Tracked files | Lines | Characters | Words | Stars / forks |
 | ---: | ---: | ---: | ---: | ---: | ---: |
-| 21 | 3,622 | 805,876 | 35,662,198 | 3,649,284 | 2 / 4 |
+| 21 | 3,622 | 805,919 | 35,663,081 | 3,649,378 | 2 / 4 |
 
 <details>
 <summary><strong>Repository footprint</strong> · 21 expandable project records</summary>
@@ -409,7 +409,7 @@ Whole-repository totals cover tracked source, configuration, and documentation a
 
 </details>
 
-<details><summary><strong>Moonbyte</strong> · 77,597 lines · 73 files</summary>
+<details><summary><strong>Moonbyte</strong> · 77,604 lines · 73 files</summary>
 
 [Open repository](https://github.com/VireonNoctis/Moonbyte) · Owned project
 **Detected frameworks:** Next.js · React
@@ -418,7 +418,7 @@ Whole-repository totals cover tracked source, configuration, and documentation a
 | --- | ---: | ---: |
 | Markdown | 50,622 | 36 |
 | JSON | 21,324 | 6 |
-| Rust | 4,218 | 9 |
+| Rust | 4,225 | 9 |
 | Python | 394 | 2 |
 | TypeScript | 362 | 5 |
 | YAML | 238 | 8 |
@@ -544,15 +544,15 @@ Whole-repository totals cover tracked source, configuration, and documentation a
 
 </details>
 
-<details><summary><strong>VireonNoctis</strong> · 3,827 lines · 8 files</summary>
+<details><summary><strong>VireonNoctis</strong> · 3,863 lines · 8 files</summary>
 
 [Open repository](https://github.com/VireonNoctis/VireonNoctis) · Owned project
 
 | Source language / format | Lines | Files |
 | --- | ---: | ---: |
-| JSON | 2,212 | 2 |
+| JSON | 2,244 | 2 |
 | Python | 849 | 3 |
-| Markdown | 651 | 1 |
+| Markdown | 655 | 1 |
 | YAML | 115 | 2 |
 
 </details>
