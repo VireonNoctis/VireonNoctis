@@ -130,7 +130,17 @@ The ten most recently updated described public repositories. Open any row for it
 
 <!-- AUTO-REPOSITORIES:START -->
 <details>
-<summary><strong>01 · Moonbyte</strong> <code>UPDATED 2026-11-12</code></summary>
+<summary><strong>01 · vvd-reimagined</strong> <code>UPDATED 2026-11-27</code></summary>
+
+A ground-up reconstruction of vvd.world — a comprehensive worldbuilding, novel-writing, collaborative storytelling and publishing platform. Rebuilding its creative ecosystem,…
+
+**Repository:** [Open on GitHub](https://github.com/VireonNoctis/vvd-reimagined)
+**Source languages:** Python
+
+</details>
+
+<details>
+<summary><strong>02 · Moonbyte</strong> <code>UPDATED 2026-11-12</code></summary>
 
 Moonbyte is a pixel-art gaming bot that transforms Discord into a multiplayer arcade, featuring classic mini-games, original adventures, RPG experiences, puzzles, and competitive…
 
@@ -140,7 +150,7 @@ Moonbyte is a pixel-art gaming bot that transforms Discord into a multiplayer ar
 </details>
 
 <details>
-<summary><strong>02 · SwarmForge</strong> <code>UPDATED 2026-11-12</code></summary>
+<summary><strong>03 · SwarmForge</strong> <code>UPDATED 2026-11-12</code></summary>
 
 Turn Claude, ChatGPT, and other AI assistants into a unified AI development swarm.
 
@@ -150,7 +160,7 @@ Turn Claude, ChatGPT, and other AI assistants into a unified AI development swar
 </details>
 
 <details>
-<summary><strong>03 · Driftglass</strong> <code>UPDATED 2026-11-11</code></summary>
+<summary><strong>04 · Driftglass</strong> <code>UPDATED 2026-11-11</code></summary>
 
 Every update leaves a trace. Find it.
 
@@ -160,7 +170,7 @@ Every update leaves a trace. Find it.
 </details>
 
 <details>
-<summary><strong>04 · loop-app</strong> <code>UPDATED 2026-11-10</code></summary>
+<summary><strong>05 · loop-app</strong> <code>UPDATED 2026-11-10</code></summary>
 
 Social Media Reimagined
 
@@ -171,22 +181,12 @@ Social Media Reimagined
 </details>
 
 <details>
-<summary><strong>05 · PrivaCage</strong> <code>UPDATED 2026-11-08</code></summary>
+<summary><strong>06 · PrivaCage</strong> <code>UPDATED 2026-11-08</code></summary>
 
 Know what every app is doing to your device. Right now. In real time.
 
 **Repository:** [Open on GitHub](https://github.com/VireonNoctis/PrivaCage)
 **Source languages:** Kotlin, Rust, Go, TypeScript, CSS, Svelte, HTML
-
-</details>
-
-<details>
-<summary><strong>06 · vvd-reimagined</strong> <code>UPDATED 2026-11-05</code></summary>
-
-A ground-up reconstruction of vvd.world — a comprehensive worldbuilding, novel-writing, collaborative storytelling and publishing platform. Rebuilding its creative ecosystem,…
-
-**Repository:** [Open on GitHub](https://github.com/VireonNoctis/vvd-reimagined)
-**Source languages:** Python
 
 </details>
 
@@ -236,11 +236,11 @@ A CLI that discovers hidden environmental assumptions in software by rerunning t
 Whole-repository totals cover tracked source, configuration, and documentation across owned and contributed public repositories. They describe project size, not personal line-by-line authorship.
 
 <!-- AUTO-CODE-STATS:START -->
-**Snapshot: 2026-11-26 UTC** · 21 public repositories (19 owned, 2 contributed).
+**Snapshot: 2026-11-27 UTC** · 21 public repositories (19 owned, 2 contributed).
 
 | Repositories | Tracked files | Lines | Characters | Words | Stars / forks |
 | ---: | ---: | ---: | ---: | ---: | ---: |
-| 21 | 3,622 | 805,919 | 35,663,081 | 3,649,378 | 2 / 4 |
+| 21 | 3,623 | 805,970 | 35,665,399 | 3,649,533 | 3 / 4 |
 
 <details>
 <summary><strong>Repository footprint</strong> · 21 expandable project records</summary>
@@ -270,7 +270,7 @@ Whole-repository totals cover tracked source, configuration, and documentation a
 
 </details>
 
-<details><summary><strong>Lemegeton</strong> · 90,225 lines · 214 files</summary>
+<details><summary><strong>Lemegeton</strong> · 90,276 lines · 215 files</summary>
 
 [Open repository](https://github.com/Kyerstorm/Lemegeton) · Contributor project
 **Contribution:** Major contributor · co-owner
@@ -287,6 +287,7 @@ Whole-repository totals cover tracked source, configuration, and documentation a
 | Config | 86 | 3 |
 | Plain text | 56 | 4 |
 | Dockerfile | 52 | 1 |
+| TypeScript | 51 | 1 |
 | Shell | 33 | 1 |
 | TOML | 21 | 2 |
 | Docker config | 20 | 1 |

@@ -1,16 +1,16 @@
 {
   "schemaVersion": 4,
   "owner": "VireonNoctis",
-  "generatedAt": "2026-11-26T11:06:36Z",
+  "generatedAt": "2026-11-27T11:00:55Z",
   "scope": "Current default-branch snapshots of eligible public repositories owned by VireonNoctis plus public external repositories explicitly listed as contributor projects or discovered through commits attributed to the GitHub login. Counts cover tracked text-based source, configuration, and documentation; dependency/build/generated directories, lockfiles, binary files, and files over 1 MB are excluded. These repository-wide footprint totals are not line-by-line authorship attribution. Language counts follow tracked file extensions; detected frameworks are stored separately; manually supplied project estimates are kept separate from repository scans.",
   "discoveryWarning": null,
   "totals": {
-    "files": 3622,
-    "lines": 805919,
-    "nonblankLines": 729994,
-    "characters": 35663081,
-    "words": 3649378,
-    "stars": 2,
+    "files": 3623,
+    "lines": 805970,
+    "nonblankLines": 730038,
+    "characters": 35665399,
+    "words": 3649533,
+    "stars": 3,
     "forks": 4,
     "repositories": 21,
     "ownedRepositories": 19,
@@ -23,16 +23,16 @@
     "nonblankLines": 537332,
     "characters": 26537748,
     "words": 2815621,
-    "stars": 1,
+    "stars": 2,
     "forks": 1,
     "repositories": 19
   },
   "contributedTotals": {
-    "files": 670,
-    "lines": 214501,
-    "nonblankLines": 192662,
-    "characters": 9125333,
-    "words": 833757,
+    "files": 671,
+    "lines": 214552,
+    "nonblankLines": 192706,
+    "characters": 9127651,
+    "words": 833912,
     "stars": 1,
     "forks": 3,
     "repositories": 2
@@ -40,11 +40,11 @@
   "languages": [
     {
       "language": "TypeScript",
-      "files": 2016,
-      "lines": 394287,
-      "nonblankLines": 361016,
-      "characters": 14457858,
-      "words": 1417669
+      "files": 2017,
+      "lines": 394338,
+      "nonblankLines": 361060,
+      "characters": 14460141,
+      "words": 1417819
     },
     {
       "language": "Python",
@@ -59,8 +59,8 @@
       "files": 315,
       "lines": 85478,
       "nonblankLines": 75288,
-      "characters": 6937179,
-      "words": 1012769
+      "characters": 6937214,
+      "words": 1012774
     },
     {
       "language": "SQL",
@@ -796,11 +796,11 @@
       "role": "Major contributor · co-owner",
       "contributionNote": "Major contributor and co-owner of the project; scan the current multi-guild default branch alongside repositories owned by VireonNoctis.",
       "frameworks": [],
-      "files": 214,
-      "lines": 90225,
-      "nonblankLines": 77642,
-      "characters": 4000794,
-      "words": 365115,
+      "files": 215,
+      "lines": 90276,
+      "nonblankLines": 77686,
+      "characters": 4003112,
+      "words": 365270,
       "languages": [
         {
           "language": "Python",
@@ -815,8 +815,8 @@
           "files": 17,
           "lines": 5540,
           "nonblankLines": 4262,
-          "characters": 362869,
-          "words": 50917
+          "characters": 362904,
+          "words": 50922
         },
         {
           "language": "Batch",
@@ -881,6 +881,14 @@
           "nonblankLines": 49,
           "characters": 2191,
           "words": 212
+        },
+        {
+          "language": "TypeScript",
+          "files": 1,
+          "lines": 51,
+          "nonblankLines": 44,
+          "characters": 2283,
+          "words": 150
         },
         {
           "language": "Shell",
@@ -1981,7 +1989,7 @@
           "words": 69
         }
       ],
-      "stars": 0,
+      "stars": 1,
       "forks": 0
     },
     {
