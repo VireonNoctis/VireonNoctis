@@ -165,7 +165,7 @@ Turn Claude, ChatGPT, and other AI assistants into a unified AI development swar
 Every update leaves a trace. Find it.
 
 **Repository:** [Open on GitHub](https://github.com/VireonNoctis/Driftglass)
-**Source languages:** C++, JavaScript, Rust, Svelte, CSS, CMake, Swift, TypeScript, Shell, HTML
+**Source languages:** C++, JavaScript, Rust, Svelte, CSS, Swift, CMake, TypeScript, Shell, HTML
 
 </details>
 
@@ -236,11 +236,11 @@ A CLI that discovers hidden environmental assumptions in software by rerunning t
 Whole-repository totals cover tracked source, configuration, and documentation across owned and contributed public repositories. They describe project size, not personal line-by-line authorship.
 
 <!-- AUTO-CODE-STATS:START -->
-**Snapshot: 2026-11-27 UTC** · 21 public repositories (19 owned, 2 contributed).
+**Snapshot: 2026-11-28 UTC** · 21 public repositories (19 owned, 2 contributed).
 
 | Repositories | Tracked files | Lines | Characters | Words | Stars / forks |
 | ---: | ---: | ---: | ---: | ---: | ---: |
-| 21 | 3,623 | 805,970 | 35,665,399 | 3,649,533 | 3 / 4 |
+| 21 | 3,644 | 810,725 | 35,886,418 | 3,670,399 | 3 / 4 |
 
 <details>
 <summary><strong>Repository footprint</strong> · 21 expandable project records</summary>
@@ -308,7 +308,7 @@ Whole-repository totals cover tracked source, configuration, and documentation a
 
 </details>
 
-<details><summary><strong>Driftglass</strong> · 15,274 lines · 88 files</summary>
+<details><summary><strong>Driftglass</strong> · 15,353 lines · 89 files</summary>
 
 [Open repository](https://github.com/VireonNoctis/Driftglass) · Owned project
 **Detected frameworks:** Svelte
@@ -323,7 +323,7 @@ Whole-repository totals cover tracked source, configuration, and documentation a
 | Plain text | 745 | 2 |
 | CSS | 691 | 1 |
 | Svelte | 595 | 1 |
-| Swift | 425 | 5 |
+| Swift | 504 | 6 |
 | YAML | 170 | 3 |
 | TypeScript | 165 | 4 |
 | Shell | 157 | 2 |
@@ -410,16 +410,16 @@ Whole-repository totals cover tracked source, configuration, and documentation a
 
 </details>
 
-<details><summary><strong>Moonbyte</strong> · 77,604 lines · 73 files</summary>
+<details><summary><strong>Moonbyte</strong> · 77,909 lines · 73 files</summary>
 
 [Open repository](https://github.com/VireonNoctis/Moonbyte) · Owned project
 **Detected frameworks:** Next.js · React
 
 | Source language / format | Lines | Files |
 | --- | ---: | ---: |
-| Markdown | 50,622 | 36 |
+| Markdown | 50,627 | 36 |
 | JSON | 21,324 | 6 |
-| Rust | 4,225 | 9 |
+| Rust | 4,525 | 9 |
 | Python | 394 | 2 |
 | TypeScript | 362 | 5 |
 | YAML | 238 | 8 |
@@ -461,18 +461,18 @@ Whole-repository totals cover tracked source, configuration, and documentation a
 
 </details>
 
-<details><summary><strong>SkillTether</strong> · 11,002 lines · 62 files</summary>
+<details><summary><strong>SkillTether</strong> · 15,364 lines · 82 files</summary>
 
 [Open repository](https://github.com/VireonNoctis/SkillTether) · Owned project
 
 | Source language / format | Lines | Files |
 | --- | ---: | ---: |
-| Python | 8,324 | 35 |
-| Markdown | 1,058 | 17 |
+| Python | 11,547 | 44 |
+| Markdown | 1,331 | 27 |
+| JSON | 1,005 | 5 |
 | Plain text | 674 | 1 |
-| HTML | 390 | 1 |
-| JSON | 366 | 4 |
-| YAML | 161 | 3 |
+| HTML | 550 | 1 |
+| YAML | 228 | 3 |
 | TOML | 29 | 1 |
 
 </details>
@@ -545,15 +545,15 @@ Whole-repository totals cover tracked source, configuration, and documentation a
 
 </details>
 
-<details><summary><strong>VireonNoctis</strong> · 3,863 lines · 8 files</summary>
+<details><summary><strong>VireonNoctis</strong> · 3,872 lines · 8 files</summary>
 
 [Open repository](https://github.com/VireonNoctis/VireonNoctis) · Owned project
 
 | Source language / format | Lines | Files |
 | --- | ---: | ---: |
-| JSON | 2,244 | 2 |
+| JSON | 2,252 | 2 |
 | Python | 849 | 3 |
-| Markdown | 655 | 1 |
+| Markdown | 656 | 1 |
 | YAML | 115 | 2 |
 
 </details>
